@@ -114,7 +114,7 @@ Many thanks to [Nikolay Anzarov](https://www.behance.net/nikolayanzarov) ([@Bloo
 
 ## License
 ```
-Copyright 2020-2025 The FlorisBoard Contributors
+Copyright 2020-2025 Tachiwin Tutunakú
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -129,7 +129,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-Thanks to [The FlorisBoard Contributors](https://github.com/florisboard/florisboard/graphs/contributors) for making this project possible!
+Thanks to [Tachiwin Tutunakú](https://github.com/florisboard/florisboard/graphs/contributors) for making this project possible!
 
 <!-- BEGIN SECTION: obtainium_links -->
 <!-- auto-generated link templates, do NOT edit by hand -->
