@@ -15,6 +15,9 @@
  */
 
 import java.io.ByteArrayOutputStream
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.util.Properties
 
 plugins {
     alias(libs.plugins.agp.application)
@@ -39,6 +42,15 @@ val projectVersionNameSuffix = projectVersionName.substringAfter("-", "").let { 
 }
 
 android {
+    val versionProps = Properties()
+    val versionPropsFile = file("version.properties")
+    if (versionPropsFile.exists()) {
+        FileInputStream(versionPropsFile).use { versionProps.load(it) }
+    }
+    val code = versionProps.getProperty("VERSION_CODE", "0").toInt() + 1
+    versionProps["VERSION_CODE"] = code.toString()
+    FileOutputStream(versionPropsFile).use { versionProps.store(it, null) }
+
     namespace = "dev.patrickgold.florisboard"
     compileSdk = projectCompileSdk.toInt()
     buildToolsVersion = tools.versions.buildTools.get()
@@ -59,11 +71,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "dev.patrickgold.florisboard"
+        applicationId = "org.tachiwin.tsokgnan"
         minSdk = projectMinSdk.toInt()
         targetSdk = projectTargetSdk.toInt()
-        versionCode = projectVersionCode.toInt()
-        versionName = projectVersionName.substringBefore("-")
+        versionCode = code
+        versionName = "0.9.$code"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
@@ -86,15 +98,6 @@ android {
                     srcDirs("src/main/kotlin")
                 }
             }
-        }
-    }
-
-    bundle {
-        language {
-            // We disable language split because FlorisBoard does not use
-            // runtime Google Play Service APIs and thus cannot dynamically
-            // request to download the language resources for a specific locale.
-            enableSplit = false
         }
     }
 
@@ -215,7 +218,7 @@ dependencies {
     implementation(project(":lib:color"))
     implementation(project(":lib:compose"))
     implementation(project(":lib:kotlin"))
-    implementation(project(":lib:native"))
+    //implementation(project(":lib:native"))
     implementation(project(":lib:snygg"))
 
     testImplementation(libs.kotlin.test.junit5)
