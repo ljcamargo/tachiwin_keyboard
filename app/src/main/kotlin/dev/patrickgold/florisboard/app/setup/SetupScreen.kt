@@ -77,7 +77,7 @@ fun SetupScreen() = FlorisScreen {
 
     val isFlorisBoardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
     val isFlorisBoardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
-    val hasNotificationPermission by prefs.internal.notificationPermissionState.observeAsState()
+    //val hasNotificationPermission by prefs.internal.notificationPermissionState.observeAsState()
 
     val requestNotification =
         rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
@@ -96,7 +96,7 @@ fun SetupScreen() = FlorisScreen {
         context,
         navController,
         requestNotification,
-        hasNotificationPermission,
+        //hasNotificationPermission,
         scope,
     )
 }
@@ -108,7 +108,7 @@ private fun FlorisScreenScope.content(
     context: Context,
     navController: NavController,
     requestNotification: ManagedActivityResultLauncher<String, Boolean>,
-    hasNotificationPermission: NotificationPermissionState,
+    //hasNotificationPermission: NotificationPermissionState,
     scope: CoroutineScope,
 ) {
 
@@ -116,19 +116,19 @@ private fun FlorisScreenScope.content(
         val initStep = when {
             !isFlorisBoardEnabled -> Steps.EnableIme.id
             !isFlorisBoardSelected -> Steps.SelectIme.id
-            hasNotificationPermission == NotificationPermissionState.NOT_SET && AndroidVersion.ATLEAST_API33_T -> Steps.SelectNotification.id
+            //hasNotificationPermission == NotificationPermissionState.NOT_SET && AndroidVersion.ATLEAST_API33_T -> Steps.SelectNotification.id
             else -> Steps.FinishUp.id
         }
         FlorisStepState.new(init = initStep)
     }
 
     content {
-        LaunchedEffect(isFlorisBoardEnabled, isFlorisBoardSelected, hasNotificationPermission) {
+        LaunchedEffect(isFlorisBoardEnabled, isFlorisBoardSelected) {
             stepState.setCurrentAuto(
                 when {
                     !isFlorisBoardEnabled -> Steps.EnableIme.id
                     !isFlorisBoardSelected -> Steps.SelectIme.id
-                    hasNotificationPermission == NotificationPermissionState.NOT_SET && AndroidVersion.ATLEAST_API33_T -> Steps.SelectNotification.id
+                    //hasNotificationPermission == NotificationPermissionState.NOT_SET && AndroidVersion.ATLEAST_API33_T -> Steps.SelectNotification.id
                     else -> Steps.FinishUp.id
                 }
             )
@@ -144,7 +144,7 @@ private fun FlorisScreenScope.content(
                     stepState.getCurrentManual().value == -1 &&
                     !isFlorisBoardEnabled &&
                     !isFlorisBoardSelected &&
-                    hasNotificationPermission == NotificationPermissionState.NOT_SET &&
+                    //hasNotificationPermission == NotificationPermissionState.NOT_SET &&
                     isEnabled
                 ) {
                     context.launchActivity(FlorisAppActivity::class) {
@@ -168,7 +168,7 @@ private fun FlorisScreenScope.content(
                 context, navController, requestNotification, scope
             ),
             footer = {
-                footer(context)
+                //footer(context)
             },
         )
     }

@@ -2,7 +2,7 @@
 buildTools = "35.0.0"
 cmake = "4.0.3"
 jdk = "17"
-ndk = "29.0.13846066"
+ndk = "30.0.14904198"
 rustup = "1.24.3"
 rustToolchain = "1.83.0"
 

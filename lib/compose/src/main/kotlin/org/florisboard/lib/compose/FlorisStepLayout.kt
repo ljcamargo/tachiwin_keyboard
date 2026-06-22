@@ -86,7 +86,6 @@ class FlorisStepLayoutScope(
         Text(
             modifier = modifier,
             text = text,
-            textAlign = TextAlign.Justify,
             fontStyle = fontStyle,
         )
     }
