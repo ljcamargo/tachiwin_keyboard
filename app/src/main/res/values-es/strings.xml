@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">Tachiwin Teclado</string>
+    <string name="app_name">Teclado Tachiwin</string>
     <string name="key__phone_pause" comment="Label for the Pause key in the telephone keyboard layout">Pausar</string>
     <string name="key__phone_wait" comment="Label for the Wait key in the telephone keyboard layout">Espere</string>
     <string name="key_popup__threedots_alt" comment="Content description for the three-dots icon in a key popup">Icono de tres puntos. Si está visible, indica que se pueden utilizar más letras si se pulsa durante más tiempo.</string>
@@ -546,7 +546,7 @@
     <string name="setup__select_ime__switch_keyboard_btn">Cambiar teclado</string>
     <string name="setup__grant_notification_permission__title">Permitir notificaciones de informes de errores</string>
     <string name="setup__grant_notification_permission__description">A partir de Android 13+, las aplicaciones deben pedir permiso para
-        enviar notificaciones. En Florisboard, esto solo se utiliza para abrir una pantalla de informe de error en caso de error.
+        enviar notificaciones. En Tachiwin, esto solo se utiliza para abrir una pantalla de informe de error en caso de error.
         Este permiso puede cambiarse en cualquier momento en los ajustes del sistema.
     </string>
     <string name="setup__grant_notification_permission__btn">Conceder permiso</string>
@@ -636,9 +636,9 @@
     <string name="pref__clipboard__use_internal_clipboard__label">Usar portapapeles interno</string>
     <string name="pref__clipboard__use_internal_clipboard__summary">Usar portapapeles interno en vez del portapapeles del sistema</string>
     <string name="pref__clipboard__sync_from_system_clipboard__label">Sincronizar portapapeles del sistema</string>
-    <string name="pref__clipboard__sync_from_system_clipboard__summary">Las actualizaciones en el portapapeles del sistema también actualizan el portapapeles de Floris</string>
+    <string name="pref__clipboard__sync_from_system_clipboard__summary">Las actualizaciones en el portapapeles del sistema también actualizan el portapapeles de Tachiwin</string>
     <string name="pref__clipboard__sync_to_system_clipboard__label">Sincronizar al portapapeles del sistema</string>
-    <string name="pref__clipboard__sync_to_system_clipboard__summary">Las actualizaciones del portapapeles de Floris también actualizan el portapapeles del sistema</string>
+    <string name="pref__clipboard__sync_to_system_clipboard__summary">Las actualizaciones del portapapeles de Tachiwin también actualizan el portapapeles del sistema</string>
     <string name="pref__clipboard__group_clipboard_suggestion__label">Sugerencias del portapapeles</string>
     <string name="pref__clipboard__suggestion_enabled__label" comment="Preference title">Sugerencias del contenido del portapapeles</string>
     <string name="pref__clipboard__suggestion_enabled__summary" comment="Preference summary">Sugerir contenido del portapapeles copiado anteriormente</string>

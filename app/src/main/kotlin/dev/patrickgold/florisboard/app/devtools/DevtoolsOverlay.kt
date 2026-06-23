@@ -255,7 +255,7 @@ private fun DevtoolsStylesheetFailedToLoadOverlay(loadFailure: ThemeManager.Load
             DevtoolsSubGroup(title = "Explanation") {
                 DevtoolsText(
                     text = """
-                    It appears you’re trying to load a theme designed for FlorisBoard v0.4 (Snygg v1), which isn’t compatible with the latest release using Snygg v2.
+                    It appears you’re trying to load a theme designed for a previous version (Snygg v1), which isn’t compatible with the latest release using Snygg v2.
 
                     If you are the theme author, please update your theme to support Snygg v2.
 
