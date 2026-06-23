@@ -1,0 +1,1791 @@
+{
+  "$": "ime.extension.keyboard",
+  "meta": {
+    "id": "org.tachiwin.tsokgnan",
+    "version": "0.1.0",
+    "title": "Lenguas Indígenas de México",
+    "description": "Distribuciones de teclado para lenguas indígenas mexicanas.",
+    "maintainers": [
+      "Luis J Camargo <lsjcp@yahoo.com>"
+    ],
+    "license": "apache-2.0"
+  },
+  "dependencies": [
+    "org.florisboard.composers",
+    "org.florisboard.currencysets",
+    "org.florisboard.layouts",
+    "org.florisboard.localization"
+  ],
+  "currencySets": [
+    {
+      "id": "mexican_peso",
+      "label": "Mexican Peso ($)",
+      "slots": [
+        {
+          "code": 36,
+          "label": "$"
+        },
+        {
+          "code": 162,
+          "label": "¢"
+        },
+        {
+          "code": 8364,
+          "label": "€"
+        },
+        {
+          "code": 163,
+          "label": "£"
+        },
+        {
+          "code": 165,
+          "label": "¥"
+        },
+        {
+          "code": 8369,
+          "label": "₱"
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "characters": [
+      {
+        "id": "amu",
+        "label": "Amuzgo Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "azg",
+        "label": "Amuzgo Alto Del Este",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "azz",
+        "label": "Náhuatl De La Sierra, Noreste De Puebla",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cco",
+        "label": "Chinanteco De La Sierra",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "chd",
+        "label": "Chontal De Oaxaca Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "chf",
+        "label": "Chontal De Tabasco Central",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "chq",
+        "label": "CHQ",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cle",
+        "label": "Chinanteco Central",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cnl",
+        "label": "Chinanteco Del Sureste Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cnt",
+        "label": "Chianateco Del Oeste Central Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cpa",
+        "label": "CPA",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "crn",
+        "label": "Cora Meseño",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cso",
+        "label": "Chinanteco Del Oeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cta",
+        "label": "CTA",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ctp",
+        "label": "Chatino Occidental Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cuc",
+        "label": "Chinanteco Del Oeste Central Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cut",
+        "label": "CUT",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cux",
+        "label": "Cuicateco Del Centro",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "hch",
+        "label": "Huichol Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "huv",
+        "label": "Huave Del Oeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "jac",
+        "label": "Jakalteko",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "kek",
+        "label": "Q’Eqchi’",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "knj",
+        "label": "Q’Anjob’Al",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "lac",
+        "label": "Lacandón",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "maa",
+        "label": "Mazateco De Tecóatl",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "maj",
+        "label": "Mazateco Del Este Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mam",
+        "label": "Mam De La Frontera",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "maq",
+        "label": "Mazateco Del Sur",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mau",
+        "label": "Mazateco Del Centro",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "maz",
+        "label": "Mazahua De Oriente",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mco",
+        "label": "Mixe Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mib",
+        "label": "MIB",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mie",
+        "label": "Mixteco De Sierra Sur Noroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mig",
+        "label": "Mixteco Del Sur Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mih",
+        "label": "Mixteco De Oaxaca De La Costa Central",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mil",
+        "label": "Mixteco De Santa María Peñoles",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mio",
+        "label": "Mixteco Del Oeste De La Costa",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mir",
+        "label": "MIR",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mit",
+        "label": "Mixteco Del Suroeste De Puebla",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "miz",
+        "label": "Mixteco De Coatzóspam",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mjc",
+        "label": "Mixteco De Oaxaca De La Costa Noroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mks",
+        "label": "Mixteco Del Oeste Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mop",
+        "label": "MOP",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mto",
+        "label": "Mixe Alto Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mxb",
+        "label": "Mixteco Del Noroeste Medio",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mxp",
+        "label": "Mixe Alto Del Centro",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mxq",
+        "label": "Mixe Medio Del Este",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mxt",
+        "label": "Mixteco De Oaxaca De Costa Central Baja",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ncj",
+        "label": "Náhuatl Alto Del Norte De Puebla",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ncl",
+        "label": "Mexicano Central De Occidente",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ngu",
+        "label": "Mexicano De Guerrero",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "nhe",
+        "label": "Náhuatl De La Huasteca Veracruzana",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "nhg",
+        "label": "Mexicano De Puente De Ixtla",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "nhy",
+        "label": "Náhuatl De Oaxaca",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "npl",
+        "label": "NPL",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ntp",
+        "label": "Tepehuano Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ood",
+        "label": "Pápago",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ote",
+        "label": "Otomí Del Valle Del Mezquital",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "otm",
+        "label": "Otomí De La Sierra",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "otn",
+        "label": "OTN",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "otq",
+        "label": "Otomí Del Noroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ots",
+        "label": "OTS",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "pls",
+        "label": "Popoloca Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "poe",
+        "label": "Popoloca De Oriente",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "poi",
+        "label": "Popoluca De La Sierra",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "stp",
+        "label": "Tepehuano Del Sur Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tac",
+        "label": "Tarahumara Del Oeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tee",
+        "label": "Tepehua Del Sur",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tku",
+        "label": "Totonaco Del Río Necaxa",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "toc",
+        "label": "Totonaco Central Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "toj",
+        "label": "Tojolabal",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "too",
+        "label": "TOO",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "top",
+        "label": "Totonaco De La Costa",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tos",
+        "label": "Totonaco Central Del Sur",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tpt",
+        "label": "Tepehua Del Oeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "trc",
+        "label": "Triqui De San Juan Copala",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ttc",
+        "label": "Teko",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tzo",
+        "label": "Tsotsil Del Centro",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "vmy",
+        "label": "Mazateco Del Sureste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "xtd",
+        "label": "Mixteco Del Este Central",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "yaq",
+        "label": "Yaqui",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zaa",
+        "label": "Zapoteco Serrano, Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zab",
+        "label": "Zapoteco De Valles, De Suroeste Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zac",
+        "label": "Zapoteco De Valles, Del Suroeste Central",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zad",
+        "label": "ZAD",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zai",
+        "label": "Zapoteco De La Planicie Costera",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zam",
+        "label": "Zapoteco De La Sierra Sur, Central",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zao",
+        "label": "Zapoteco De La Costa Noreste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zar",
+        "label": "ZAR",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zas",
+        "label": "Zapoteco De Valles, Del Noreste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zav",
+        "label": "Zapoteco Serrano, Del Sureste Medio",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zaw",
+        "label": "Zapoteco De Valles, Del Este Medio",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zca",
+        "label": "Zapoteco De Valles Del Sur",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zos",
+        "label": "Zoque Del Noroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zpc",
+        "label": "Zapoteco Del Oeste De Tuxtepec",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zpl",
+        "label": "Zapoteco De La Sierra Sur, Noroeste Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zpm",
+        "label": "Zapoteco De Mixtepec",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zpo",
+        "label": "Zapoteco De La Sierra Sur, Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zpu",
+        "label": "ZPU",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zpv",
+        "label": "Zapoteco De San Baltazar Chichicapam",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zsr",
+        "label": "Zapoteco Serrano, Del Sureste Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ztq",
+        "label": "Zapoteco De La Sierra Sur, Noroeste Medio",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      }
+    ]
+  },
+  "subtypePresets": [
+    {
+      "languageTag": "amu-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:amu"
+      }
+    },
+    {
+      "languageTag": "azg-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:azg"
+      }
+    },
+    {
+      "languageTag": "azz-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:azz"
+      }
+    },
+    {
+      "languageTag": "cco-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cco"
+      }
+    },
+    {
+      "languageTag": "chd-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:chd"
+      }
+    },
+    {
+      "languageTag": "chf-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:chf"
+      }
+    },
+    {
+      "languageTag": "chq-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:chq"
+      }
+    },
+    {
+      "languageTag": "cle-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cle"
+      }
+    },
+    {
+      "languageTag": "cnl-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cnl"
+      }
+    },
+    {
+      "languageTag": "cnt-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cnt"
+      }
+    },
+    {
+      "languageTag": "cpa-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cpa"
+      }
+    },
+    {
+      "languageTag": "crn-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:crn"
+      }
+    },
+    {
+      "languageTag": "cso-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cso"
+      }
+    },
+    {
+      "languageTag": "cta-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cta"
+      }
+    },
+    {
+      "languageTag": "ctp-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ctp"
+      }
+    },
+    {
+      "languageTag": "cuc-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cuc"
+      }
+    },
+    {
+      "languageTag": "cut-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cut"
+      }
+    },
+    {
+      "languageTag": "cux-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cux"
+      }
+    },
+    {
+      "languageTag": "hch-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:hch"
+      }
+    },
+    {
+      "languageTag": "huv-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:huv"
+      }
+    },
+    {
+      "languageTag": "jac-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:jac"
+      }
+    },
+    {
+      "languageTag": "kek-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:kek"
+      }
+    },
+    {
+      "languageTag": "knj-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:knj"
+      }
+    },
+    {
+      "languageTag": "lac-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:lac"
+      }
+    },
+    {
+      "languageTag": "maa-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:maa"
+      }
+    },
+    {
+      "languageTag": "maj-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:maj"
+      }
+    },
+    {
+      "languageTag": "mam-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mam"
+      }
+    },
+    {
+      "languageTag": "maq-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:maq"
+      }
+    },
+    {
+      "languageTag": "mau-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mau"
+      }
+    },
+    {
+      "languageTag": "maz-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:maz"
+      }
+    },
+    {
+      "languageTag": "mco-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mco"
+      }
+    },
+    {
+      "languageTag": "mib-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mib"
+      }
+    },
+    {
+      "languageTag": "mie-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mie"
+      }
+    },
+    {
+      "languageTag": "mig-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mig"
+      }
+    },
+    {
+      "languageTag": "mih-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mih"
+      }
+    },
+    {
+      "languageTag": "mil-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mil"
+      }
+    },
+    {
+      "languageTag": "mio-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mio"
+      }
+    },
+    {
+      "languageTag": "mir-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mir"
+      }
+    },
+    {
+      "languageTag": "mit-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mit"
+      }
+    },
+    {
+      "languageTag": "miz-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:miz"
+      }
+    },
+    {
+      "languageTag": "mjc-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mjc"
+      }
+    },
+    {
+      "languageTag": "mks-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mks"
+      }
+    },
+    {
+      "languageTag": "mop-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mop"
+      }
+    },
+    {
+      "languageTag": "mto-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mto"
+      }
+    },
+    {
+      "languageTag": "mxb-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mxb"
+      }
+    },
+    {
+      "languageTag": "mxp-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mxp"
+      }
+    },
+    {
+      "languageTag": "mxq-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mxq"
+      }
+    },
+    {
+      "languageTag": "mxt-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mxt"
+      }
+    },
+    {
+      "languageTag": "ncj-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ncj"
+      }
+    },
+    {
+      "languageTag": "ncl-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ncl"
+      }
+    },
+    {
+      "languageTag": "ngu-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ngu"
+      }
+    },
+    {
+      "languageTag": "nhe-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:nhe"
+      }
+    },
+    {
+      "languageTag": "nhg-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:nhg"
+      }
+    },
+    {
+      "languageTag": "nhy-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:nhy"
+      }
+    },
+    {
+      "languageTag": "npl-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:npl"
+      }
+    },
+    {
+      "languageTag": "ntp-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ntp"
+      }
+    },
+    {
+      "languageTag": "ood-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ood"
+      }
+    },
+    {
+      "languageTag": "ote-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ote"
+      }
+    },
+    {
+      "languageTag": "otm-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:otm"
+      }
+    },
+    {
+      "languageTag": "otn-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:otn"
+      }
+    },
+    {
+      "languageTag": "otq-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:otq"
+      }
+    },
+    {
+      "languageTag": "ots-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ots"
+      }
+    },
+    {
+      "languageTag": "pls-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:pls"
+      }
+    },
+    {
+      "languageTag": "poe-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:poe"
+      }
+    },
+    {
+      "languageTag": "poi-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:poi"
+      }
+    },
+    {
+      "languageTag": "stp-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:stp"
+      }
+    },
+    {
+      "languageTag": "tac-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tac"
+      }
+    },
+    {
+      "languageTag": "tee-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tee"
+      }
+    },
+    {
+      "languageTag": "tku-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tku"
+      }
+    },
+    {
+      "languageTag": "toc-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:toc"
+      }
+    },
+    {
+      "languageTag": "toj-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:toj"
+      }
+    },
+    {
+      "languageTag": "too-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:too"
+      }
+    },
+    {
+      "languageTag": "top-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:top"
+      }
+    },
+    {
+      "languageTag": "tos-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tos"
+      }
+    },
+    {
+      "languageTag": "tpt-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tpt"
+      }
+    },
+    {
+      "languageTag": "trc-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:trc"
+      }
+    },
+    {
+      "languageTag": "ttc-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ttc"
+      }
+    },
+    {
+      "languageTag": "tzo-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tzo"
+      }
+    },
+    {
+      "languageTag": "vmy-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:vmy"
+      }
+    },
+    {
+      "languageTag": "xtd-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:xtd"
+      }
+    },
+    {
+      "languageTag": "yaq-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:yaq"
+      }
+    },
+    {
+      "languageTag": "zaa-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zaa"
+      }
+    },
+    {
+      "languageTag": "zab-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zab"
+      }
+    },
+    {
+      "languageTag": "zac-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zac"
+      }
+    },
+    {
+      "languageTag": "zad-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zad"
+      }
+    },
+    {
+      "languageTag": "zai-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zai"
+      }
+    },
+    {
+      "languageTag": "zam-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zam"
+      }
+    },
+    {
+      "languageTag": "zao-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zao"
+      }
+    },
+    {
+      "languageTag": "zar-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zar"
+      }
+    },
+    {
+      "languageTag": "zas-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zas"
+      }
+    },
+    {
+      "languageTag": "zav-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zav"
+      }
+    },
+    {
+      "languageTag": "zaw-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zaw"
+      }
+    },
+    {
+      "languageTag": "zca-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zca"
+      }
+    },
+    {
+      "languageTag": "zos-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zos"
+      }
+    },
+    {
+      "languageTag": "zpc-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zpc"
+      }
+    },
+    {
+      "languageTag": "zpl-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zpl"
+      }
+    },
+    {
+      "languageTag": "zpm-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zpm"
+      }
+    },
+    {
+      "languageTag": "zpo-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zpo"
+      }
+    },
+    {
+      "languageTag": "zpu-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zpu"
+      }
+    },
+    {
+      "languageTag": "zpv-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zpv"
+      }
+    },
+    {
+      "languageTag": "zsr-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zsr"
+      }
+    },
+    {
+      "languageTag": "ztq-MX",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.florisboard.localization:es",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ztq"
+      }
+    }
+  ]
+}

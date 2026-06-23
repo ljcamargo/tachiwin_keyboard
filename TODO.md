@@ -46,75 +46,40 @@
 
 ---
 
-### B. LANGUAGE STRIPPING (core change)
+### B. ADD INDIGENOUS LAYOUTS (via new independent extension) ️✅
 
-The app bundles **73 keyboard layouts** and **60+ subtype presets**. We need to keep only:
+**Strategy**: Keep ALL original `org.florisboard.*` files completely untouched. Create a **new standalone extension** at `assets/ime/keyboard/org.tachiwin.tsokgnan/` that the app discovers automatically at startup.
 
-- **Keep**: English (en-US, en-UK, en-CA, en-AU), Spanish (es-ES, es-US, es-419), Portuguese (pt-PT, pt-BR) — as fallback/main base languages.
-- **Remove**: All other world languages — Arabic, Armenian, Azerbaijani, Bengali, Bulgarian, Catalan, Czech, Danish, Dutch, Estonian, Faroese, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Igbo, Indonesian, IPA, Japanese, Korean, Kurdish, Norwegian, Persian, Polish, Romanian, Russian, Rusyn, Serbian, Slovenian, Swedish, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, Warang Citi, etc.
-- **Add (LATER)**: 100+ Indigenous Mexican language layouts (mixtec, zapotec, náhuatl, maya, otomí, etc.) — see Section F.
+The app's `ExtensionManager` loads ALL extensions from `assets/ime/keyboard/` and merges their contents (layouts, subtypePresets, currencySets, etc.) — so the new extension coexists with the original ones.
 
-#### B1. Subtype presets (the language picker list)
+#### B1. Generated files (via Python script `scripts/generate_indigenous_layouts.py`)
 
-**File**: `app/src/main/assets/ime/keyboard/org.florisboard.localization/extension.json`
+- [x] **102 individual layout JSON files**: `assets/ime/keyboard/org.tachiwin.tsokgnan/layouts/characters/{code}.json`
+- [x] **Extension manifest**: `assets/ime/keyboard/org.tachiwin.tsokgnan/extension.json` containing:
+  - 102 character layouts with `inali_name` labels from catalogue
+  - 102 subtype presets (tagged `{iso3}-MX`, referencing `org.tachiwin.tsokgnan:{code}`)
+  - `mexican_peso` currency set embedded
+  - References `org.florisboard.localization:es` popup mapping
 
-- [ ] Remove all `subtypePresets` entries **except**: `en-US`, `en-UK`, `en-CA`, `en-AU`, `es-ES`, `es-US`, `es-419`, `pt-PT`, `pt-BR`.
-- [ ] Keep the `popupMappings` array but you can prune it later (only `"default"`, `"en"`, `"es"`, `"pt"`, `"pt-BR"` are needed).
-- [ ] Keep `punctuationRules` array as-is (only `"default"` exists, fine).
+#### B2. Source data files (placed in project root for the script)
 
-#### B2. Keyboard layout JSON files
+- [x] `new_layouts2.json` — 106 layouts (4 European excluded: eng, deu, fra, es-MX)
+- [x] `catalogue.json` — 363 language entries (88/102 matched by ISO3 code)
+- [x] `scripts/generate_indigenous_layouts.py` — keep for regeneration
 
-**Directory**: `app/src/main/assets/ime/keyboard/org.florisboard.layouts/layouts/characters/`
+#### B3. IMPORTANT: Original files NOT touched
 
-- [ ] Delete ALL `.json` layout files **except**:
-  - `qwerty.json` (base for English)
-  - `spanish.json` (base for Spanish & all Mexican indigenous layouts)
-  - `azerty.json` (optional, keep if French will be kept)
-  - `qwertz.json` (optional)
-  - `dvorak.json` (optional, alternative layout)
-- [ ] Delete corresponding entries from the `"characters"` array in `extension.json` for every deleted layout.
+- ⛔ `org.florisboard.layouts/` — completely untouched (all 73 layouts preserved)
+- ⛔ `org.florisboard.localization/` — completely untouched (60 popup mappings, 60+ presets preserved)
+- ⛔ `org.florisboard.currencysets/` — completely untouched
+- ⛔ `org.florisboard.composers/` — completely untouched
+- ⛔ `org.florisboard.themes/` — completely untouched
 
-#### B3. Other layout types
+#### B4. Future stripping (deferred)
 
-**Directories**: `charactersMod/`, `numeric/`, `numericAdvanced/`, `numericRow/`, `phone/`, `phone2/`, `symbols/`, `symbolsMod/`, `symbols2/`, `symbols2Mod/`
+The original files can be stripped later once the project is stable. The Python script `scripts/strip_world_languages.py` was created as a reference but was **not run** — it's preserved for when you're ready to clean up.
 
-- [ ] Prune to only what's needed (western arabic numeric, default symbols, default modifiers).
-- [ ] Delete `cjk/`, `persian/`, `arabic/`, `armenian/`, `kurdish/`, `neo2/` etc. specific variants.
-- [ ] Update `extension.json` for each section.
-
-#### B4. Popup mapping files
-
-**Directory**: `app/src/main/assets/ime/keyboard/org.florisboard.localization/popupMappings/`
-
-- [ ] Keep: `default.json`, `en.json`, `es.json`, `pt.json`, `pt-BR.json`.
-- [ ] Delete all others (55+ files).
-
-#### B5. Currency sets
-
-**Directory**: `app/src/main/assets/ime/keyboard/org.florisboard.currencysets/`
-
-- [ ] Prune to only `dollar`, `euro`, `peso` (or `mexican_peso` — create one if needed).
-- [ ] Remove `rial`, `yen`, `ruble`, `baht`, `rupee`, etc.
-- [ ] Update `extension.json` for currencysets.
-
-#### B6. Composers
-
-**Directory**: `app/src/main/assets/ime/keyboard/org.florisboard.composers/`
-
-- [ ] Keep `appender` (default). Remove `hangul-unicode`, `kana-unicode`, `telex` (Vietnamese). Clean up `extension.json`.
-
-#### B7. Language packs (NLP/dictionaries)
-
-**Directory**: `app/src/main/assets/ime/languagepack/`
-
-- [ ] Remove `org.florisboard.hanshapebasedbasicpack` (Chinese shape-based).
-- [ ] Keep `org.florisboard.languagepack` but evaluate if you need the dictionary binaries. For indigenous languages you'll likely need custom word lists.
-
-#### B8. Themes
-
-**Directory**: `app/src/main/assets/ime/theme/org.florisboard.themes/`
-
-- [ ] Themes are mostly visual and language-agnostic. Keep them all — no changes needed.
+**To strip later**: Run `python3 scripts/strip_world_languages.py` when ready.
 
 ---
 
