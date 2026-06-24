@@ -69,8 +69,8 @@
     },
     {
       "$": "auto_text_key",
-      "code": 8212,
-      "label": "—"
+      "code": 102,
+      "label": "f"
     },
     {
       "$": "auto_text_key",
@@ -106,8 +106,8 @@
   [
     {
       "$": "auto_text_key",
-      "code": 39,
-      "label": "'"
+      "code": 96,
+      "label": "`"
     },
     {
       "$": "auto_text_key",
@@ -138,6 +138,11 @@
       "$": "auto_text_key",
       "code": 109,
       "label": "m"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 232,
+      "label": "è"
     }
   ]
 ]

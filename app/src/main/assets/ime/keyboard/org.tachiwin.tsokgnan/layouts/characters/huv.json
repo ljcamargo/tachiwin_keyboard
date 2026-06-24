@@ -99,15 +99,15 @@
     },
     {
       "$": "auto_text_key",
-      "code": 252,
-      "label": "ü"
+      "code": 241,
+      "label": "ñ"
     }
   ],
   [
     {
       "$": "auto_text_key",
-      "code": 8213,
-      "label": "―"
+      "code": 122,
+      "label": "z"
     },
     {
       "$": "auto_text_key",
@@ -138,6 +138,11 @@
       "$": "auto_text_key",
       "code": 109,
       "label": "m"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 252,
+      "label": "ü"
     }
   ]
 ]

@@ -69,8 +69,8 @@
     },
     {
       "$": "auto_text_key",
-      "code": 191,
-      "label": "¿"
+      "code": 102,
+      "label": "f"
     },
     {
       "$": "auto_text_key",
@@ -84,8 +84,8 @@
     },
     {
       "$": "auto_text_key",
-      "code": 106,
-      "label": "j"
+      "code": 249,
+      "label": "ù"
     },
     {
       "$": "auto_text_key",
@@ -106,8 +106,8 @@
   [
     {
       "$": "auto_text_key",
-      "code": 91,
-      "label": "["
+      "code": 224,
+      "label": "à"
     },
     {
       "$": "auto_text_key",
@@ -138,6 +138,11 @@
       "$": "auto_text_key",
       "code": 109,
       "label": "m"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 39,
+      "label": "'"
     }
   ]
 ]

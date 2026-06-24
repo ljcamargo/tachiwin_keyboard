@@ -99,8 +99,8 @@
     },
     {
       "$": "auto_text_key",
-      "code": 191,
-      "label": "¿"
+      "code": 96,
+      "label": "`"
     }
   ],
   [
@@ -138,6 +138,11 @@
       "$": "auto_text_key",
       "code": 109,
       "label": "m"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 8217,
+      "label": "’"
     }
   ]
 ]

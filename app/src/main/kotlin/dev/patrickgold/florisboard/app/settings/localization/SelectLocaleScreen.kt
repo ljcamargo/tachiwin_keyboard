@@ -47,8 +47,10 @@ import dev.patrickgold.florisboard.R
 import dev.patrickgold.florisboard.app.FlorisPreferenceStore
 import dev.patrickgold.florisboard.app.LocalNavController
 import dev.patrickgold.florisboard.ime.core.DisplayLanguageNamesIn
+import dev.patrickgold.florisboard.keyboardManager
 import dev.patrickgold.florisboard.lib.FlorisLocale
 import dev.patrickgold.florisboard.lib.compose.FlorisScreen
+import dev.patrickgold.florisboard.lib.observeAsNonNullState
 import dev.patrickgold.jetpref.datastore.model.observeAsState
 import dev.patrickgold.jetpref.material.ui.JetPrefListItem
 import org.florisboard.lib.compose.florisScrollbar
@@ -67,6 +69,8 @@ fun SelectLocaleScreen() = FlorisScreen {
     val displayLanguageNamesIn by prefs.localization.displayLanguageNamesIn.observeAsState()
     var searchTermValue by remember { mutableStateOf(TextFieldValue()) }
     val context = LocalContext.current
+    val keyboardManager by context.keyboardManager()
+    val subtypePresets by keyboardManager.resources.subtypePresets.observeAsNonNullState()
     val systemLocales =
         FlorisLocale.extendedAvailableLocales(context).sortedBy { locale ->
             when (displayLanguageNamesIn) {
@@ -75,12 +79,21 @@ fun SelectLocaleScreen() = FlorisScreen {
             }.lowercase()
         }
 
-    val filteredSystemLocales = remember(searchTermValue) {
+    // Merge system locales with all locales from subtype presets (including indigenous)
+    val allLocales = remember(systemLocales, subtypePresets) {
+        val localeSet = systemLocales.toMutableSet()
+        for (preset in subtypePresets) {
+            localeSet.add(preset.locale)
+        }
+        localeSet.toList().sortedBy { it.displayName().lowercase() }
+    }
+
+    val filteredLocales = remember(searchTermValue, allLocales) {
         if (searchTermValue.text.isBlank()) {
-            systemLocales
+            allLocales
         } else {
             val term = searchTermValue.text.trim().lowercase()
-            systemLocales.filter { locale ->
+            allLocales.filter { locale ->
                 locale.displayName().lowercase().contains(term) ||
                     locale.displayName(locale).lowercase().contains(term) ||
                     locale.displayName(FlorisLocale.ENGLISH).lowercase().contains(term) ||
@@ -112,7 +125,7 @@ fun SelectLocaleScreen() = FlorisScreen {
                     disabledIndicatorColor = Color.Transparent,
                 ),
             )
-            if (filteredSystemLocales.isEmpty()) {
+            if (filteredLocales.isEmpty()) {
                 Text(
                     modifier = Modifier
                         .padding(16.dp)
@@ -130,18 +143,22 @@ fun SelectLocaleScreen() = FlorisScreen {
                     .florisScrollbar(state, isVertical = true),
                 state = state,
             ) {
-                items(filteredSystemLocales) { systemLocale ->
+                items(filteredLocales) { locale ->
+                    val preset = subtypePresets.find { it.locale == locale }
                     JetPrefListItem(
                         modifier = Modifier.clickable {
                             navController.previousBackStackEntry
                                 ?.savedStateHandle
-                                ?.set(SelectLocaleScreenResultLanguageTag, systemLocale.languageTag())
+                                ?.set(SelectLocaleScreenResultLanguageTag, locale.languageTag())
                             navController.popBackStack()
                         },
-                        text = when (displayLanguageNamesIn) {
-                            DisplayLanguageNamesIn.SYSTEM_LOCALE -> systemLocale.displayName()
-                            DisplayLanguageNamesIn.NATIVE_LOCALE -> systemLocale.displayName(systemLocale)
-                        },
+                        text = preset?.displayLabel?.split("\n")?.get(0)
+                            ?: when (displayLanguageNamesIn) {
+                                DisplayLanguageNamesIn.SYSTEM_LOCALE -> locale.displayName()
+                                DisplayLanguageNamesIn.NATIVE_LOCALE -> locale.displayName(locale)
+                            },
+                        secondaryText = preset?.displayLabel?.split("\n")?.drop(1)?.joinToString(" • ")
+                            ?: locale.languageTag(),
                     )
                 }
             }

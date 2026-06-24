@@ -69,13 +69,13 @@
     },
     {
       "$": "auto_text_key",
-      "code": 363,
-      "label": "ū"
+      "code": 102,
+      "label": "f"
     },
     {
       "$": "auto_text_key",
-      "code": 275,
-      "label": "ē"
+      "code": 103,
+      "label": "g"
     },
     {
       "$": "auto_text_key",
@@ -106,8 +106,8 @@
   [
     {
       "$": "auto_text_key",
-      "code": 299,
-      "label": "ī"
+      "code": 122,
+      "label": "z"
     },
     {
       "$": "auto_text_key",
@@ -126,8 +126,8 @@
     },
     {
       "$": "auto_text_key",
-      "code": 333,
-      "label": "ō"
+      "code": 98,
+      "label": "b"
     },
     {
       "$": "auto_text_key",
@@ -138,6 +138,11 @@
       "$": "auto_text_key",
       "code": 109,
       "label": "m"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 8217,
+      "label": "’"
     }
   ]
 ]

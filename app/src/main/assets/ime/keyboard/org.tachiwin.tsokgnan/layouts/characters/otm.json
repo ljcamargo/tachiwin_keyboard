@@ -2,8 +2,8 @@
   [
     {
       "$": "auto_text_key",
-      "code": 769,
-      "label": "́"
+      "code": 180,
+      "label": "´"
     },
     {
       "$": "auto_text_key",
@@ -69,8 +69,8 @@
     },
     {
       "$": "auto_text_key",
-      "code": 228,
-      "label": "ä"
+      "code": 102,
+      "label": "f"
     },
     {
       "$": "auto_text_key",
@@ -99,15 +99,15 @@
     },
     {
       "$": "auto_text_key",
-      "code": 649,
-      "label": "ʉ"
+      "code": 241,
+      "label": "ñ"
     }
   ],
   [
     {
       "$": "auto_text_key",
-      "code": 122,
-      "label": "z"
+      "code": 252,
+      "label": "ü"
     },
     {
       "$": "auto_text_key",
@@ -121,8 +121,8 @@
     },
     {
       "$": "auto_text_key",
-      "code": 808,
-      "label": "̨"
+      "code": 118,
+      "label": "v"
     },
     {
       "$": "auto_text_key",
@@ -138,6 +138,11 @@
       "$": "auto_text_key",
       "code": 109,
       "label": "m"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 8217,
+      "label": "’"
     }
   ]
 ]

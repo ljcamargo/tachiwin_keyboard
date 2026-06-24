@@ -940,7 +940,11 @@ class KeyboardManager(context: Context) : InputKeyEventReceiver {
                 keyboardExtension.punctuationRules.forEach { punctuationRule ->
                     localPunctuationRules[ExtensionComponentName(keyboardExtension.meta.id, punctuationRule.id)] = punctuationRule
                 }
-                localSubtypePresets.addAll(keyboardExtension.subtypePresets)
+                localSubtypePresets.addAll(keyboardExtension.subtypePresets.filter { preset ->
+                    val tag = preset.locale.languageTag()
+                    tag.startsWith("en-") || tag.startsWith("es-") || tag.startsWith("pt-") ||
+                        tag.endsWith("-MX")
+                })
             }
             localSubtypePresets.sortBy { it.locale.displayName() }
             for (languageCode in listOf("en-CA", "en-AU", "en-UK", "en-US")) {

@@ -79,13 +79,13 @@
     },
     {
       "$": "auto_text_key",
-      "code": 104,
-      "label": "h"
+      "code": 249,
+      "label": "ù"
     },
     {
       "$": "auto_text_key",
-      "code": 106,
-      "label": "j"
+      "code": 242,
+      "label": "ò"
     },
     {
       "$": "auto_text_key",
@@ -106,8 +106,8 @@
   [
     {
       "$": "auto_text_key",
-      "code": 8212,
-      "label": "—"
+      "code": 236,
+      "label": "ì"
     },
     {
       "$": "auto_text_key",
@@ -138,6 +138,11 @@
       "$": "auto_text_key",
       "code": 109,
       "label": "m"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 8217,
+      "label": "’"
     }
   ]
 ]

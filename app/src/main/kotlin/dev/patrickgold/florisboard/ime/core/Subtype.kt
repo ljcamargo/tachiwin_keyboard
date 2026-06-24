@@ -244,6 +244,7 @@ data class SubtypePreset(
     val punctuationRule: ExtensionComponentName = extCorePunctuationRule("default"),
     val popupMapping: ExtensionComponentName = extCorePopupMapping("default"),
     val preferred: SubtypeLayoutMap,
+    val displayLabel: String? = null,
 ) {
     fun toSubtype(): Subtype {
         return Subtype(

@@ -24,8 +24,8 @@ from pathlib import Path
 # ------------------------------------------------------------
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-LAYOUTS_SRC = PROJECT_ROOT / "new_layouts2.json"
-CATALOGUE_SRC = PROJECT_ROOT / "catalogue.json"
+LAYOUTS_SRC = PROJECT_ROOT / "data" / "mexico-indigenous-layouts.json"
+CATALOGUE_SRC = PROJECT_ROOT / "data" / "inali-language-catalogue.json"
 
 NEW_EXT_ID = "org.tachiwin.tsokgnan"
 NEW_EXT_DIR = PROJECT_ROOT / "app" / "src" / "main" / "assets" / "ime" / "keyboard" / NEW_EXT_ID
@@ -138,10 +138,24 @@ def main():
     subtype_presets = []
     for code in layout_codes:
         entry = catalogue_map.get(code)
-        label = get_label(code, entry)
+        if entry:
+            autonym_raw = entry.get("autonym", "") or ""
+            autonym = autonym_raw.split(",")[0].strip() if autonym_raw else ""
+            inali_name = entry.get("inali_name", "") or ""
+            inali_name = inali_name.strip().title() if inali_name else ""
+        else:
+            autonym = ""
+            inali_name = get_label(code, None)
         language_tag = f"{code}-MX"
+        # Build a 3-line display label: autonym / official name / language code
+        display_lines = []
+        display_lines.append(autonym if autonym else inali_name if inali_name else code.upper())
+        display_lines.append(inali_name if inali_name else "")
+        display_lines.append(language_tag)
+        display_label = "\n".join(line for line in display_lines if line)
         subtype_presets.append({
             "languageTag": language_tag,
+            "displayLabel": display_label,
             "composer": "org.florisboard.composers:appender",
             "currencySet": f"{NEW_EXT_ID}:mexican_peso",
             "popupMapping": "org.florisboard.localization:es",
