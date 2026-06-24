@@ -1,0 +1,132 @@
+{
+  "all": {
+    "a": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 224,
+          "label": "à"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 225,
+          "label": "á"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 224,
+        "label": "à"
+      }
+    },
+    "e": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 232,
+          "label": "è"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 233,
+          "label": "é"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 232,
+        "label": "è"
+      }
+    },
+    "i": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 236,
+          "label": "ì"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 237,
+          "label": "í"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 239,
+          "label": "ï"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 236,
+        "label": "ì"
+      }
+    },
+    "n": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 241,
+          "label": "ñ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 241,
+        "label": "ñ"
+      }
+    },
+    "o": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 242,
+          "label": "ò"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 243,
+          "label": "ó"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 242,
+        "label": "ò"
+      }
+    },
+    "u": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 249,
+          "label": "ù"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 250,
+          "label": "ú"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 249,
+        "label": "ù"
+      }
+    },
+    "y": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 253,
+          "label": "ý"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 253,
+        "label": "ý"
+      }
+    }
+  }
+}

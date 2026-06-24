@@ -1,0 +1,122 @@
+{
+  "all": {
+    "a": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 225,
+          "label": "á"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 225,
+        "label": "á"
+      }
+    },
+    "c": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 231,
+          "label": "ç"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 231,
+        "label": "ç"
+      }
+    },
+    "e": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 232,
+          "label": "è"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 233,
+          "label": "é"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 234,
+          "label": "ê"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 232,
+        "label": "è"
+      }
+    },
+    "i": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 237,
+          "label": "í"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 238,
+          "label": "î"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 237,
+        "label": "í"
+      }
+    },
+    "n": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 241,
+          "label": "ñ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 241,
+        "label": "ñ"
+      }
+    },
+    "o": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 243,
+          "label": "ó"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 243,
+        "label": "ó"
+      }
+    },
+    "u": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 250,
+          "label": "ú"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 252,
+          "label": "ü"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 250,
+        "label": "ú"
+      }
+    }
+  }
+}

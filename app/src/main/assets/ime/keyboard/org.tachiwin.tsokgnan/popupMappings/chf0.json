@@ -1,0 +1,60 @@
+{
+  "all": {
+    "a": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 225,
+          "label": "á"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 225,
+        "label": "á"
+      }
+    },
+    "e": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 235,
+          "label": "ë"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 235,
+        "label": "ë"
+      }
+    },
+    "i": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 237,
+          "label": "í"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 237,
+        "label": "í"
+      }
+    },
+    "u": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 250,
+          "label": "ú"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 250,
+        "label": "ú"
+      }
+    }
+  }
+}

@@ -6,9 +6,35 @@ for the Tachiwin Tsokgnan keyboard project.
 Creates a NEW standalone extension at assets/ime/keyboard/org.tachiwin.tsokgnan/
 that does NOT modify any existing org.florisboard.* files.
 
-Input:
-  - new_layouts2.json  : dict of {iso3_code: [[keys_row0], [keys_row1], [keys_row2]]}
-  - catalogue.json     : list of language metadata entries with 'code', 'inali_name', etc.
+Input (single unified JSON):
+  data/mexico-indigenous-layouts.json
+  ────────────────────────────────────
+  {
+    "version": "1",
+    "languages": {
+      "amu": {
+        "name": {
+          "autonym": "Ñomndaa",          // Native name (first before comma → primary label)
+          "inali": "Amuzgo del norte",   // Official INALI name
+          "spanish": "Amuzgo de Guerrero",
+          "english": "Guerrero Amuzgo"
+        },
+        "family": "Otomangue",
+        "superlanguage": "Amuzgo",
+        "authors": ["Tachiwin Tutunakú"],
+        "layout": [
+          [{"code": 113, "label": "q"}, ...],   // Row 0
+          [{"code": 97,  "label": "a"}, ...],   // Row 1
+          [{"code": 122, "label": "z"}, ...]    // Row 2
+        ],
+        "popups": {
+          "a": ["á", "à", "ä"],
+          "e": ["é", "è"],
+          "n": ["ñ"]
+        }
+      }
+    }
+  }
 
 Output (all NEW files, never modifies existing):
   - assets/ime/keyboard/org.tachiwin.tsokgnan/layouts/characters/{code}.json
@@ -25,14 +51,10 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 LAYOUTS_SRC = PROJECT_ROOT / "data" / "mexico-indigenous-layouts.json"
-CATALOGUE_SRC = PROJECT_ROOT / "data" / "inali-language-catalogue.json"
 
 NEW_EXT_ID = "org.tachiwin.tsokgnan"
 NEW_EXT_DIR = PROJECT_ROOT / "app" / "src" / "main" / "assets" / "ime" / "keyboard" / NEW_EXT_ID
 NEW_LAYOUTS_DIR = NEW_EXT_DIR / "layouts" / "characters"
-
-# European/non-indigenous codes to EXCLUDE from the indigenous extension
-NON_INDIGENOUS_CODES = {"eng", "deu", "fra", "es-MX"}
 
 
 def load_json(path):
@@ -48,26 +70,64 @@ def save_json(path, data):
     print(f"  ✏️  {path.relative_to(PROJECT_ROOT)}")
 
 
-def build_catalogue_map(catalogue):
-    """Build a map of code -> entry from catalogue, handling asterisk suffixes."""
-    mapping = {}
-    for entry in catalogue:
-        code = entry["code"]
-        base_code = code.rstrip("*")
-        mapping[base_code] = entry
-        if code != base_code:
-            mapping[code] = entry
-    return mapping
+def get_autonym(raw: str) -> str:
+    """Extract the primary autonym (first item before comma)."""
+    if not raw:
+        return ""
+    return raw.split(",")[0].strip()
 
 
-def get_label(code, entry):
-    """Get the best display name for a language."""
-    if entry:
-        return (entry.get("inali_name", "") or
-                entry.get("spanish_name", "") or
-                entry.get("english_name", "") or
-                code.upper()).title()
-    return code.upper()
+def titlecase(s: str) -> str:
+    """Safe titlecase that handles empty strings."""
+    return s.strip().title() if s else ""
+
+
+def char_to_key_data(char: str) -> dict:
+    """Convert a single character to AutoTextKeyData JSON format."""
+    return {"$": "auto_text_key", "code": ord(char), "label": char}
+
+
+def build_display_label(code: str, name: dict) -> str:
+    """Build a 3-line display label: autonym / inali name / language code."""
+    autonym = get_autonym(name.get("autonym", ""))
+    inali = titlecase(name.get("inali", ""))
+    language_tag = f"{code}-MX"
+    lines = []
+    lines.append(autonym if autonym else inali if inali else code.upper())
+    if inali:
+        lines.append(inali)
+    lines.append(language_tag)
+    return "\n".join(lines)
+
+def generate_popup_mapping(code: str, popups: dict, output_dir: Path):
+    """Generate a popup mapping JSON file for a language with custom popups.
+    
+    Input format: {"a": ["á", "à", "ä"], "n": ["ñ"], ...}
+    Output format: the Android popup mapping JSON ("all" section)
+    """
+    all_section = {}
+    for base_char, variants in popups.items():
+        if not variants:
+            continue
+        entry = {"relevant": [char_to_key_data(v) for v in variants]}
+        # First variant becomes the "main" (default on long-press)
+        entry["main"] = char_to_key_data(variants[0])
+        all_section[base_char] = entry
+
+    mapping = {"all": all_section}
+    out_path = output_dir / f"{code}.json"
+    save_json(out_path, mapping)
+    return code  # return the popup mapping ID (same as language code)
+    """Build a 3-line display label: autonym / inali name / language code."""
+    autonym = get_autonym(name.get("autonym", ""))
+    inali = titlecase(name.get("inali", ""))
+    language_tag = f"{code}-MX"
+    lines = []
+    lines.append(autonym if autonym else inali if inali else code.upper())
+    if inali:
+        lines.append(inali)
+    lines.append(language_tag)
+    return "\n".join(lines)
 
 
 def main():
@@ -76,96 +136,106 @@ def main():
     print("=" * 60)
 
     # --------------------------------------------------------
-    # 1. Load input data
+    # 1. Load input data (supports both legacy and unified formats)
     # --------------------------------------------------------
-    print("\n📂 Loading data files...")
+    print(f"\n📂 Loading {LAYOUTS_SRC.relative_to(PROJECT_ROOT)}...")
     if not LAYOUTS_SRC.exists():
         print(f"  ❌ {LAYOUTS_SRC} not found!")
         sys.exit(1)
-    if not CATALOGUE_SRC.exists():
-        print(f"  ❌ {CATALOGUE_SRC} not found!")
+
+    raw_data = load_json(LAYOUTS_SRC)
+
+    # Detect format
+    is_unified = isinstance(raw_data, dict) and "languages" in raw_data
+
+    if is_unified:
+        print(f"  ✅ Detected UNIFIED format (version {raw_data.get('version', '?')})")
+        languages = raw_data["languages"]
+        # Build metadata + layout from the unified structure
+        entries = {}  # code -> {name, layout, family, superlanguage, authors, popups}
+        for code, lang in languages.items():
+            entries[code] = {
+                "name": lang.get("name", {}),
+                "layout": lang.get("layout", []),
+                "family": lang.get("family", ""),
+                "superlanguage": lang.get("superlanguage", ""),
+                "authors": lang.get("authors", ["Tachiwin Tutunakú"]),
+                "popups": lang.get("popups"),  # None if absent
+            }
+    else:
+        print(f"  ❌ Unknown format: expected a dict with 'languages' key, got {type(raw_data).__name__}")
         sys.exit(1)
 
-    layouts_data = load_json(LAYOUTS_SRC)
-    catalogue = load_json(CATALOGUE_SRC)
+    print(f"  📄 Total languages: {len(entries)}")
 
-    print(f"  📄 Layouts: {len(layouts_data)} languages in new_layouts2.json")
-    print(f"  📄 Catalogue: {len(catalogue)} entries in catalogue.json")
-
-    # Filter out non-indigenous codes
-    layout_codes = sorted(c for c in layouts_data.keys() if c not in NON_INDIGENOUS_CODES)
-    excluded = [c for c in layouts_data if c in NON_INDIGENOUS_CODES]
-    print(f"  🗑️  Excluded {len(excluded)} non-indigenous: {excluded}")
+    # Sort codes alphabetically
+    layout_codes = sorted(entries.keys())
 
     # --------------------------------------------------------
-    # 2. Build catalogue lookup
-    # --------------------------------------------------------
-    catalogue_map = build_catalogue_map(catalogue)
-    matched = sum(1 for c in layout_codes if c in catalogue_map)
-    unmatched = [c for c in layout_codes if c not in catalogue_map]
-    print(f"\n🔍 Catalogue matching: {matched}/{len(layout_codes)} matched")
-    if unmatched:
-        print(f"  ⚠️  {len(unmatched)} unmatched (still generated, code used as label): {unmatched}")
-
-    # --------------------------------------------------------
-    # 3. Generate individual layout JSON files
+    # 2. Generate individual layout JSON files
     # --------------------------------------------------------
     print(f"\n📝 Generating {len(layout_codes)} layout files...")
     for code in layout_codes:
-        layout = layouts_data.get(code)
+        layout = entries[code]["layout"]
         if not layout:
             print(f"  ⚠️  No layout data for '{code}', skipping")
             continue
         save_json(NEW_LAYOUTS_DIR / f"{code}.json", layout)
 
     # --------------------------------------------------------
-    # 4. Build the complete extension.json
+    # 3. Build the complete extension.json
     # --------------------------------------------------------
     print(f"\n📦 Building extension manifest...")
 
-    # 4a. Characters layout list
+    # 3a. Characters layout list + popup mapping files
     characters = []
+    popup_mappings = []
+    NEW_POPUPS_DIR = NEW_EXT_DIR / "popupMappings"
     for code in layout_codes:
-        entry = catalogue_map.get(code)
+        name = entries[code]["name"]
+        authors = entries[code].get("authors", ["Tachiwin Tutunakú"])
+        label = (titlecase(name.get("inali", "")) or
+                 titlecase(name.get("spanish", "")) or
+                 titlecase(name.get("english", "")) or
+                 code.upper())
         characters.append({
             "id": code,
-            "label": get_label(code, entry),
-            "authors": ["Tachiwin Tutunakú"],
+            "label": label,
+            "authors": authors,
             "direction": "ltr",
         })
+        # Generate popup mapping if language has custom popups
+        popups = entries[code].get("popups")
+        if popups:
+            generate_popup_mapping(code, popups, NEW_POPUPS_DIR)
+            popup_mappings.append({
+                "id": code,
+                "authors": authors,
+            })
 
-    # 4b. Subtype presets (embed in this extension, don't touch org.florisboard.localization)
+    # 3b. Subtype presets
     subtype_presets = []
     for code in layout_codes:
-        entry = catalogue_map.get(code)
-        if entry:
-            autonym_raw = entry.get("autonym", "") or ""
-            autonym = autonym_raw.split(",")[0].strip() if autonym_raw else ""
-            inali_name = entry.get("inali_name", "") or ""
-            inali_name = inali_name.strip().title() if inali_name else ""
-        else:
-            autonym = ""
-            inali_name = get_label(code, None)
+        name = entries[code]["name"]
         language_tag = f"{code}-MX"
-        # Build a 3-line display label: autonym / official name / language code
-        display_lines = []
-        display_lines.append(autonym if autonym else inali_name if inali_name else code.upper())
-        display_lines.append(inali_name if inali_name else "")
-        display_lines.append(language_tag)
-        display_label = "\n".join(line for line in display_lines if line)
+        # Use custom popup mapping if the language has popups, else fall back to Spanish
+        popups = entries[code].get("popups")
+        if popups:
+            popup_ref = f"{NEW_EXT_ID}:{code}"
+        else:
+            popup_ref = "org.florisboard.localization:es"
         subtype_presets.append({
             "languageTag": language_tag,
-            "displayLabel": display_label,
+            "displayLabel": build_display_label(code, name),
             "composer": "org.florisboard.composers:appender",
             "currencySet": f"{NEW_EXT_ID}:mexican_peso",
-            "popupMapping": "org.florisboard.localization:es",
+            "popupMapping": popup_ref,
             "preferred": {
                 "characters": f"{NEW_EXT_ID}:{code}",
             },
         })
 
-    # 4c. Mexican Peso currency set (embed in this extension)
-    # Uses 'slots' (List<TextKeyData>) NOT 'symbols' (List<String>)
+    # 3c. Mexican Peso currency set
     currency_sets = [
         {
             "id": "mexican_peso",
@@ -181,7 +251,7 @@ def main():
         },
     ]
 
-    # 4d. Assemble the extension
+    # 3d. Assemble the extension
     extension = {
         "$": "ime.extension.keyboard",
         "meta": {
@@ -202,6 +272,7 @@ def main():
         "layouts": {
             "characters": characters,
         },
+        "popupMappings": popup_mappings,
         "subtypePresets": subtype_presets,
     }
 
@@ -214,22 +285,20 @@ def main():
     print("✅ Done! Zero existing files were modified.")
     print("=" * 60)
     print(f"""
-📁 New extension created (independently, no original files touched):
-  {NEW_EXT_DIR.relative_to(PROJECT_ROOT)}/
+📁 {NEW_EXT_DIR.relative_to(PROJECT_ROOT)}/
 
   ├── extension.json
-  │     • Extension ID: {NEW_EXT_ID}
-  │     • {len(characters)} character layouts registered
-  │     • {len(subtype_presets)} subtype presets (the app merges these automatically)
-  │     • mexican_peso currency set included
-  │     • References popupMapping from org.florisboard.localization:es
+  │     • {len(characters)} character layouts
+  │     • {len(subtype_presets)} subtype presets with displayLabel
+  │     • {len(popup_mappings)} custom popup mappings
+  │     • mexican_peso currency set
   │
-  └── layouts/characters/
-        • {len(layout_codes)} individual layout JSON files
-
-To verify: ./gradlew assembleDebug
+  ├── layouts/characters/
+  │     • {len(layout_codes)} layout JSON files
+  │
+  └── popupMappings/
+        • {len(popup_mappings)} popup mapping files (when popups defined in source)
 """)
-    print(f"  Script saved at: scripts/generate_indigenous_layouts.py (keep for later use)\n")
 
 
 if __name__ == "__main__":

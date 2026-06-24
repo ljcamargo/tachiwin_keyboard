@@ -1,0 +1,116 @@
+{
+  "all": {
+    "a": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 225,
+          "label": "á"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 225,
+        "label": "á"
+      }
+    },
+    "c": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 267,
+          "label": "ċ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 267,
+        "label": "ċ"
+      }
+    },
+    "e": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 233,
+          "label": "é"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 233,
+        "label": "é"
+      }
+    },
+    "i": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 237,
+          "label": "í"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 237,
+        "label": "í"
+      }
+    },
+    "n": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 241,
+          "label": "ñ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 241,
+        "label": "ñ"
+      }
+    },
+    "o": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 243,
+          "label": "ó"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 243,
+        "label": "ó"
+      }
+    },
+    "r": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 341,
+          "label": "ŕ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 341,
+        "label": "ŕ"
+      }
+    },
+    "u": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 252,
+          "label": "ü"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 252,
+        "label": "ü"
+      }
+    }
+  }
+}

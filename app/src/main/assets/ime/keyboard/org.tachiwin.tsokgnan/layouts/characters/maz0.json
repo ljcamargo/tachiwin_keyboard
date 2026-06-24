@@ -99,8 +99,8 @@
     },
     {
       "$": "auto_text_key",
-      "code": 62,
-      "label": ">"
+      "code": 39,
+      "label": "'"
     }
   ],
   [

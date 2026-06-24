@@ -1,0 +1,302 @@
+{
+  "all": {
+    "a": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 224,
+          "label": "à"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 225,
+          "label": "á"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 226,
+          "label": "â"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 227,
+          "label": "ã"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 228,
+          "label": "ä"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 257,
+          "label": "ā"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 259,
+          "label": "ă"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 462,
+          "label": "ǎ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 224,
+        "label": "à"
+      }
+    },
+    "e": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 232,
+          "label": "è"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 233,
+          "label": "é"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 235,
+          "label": "ë"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 275,
+          "label": "ē"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 283,
+          "label": "ě"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 7867,
+          "label": "ẻ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 232,
+        "label": "è"
+      }
+    },
+    "i": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 236,
+          "label": "ì"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 237,
+          "label": "í"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 238,
+          "label": "î"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 239,
+          "label": "ï"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 301,
+          "label": "ĭ"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 464,
+          "label": "ǐ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 236,
+        "label": "ì"
+      }
+    },
+    "m": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 7743,
+          "label": "ḿ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 7743,
+        "label": "ḿ"
+      }
+    },
+    "n": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 241,
+          "label": "ñ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 241,
+        "label": "ñ"
+      }
+    },
+    "o": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 242,
+          "label": "ò"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 243,
+          "label": "ó"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 244,
+          "label": "ô"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 246,
+          "label": "ö"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 333,
+          "label": "ō"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 335,
+          "label": "ŏ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 242,
+        "label": "ò"
+      }
+    },
+    "r": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 7775,
+          "label": "ṟ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 7775,
+        "label": "ṟ"
+      }
+    },
+    "u": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 249,
+          "label": "ù"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 250,
+          "label": "ú"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 251,
+          "label": "û"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 252,
+          "label": "ü"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 363,
+          "label": "ū"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 249,
+        "label": "ù"
+      }
+    },
+    "x": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 7821,
+          "label": "ẍ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 7821,
+        "label": "ẍ"
+      }
+    },
+    "α": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 8048,
+          "label": "ὰ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 8048,
+        "label": "ὰ"
+      }
+    },
+    "ο": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 8000,
+          "label": "ὀ"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 8000,
+        "label": "ὀ"
+      }
+    },
+    "і": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 1111,
+          "label": "ї"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 1111,
+        "label": "ї"
+      }
+    }
+  }
+}

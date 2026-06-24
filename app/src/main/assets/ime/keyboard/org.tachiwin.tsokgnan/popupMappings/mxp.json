@@ -1,0 +1,70 @@
+{
+  "all": {
+    "a": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 225,
+          "label": "á"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 228,
+          "label": "ä"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 225,
+        "label": "á"
+      }
+    },
+    "e": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 233,
+          "label": "é"
+        },
+        {
+          "$": "auto_text_key",
+          "code": 235,
+          "label": "ë"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 233,
+        "label": "é"
+      }
+    },
+    "i": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 239,
+          "label": "ï"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 239,
+        "label": "ï"
+      }
+    },
+    "o": {
+      "relevant": [
+        {
+          "$": "auto_text_key",
+          "code": 243,
+          "label": "ó"
+        }
+      ],
+      "main": {
+        "$": "auto_text_key",
+        "code": 243,
+        "label": "ó"
+      }
+    }
+  }
+}

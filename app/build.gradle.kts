@@ -226,6 +226,17 @@ dependencies {
     androidTestImplementation(libs.androidx.test.espresso.core)
 }
 
+// Auto-generate indigenous keyboard layouts from data/mexico-indigenous-layouts.json
+// Run manually from WSL when you update the layout data:
+//   python3 scripts/generate_indigenous_layouts.py
+tasks.register<Exec>("generateIndigenousLayouts") {
+    workingDir = rootProject.projectDir
+    commandLine("python3", "scripts/generate_indigenous_layouts.py")
+}
+// Disabled by default — IDE runs on Windows without python3.
+// To enable, uncomment below:
+// tasks.named("preBuild") { dependsOn("generateIndigenousLayouts") }
+
 fun getGitCommitHash(short: Boolean = false): String {
     if (!File(".git").exists()) {
         return "null"

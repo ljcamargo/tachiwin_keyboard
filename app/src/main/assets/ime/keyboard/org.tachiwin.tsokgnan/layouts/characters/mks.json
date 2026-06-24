@@ -79,8 +79,8 @@
     },
     {
       "$": "auto_text_key",
-      "code": 249,
-      "label": "ù"
+      "code": 236,
+      "label": "ì"
     },
     {
       "$": "auto_text_key",
@@ -106,8 +106,8 @@
   [
     {
       "$": "auto_text_key",
-      "code": 236,
-      "label": "ì"
+      "code": 249,
+      "label": "ù"
     },
     {
       "$": "auto_text_key",
