@@ -121,7 +121,6 @@ fun LocalizationScreen() = FlorisScreen {
                 val layouts by keyboardManager.resources.layouts.observeAsNonNullState()
                 val subtypePresets by keyboardManager.resources.subtypePresets.observeAsNonNullState()
                 for (subtype in subtypes) {
-                    val preset = subtypePresets.find { it.locale == subtype.primaryLocale }
                     val cMeta = layouts[LayoutType.CHARACTERS]?.get(subtype.layoutMap.characters)
                     //val sMeta = layouts[LayoutType.SYMBOLS]?.get(subtype.layoutMap.symbols)
                     //val currMeta = currencySets[subtype.currencySet]
@@ -132,11 +131,20 @@ fun LocalizationScreen() = FlorisScreen {
                         "currency_set_name" to (currMeta?.label ?: "null"),
                     )*/
                     val summary = cMeta?.label ?: ""
-                    Preference(
-                        title = preset?.displayLabel?.split("\n")?.get(0)
-                            ?: subtype.primaryLocale.displayName(),
-                        summary = summary,
-                        modifier = Modifier.combinedClickable(
+                    val preset = subtypePresets.find { it.locale == subtype.primaryLocale }
+                    if (preset != null) {
+                        SubtypePresetListItem(
+                            preset = preset,
+                            modifier = Modifier.combinedClickable(
+                                onClick = {
+                                    navController.navigate(
+                                        Routes.Settings.SubtypeEdit(subtype.id)
+                                    )
+                                },
+                                onLongClick = {
+                                    chosenSubtypeToDelete = subtype
+                                },
+                            ),
                             onClick = {
                                 navController.navigate(
                                     Routes.Settings.SubtypeEdit(subtype.id)
@@ -146,7 +154,22 @@ fun LocalizationScreen() = FlorisScreen {
                                 chosenSubtypeToDelete = subtype
                             },
                         )
-                    )
+                    } else {
+                        Preference(
+                            title = subtype.primaryLocale.displayName(),
+                            summary = summary,
+                            modifier = Modifier.combinedClickable(
+                                onClick = {
+                                    navController.navigate(
+                                        Routes.Settings.SubtypeEdit(subtype.id)
+                                    )
+                                },
+                                onLongClick = {
+                                    chosenSubtypeToDelete = subtype
+                                },
+                            )
+                        )
+                    }
                 }
             }
         }

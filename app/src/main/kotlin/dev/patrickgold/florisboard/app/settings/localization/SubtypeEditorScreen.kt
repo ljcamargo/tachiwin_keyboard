@@ -59,7 +59,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextOverflow
@@ -390,6 +389,12 @@ fun SubtypeEditorScreen(id: Long?) = FlorisScreen {
             }
 
             if (id != null || subtypeChanged) {
+                val selectedPreset = remember(primaryLocale, subtypePresets) {
+                    subtypePresets.find { it.locale == primaryLocale }
+                }
+                if (selectedPreset != null) {
+                    SubtypePresetHeader(preset = selectedPreset)
+                }
                 KeyboardPreviewCard(
                     layoutMap = layoutMap,
                     layoutExtensions = layoutExtensions,
@@ -547,7 +552,7 @@ fun SubtypeEditorScreen(id: Long?) = FlorisScreen {
                     onClick = { showSubtypePresetsDialog = true },
                 ) {
                     Text(
-                        text = stringResource(R.string.settings__localization__change_subtype)
+                        text = stringRes(R.string.settings__localization__change_subtype)
                     )
                 }
             }
@@ -626,29 +631,16 @@ fun SubtypeEditorScreen(id: Long?) = FlorisScreen {
                         state = lazyListState,
                     ) {
                         items(filteredPresets) { subtypePreset ->
-                            JetPrefListItem(
+                            SubtypePresetListItem(
+                                preset = subtypePreset,
                                 modifier = Modifier.clickable {
                                     subtypeEditor.applySubtype(subtypePreset.toSubtype())
                                     showSubtypePresetsDialog = false
                                 },
-                                text = subtypePreset.displayLabel?.split("\n")?.get(0)
-                                    ?: when (displayLanguageNamesIn) {
-                                        DisplayLanguageNamesIn.SYSTEM_LOCALE -> {
-                                            subtypePreset.locale.displayName()
-                                        }
-                                        DisplayLanguageNamesIn.NATIVE_LOCALE -> {
-                                            subtypePreset.locale.displayName(subtypePreset.locale)
-                                        }
-                                    },
-                                secondaryText = if (subtypePreset.displayLabel != null) {
-                                    subtypePreset.displayLabel
-                                        .split("\n")
-                                        .drop(1)
-                                        .joinToString(" • ")
-                                } else {
-                                    subtypePreset.preferred.characters.componentId
+                                onClick = {
+                                    subtypeEditor.applySubtype(subtypePreset.toSubtype())
+                                    showSubtypePresetsDialog = false
                                 },
-                                colors = ListItemDefaults.colors(containerColor = AlertDialogDefaults.containerColor),
                             )
                         }
                     }
