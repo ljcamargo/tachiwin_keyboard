@@ -115,8 +115,8 @@
     <string name="settings__localization__title" comment="Title of languages and Layout screen">Idiomas &amp; Distribuciones</string>
     <string name="settings__localization__display_language_names_in__label" comment="Label of Display language names in preference">Muestra nombres de idiomas en</string>
     <string name="settings__localization__display_keyboard_labels_in_subtype_language" comment="Label of Display keyboard labels in subtype language preference">Mostrar las etiquetas del teclado en mismo idioma</string>
-    <string name="settings__localization__group_subtypes__label" comment="Label of subtypes group">Subtipos</string>
-    <string name="settings__localization__subtype_add_title" comment="Title of subtype dialog when adding a new subtype">Añadir subtipo</string>
+    <string name="settings__localization__group_subtypes__label" comment="Label of subtypes group">Teclados Agregados</string>
+    <string name="settings__localization__subtype_add_title" comment="Title of subtype dialog when adding a new subtype">Añadir Teclado</string>
     <string name="settings__localization__language_pack_title" comment="Title of the language pack manager screen for managing installed and custom language packs">Administrar paquetes de idioma instalados</string>
     <string name="settings__localization__language_pack_summary" comment="Summary of preference item for adding a new language pack">Experimental: gestión de las extensiones que añaden compatibilidad con determinados idiomas (por ahora, entrada de caracteres chinos)</string>
     <string name="settings__localization__subtype_edit_title" comment="Title of subtype dialog when editing an existing subtype">Editar subtipo</string>
@@ -142,8 +142,8 @@
     <string name="settings__localization__suggested_subtype_presets_none_found" comment="Suggested presets none found">No hay preajustes sugeridos disponibles. Use el botón de abajo para ver todos los preajustes de subtipo.</string>
     <string name="settings__localization__subtype_presets" comment="Subtype presets dialog title">Preajustes de subtipo</string>
     <string name="settings__localization__subtype_presets_view_all" comment="View all presets button">Mostrar todos</string>
-    <string name="settings__localization__subtype_no_subtypes_configured_warning" comment="Warning message that no subtype has been defined">Parece que no has configurado ningún subtipo. ¡Como alternativa se usará el subtipo Inglés/QWERTY!</string>
-    <string name="settings__localization__subtype_error_already_exists" comment="Error message shown in subtype dialog when a subtype to add already exists">¡Este subtipo ya existe!</string>
+    <string name="settings__localization__subtype_no_subtypes_configured_warning" comment="Warning message that no subtype has been defined">Parece que no has configurado ningún teclado. Mientras tanto usaremos Español/QWERTY</string>
+    <string name="settings__localization__subtype_error_already_exists" comment="Error message shown in subtype dialog when a subtype to add already exists">¡Este teclado ya existe!</string>
     <string name="settings__localization__subtype_error_fields_no_value" comment="Error message shown in subtype editor if at least one field is set to '- select -' (means no value specified)">Al menos un campo no posee un valor seleccionado. Por favor escoja un valor para el(los) campo(s).</string>
     <string name="settings__localization__subtype_error_layout_not_installed" comment="Error message shown in subtype list when a layout is not installed, where %s will be replaced by the layout ID">{layout_id} (no instalado)</string>
     <string name="settings__localization__group_layouts__label" comment="Label of layouts group">Distribuciones</string>

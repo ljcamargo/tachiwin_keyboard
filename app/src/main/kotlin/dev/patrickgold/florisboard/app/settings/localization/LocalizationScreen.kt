@@ -39,19 +39,14 @@ import androidx.compose.ui.unit.dp
 import dev.patrickgold.florisboard.R
 import dev.patrickgold.florisboard.app.LocalNavController
 import dev.patrickgold.florisboard.app.Routes
-import dev.patrickgold.florisboard.app.enumDisplayEntriesOf
-import dev.patrickgold.florisboard.ime.core.DisplayLanguageNamesIn
 import dev.patrickgold.florisboard.ime.core.Subtype
 import dev.patrickgold.florisboard.ime.keyboard.LayoutType
 import dev.patrickgold.florisboard.keyboardManager
 import dev.patrickgold.florisboard.lib.compose.FlorisScreen
 import dev.patrickgold.florisboard.lib.observeAsNonNullState
 import dev.patrickgold.florisboard.subtypeManager
-import dev.patrickgold.jetpref.datastore.model.observeAsState
-import dev.patrickgold.jetpref.datastore.ui.ListPreference
 import dev.patrickgold.jetpref.datastore.ui.Preference
 import dev.patrickgold.jetpref.datastore.ui.PreferenceGroup
-import dev.patrickgold.jetpref.datastore.ui.SwitchPreference
 import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import kotlinx.serialization.json.Json
 import org.florisboard.lib.compose.FlorisWarningCard
@@ -98,22 +93,22 @@ fun LocalizationScreen() = FlorisScreen {
     }
 
     content {
-        ListPreference(
+        /*ListPreference(
             prefs.localization.displayLanguageNamesIn,
             title = stringRes(R.string.settings__localization__display_language_names_in__label),
             entries = enumDisplayEntriesOf(DisplayLanguageNamesIn::class),
-        )
-        SwitchPreference(
+        )*/
+        /*SwitchPreference(
             prefs.localization.displayKeyboardLabelsInSubtypeLanguage,
             title = stringRes(R.string.settings__localization__display_keyboard_labels_in_subtype_language),
-        )
-        Preference(
+        )*/
+        /*Preference(
             title = stringRes(R.string.settings__localization__language_pack_title),
             summary = stringRes(R.string.settings__localization__language_pack_summary),
             onClick = {
                 navController.navigate(Routes.Settings.LanguagePackManager(LanguagePackManagerScreenAction.MANAGE))
             },
-        )
+        )*/
         PreferenceGroup(title = stringRes(R.string.settings__localization__group_subtypes__label)) {
             val subtypes by subtypeManager.subtypesFlow.collectAsState()
             if (subtypes.isEmpty()) {
@@ -124,22 +119,22 @@ fun LocalizationScreen() = FlorisScreen {
             } else {
                 val currencySets by keyboardManager.resources.currencySets.observeAsNonNullState()
                 val layouts by keyboardManager.resources.layouts.observeAsNonNullState()
-                val displayLanguageNamesIn by prefs.localization.displayLanguageNamesIn.observeAsState()
+                val subtypePresets by keyboardManager.resources.subtypePresets.observeAsNonNullState()
                 for (subtype in subtypes) {
+                    val preset = subtypePresets.find { it.locale == subtype.primaryLocale }
                     val cMeta = layouts[LayoutType.CHARACTERS]?.get(subtype.layoutMap.characters)
                     val sMeta = layouts[LayoutType.SYMBOLS]?.get(subtype.layoutMap.symbols)
                     val currMeta = currencySets[subtype.currencySet]
-                    val summary = stringRes(
+                    /*val summary = stringRes(
                         id = R.string.settings__localization__subtype_summary,
                         "characters_name" to (cMeta?.label ?: "null"),
                         "symbols_name" to (sMeta?.label ?: "null"),
                         "currency_set_name" to (currMeta?.label ?: "null"),
-                    )
+                    )*/
+                    val summary = cMeta?.label ?: ""
                     Preference(
-                        title = when (displayLanguageNamesIn) {
-                            DisplayLanguageNamesIn.SYSTEM_LOCALE -> subtype.primaryLocale.displayName()
-                            DisplayLanguageNamesIn.NATIVE_LOCALE -> subtype.primaryLocale.displayName(subtype.primaryLocale)
-                        },
+                        title = preset?.displayLabel?.split("\n")?.get(0)
+                            ?: subtype.primaryLocale.displayName(),
                         summary = summary,
                         modifier = Modifier.combinedClickable(
                             onClick = {

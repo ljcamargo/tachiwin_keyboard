@@ -1989,7 +1989,7 @@
   "subtypePresets": [
     {
       "languageTag": "all-MX",
-      "displayLabel": "ALL\nall-MX",
+      "displayLabel": "ALL\nall",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:all",
@@ -1999,7 +1999,7 @@
     },
     {
       "languageTag": "amu-MX",
-      "displayLabel": "Ñomndaa\nAmuzgo Del Norte\namu-MX",
+      "displayLabel": "Ñomndaa\nAmuzgo Del Norte\namu",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:amu",
@@ -2009,7 +2009,7 @@
     },
     {
       "languageTag": "amu0-MX",
-      "displayLabel": "Ñomndaa\nAmuzgo Del Norte\namu0-MX",
+      "displayLabel": "Ñomndaa\nAmuzgo Del Norte\namu0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:amu0",
@@ -2019,7 +2019,7 @@
     },
     {
       "languageTag": "azg-MX",
-      "displayLabel": "Jnꞌoon\nAmuzgo Alto Del Este\nazg-MX",
+      "displayLabel": "Jnꞌoon\nAmuzgo Alto Del Este\nazg",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:azg",
@@ -2029,7 +2029,7 @@
     },
     {
       "languageTag": "azn-MX",
-      "displayLabel": "Meshikan de San Agustin Buenaventura y de Santa Cruz\nMexicano Del Noroeste\nazn-MX",
+      "displayLabel": "Meshikan de San Agustin Buenaventura y de Santa Cruz\nMexicano Del Noroeste\nazn",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:azn",
@@ -2039,7 +2039,7 @@
     },
     {
       "languageTag": "azn0-MX",
-      "displayLabel": "Meshikan de San Agustin Buenaventura y de Santa Cruz\nMexicano Del Noroeste\nazn0-MX",
+      "displayLabel": "Meshikan de San Agustin Buenaventura y de Santa Cruz\nMexicano Del Noroeste\nazn0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:azn0",
@@ -2049,7 +2049,7 @@
     },
     {
       "languageTag": "cac-MX",
-      "displayLabel": "Koti'\nChuj\ncac-MX",
+      "displayLabel": "Koti'\nChuj\ncac",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:cac",
@@ -2059,7 +2059,7 @@
     },
     {
       "languageTag": "cco-MX",
-      "displayLabel": "Jmíiˊ\nChinanteco De La Sierra\ncco-MX",
+      "displayLabel": "Jmíiˊ\nChinanteco De La Sierra\ncco",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:cco",
@@ -2069,7 +2069,7 @@
     },
     {
       "languageTag": "cco0-MX",
-      "displayLabel": "Jmíiˊ\nChinanteco De La Sierra\ncco0-MX",
+      "displayLabel": "Jmíiˊ\nChinanteco De La Sierra\ncco0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:cco0",
@@ -2079,7 +2079,7 @@
     },
     {
       "languageTag": "chf-MX",
-      "displayLabel": "Yocot'an\nChontal De Tabasco Central\nchf-MX",
+      "displayLabel": "Yocot'an\nChontal De Tabasco Central\nchf",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:chf",
@@ -2089,7 +2089,7 @@
     },
     {
       "languageTag": "chf0-MX",
-      "displayLabel": "Yocot'an\nChontal De Tabasco Central\nchf0-MX",
+      "displayLabel": "Yocot'an\nChontal De Tabasco Central\nchf0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:chf0",
@@ -2099,7 +2099,7 @@
     },
     {
       "languageTag": "chj-MX",
-      "displayLabel": "Jmiih kia’ dzä ‘vï ï\nChinanteco Del Norte\nchj-MX",
+      "displayLabel": "Jmiih kia’ dzä ‘vï ï\nChinanteco Del Norte\nchj",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:chj",
@@ -2109,7 +2109,7 @@
     },
     {
       "languageTag": "chj*-MX",
-      "displayLabel": "Jmiih kia’ dzä ‘vï ï\nChinanteco Del Norte\nchj*-MX",
+      "displayLabel": "Jmiih kia’ dzä ‘vï ï\nChinanteco Del Norte\nchj*",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:chj*",
@@ -2119,7 +2119,7 @@
     },
     {
       "languageTag": "coz-MX",
-      "displayLabel": "Chocholteco Del Oeste\nChocholteco Del Oeste\ncoz-MX",
+      "displayLabel": "Chocholteco Del Oeste\nChocholteco Del Oeste\ncoz",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:coz",
@@ -2129,7 +2129,7 @@
     },
     {
       "languageTag": "crn-MX",
-      "displayLabel": "Naáyeri Nyuuca\nCora Meseño\ncrn-MX",
+      "displayLabel": "Naáyeri Nyuuca\nCora Meseño\ncrn",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:crn",
@@ -2139,7 +2139,7 @@
     },
     {
       "languageTag": "ctp-MX",
-      "displayLabel": "Chaꞌtñan\nChatino Occidental Alto\nctp-MX",
+      "displayLabel": "Chaꞌtñan\nChatino Occidental Alto\nctp",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ctp",
@@ -2149,7 +2149,7 @@
     },
     {
       "languageTag": "ctp0-MX",
-      "displayLabel": "Chaꞌtñan\nChatino Occidental Alto\nctp0-MX",
+      "displayLabel": "Chaꞌtñan\nChatino Occidental Alto\nctp0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ctp0",
@@ -2159,7 +2159,7 @@
     },
     {
       "languageTag": "ctu-MX",
-      "displayLabel": "Ch'ol\nCh’Ol Del Noroeste\nctu-MX",
+      "displayLabel": "Ch'ol\nCh’Ol Del Noroeste\nctu",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ctu",
@@ -2169,7 +2169,7 @@
     },
     {
       "languageTag": "cuc-MX",
-      "displayLabel": "Jau² jm⁴³\nChinanteco Del Oeste Central Alto\ncuc-MX",
+      "displayLabel": "Jau² jm⁴³\nChinanteco Del Oeste Central Alto\ncuc",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:cuc",
@@ -2179,7 +2179,7 @@
     },
     {
       "languageTag": "cux-MX",
-      "displayLabel": "Cuicateco yeⁿꞌe Tepeuxila\nCuicateco Del Centro\ncux-MX",
+      "displayLabel": "Cuicateco yeⁿꞌe Tepeuxila\nCuicateco Del Centro\ncux",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:cux",
@@ -2189,7 +2189,7 @@
     },
     {
       "languageTag": "cya-MX",
-      "displayLabel": "Chaꞌtñan\nChatino Oriental Bajo\ncya-MX",
+      "displayLabel": "Chaꞌtñan\nChatino Oriental Bajo\ncya",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:cya",
@@ -2199,7 +2199,7 @@
     },
     {
       "languageTag": "dih-MX",
-      "displayLabel": "Kumiai\nKumiai\ndih-MX",
+      "displayLabel": "Kumiai\nKumiai\ndih",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:dih",
@@ -2209,7 +2209,7 @@
     },
     {
       "languageTag": "hch-MX",
-      "displayLabel": "Wixárika\nHuichol Del Norte\nhch-MX",
+      "displayLabel": "Wixárika\nHuichol Del Norte\nhch",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:hch",
@@ -2219,7 +2219,7 @@
     },
     {
       "languageTag": "hus-MX",
-      "displayLabel": "Teenek\nHuasteco Del Occidente\nhus-MX",
+      "displayLabel": "Teenek\nHuasteco Del Occidente\nhus",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:hus",
@@ -2229,7 +2229,7 @@
     },
     {
       "languageTag": "huv-MX",
-      "displayLabel": "Ombeayiüts\nHuave Del Oeste\nhuv-MX",
+      "displayLabel": "Ombeayiüts\nHuave Del Oeste\nhuv",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:huv",
@@ -2239,7 +2239,7 @@
     },
     {
       "languageTag": "hve0-MX",
-      "displayLabel": "Ombeyajts\nHuave Del Este\nhve0-MX",
+      "displayLabel": "Ombeyajts\nHuave Del Este\nhve0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:hve0",
@@ -2249,7 +2249,7 @@
     },
     {
       "languageTag": "ixc-MX",
-      "displayLabel": "Xwja\nIxcateco\nixc-MX",
+      "displayLabel": "Xwja\nIxcateco\nixc",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ixc",
@@ -2259,7 +2259,7 @@
     },
     {
       "languageTag": "jac-MX",
-      "displayLabel": "Abxubal\nJakalteko\njac-MX",
+      "displayLabel": "Abxubal\nJakalteko\njac",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:jac",
@@ -2269,7 +2269,7 @@
     },
     {
       "languageTag": "kak-MX",
-      "displayLabel": "KAK\nkak-MX",
+      "displayLabel": "KAK\nkak",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:kak",
@@ -2279,7 +2279,7 @@
     },
     {
       "languageTag": "kek-MX",
-      "displayLabel": "Q'eqchi'\nQ’Eqchi’\nkek-MX",
+      "displayLabel": "Q'eqchi'\nQ’Eqchi’\nkek",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:kek",
@@ -2289,7 +2289,7 @@
     },
     {
       "languageTag": "kic-MX",
-      "displayLabel": "Kikapú\nKickapoo\nkic-MX",
+      "displayLabel": "Kikapú\nKickapoo\nkic",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:kic",
@@ -2299,7 +2299,7 @@
     },
     {
       "languageTag": "kjb-MX",
-      "displayLabel": "KJB\nkjb-MX",
+      "displayLabel": "KJB\nkjb",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:kjb",
@@ -2309,7 +2309,7 @@
     },
     {
       "languageTag": "klb-MX",
-      "displayLabel": "Kiliwa\nKiliwa\nklb-MX",
+      "displayLabel": "Kiliwa\nKiliwa\nklb",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:klb",
@@ -2319,7 +2319,7 @@
     },
     {
       "languageTag": "knj-MX",
-      "displayLabel": "K'anjob'al\nQ’Anjob’Al\nknj-MX",
+      "displayLabel": "K'anjob'al\nQ’Anjob’Al\nknj",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:knj",
@@ -2329,7 +2329,7 @@
     },
     {
       "languageTag": "lac-MX",
-      "displayLabel": "Jach-t'aan\nLacandón\nlac-MX",
+      "displayLabel": "Jach-t'aan\nLacandón\nlac",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:lac",
@@ -2339,7 +2339,7 @@
     },
     {
       "languageTag": "maa*-MX",
-      "displayLabel": "ꞌÉn-ná\nMazateco De Tecóatl\nmaa*-MX",
+      "displayLabel": "ꞌÉn-ná\nMazateco De Tecóatl\nmaa*",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:maa*",
@@ -2349,7 +2349,7 @@
     },
     {
       "languageTag": "maj-MX",
-      "displayLabel": "Kinꞌekꞌatiya\nMazateco Del Este Bajo\nmaj-MX",
+      "displayLabel": "Kinꞌekꞌatiya\nMazateco Del Este Bajo\nmaj",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:maj",
@@ -2359,7 +2359,7 @@
     },
     {
       "languageTag": "mam-MX",
-      "displayLabel": "Qyol Mam\nMam De La Frontera\nmam-MX",
+      "displayLabel": "Qyol Mam\nMam De La Frontera\nmam",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mam",
@@ -2369,7 +2369,7 @@
     },
     {
       "languageTag": "maq-MX",
-      "displayLabel": "Hne naja\nMazateco Del Sur\nmaq-MX",
+      "displayLabel": "Hne naja\nMazateco Del Sur\nmaq",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:maq",
@@ -2379,7 +2379,7 @@
     },
     {
       "languageTag": "mat-MX",
-      "displayLabel": "bot’una\nMatlatzinca\nmat-MX",
+      "displayLabel": "bot’una\nMatlatzinca\nmat",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mat",
@@ -2389,7 +2389,7 @@
     },
     {
       "languageTag": "mau-MX",
-      "displayLabel": "Én‑ná\nMazateco Del Centro\nmau-MX",
+      "displayLabel": "Én‑ná\nMazateco Del Centro\nmau",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mau",
@@ -2399,7 +2399,7 @@
     },
     {
       "languageTag": "maz-MX",
-      "displayLabel": "Jñatjo\nMazahua De Oriente\nmaz-MX",
+      "displayLabel": "Jñatjo\nMazahua De Oriente\nmaz",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:maz",
@@ -2409,7 +2409,7 @@
     },
     {
       "languageTag": "maz0-MX",
-      "displayLabel": "Jñatjo\nMazahua De Oriente\nmaz0-MX",
+      "displayLabel": "Jñatjo\nMazahua De Oriente\nmaz0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:maz0",
@@ -2419,7 +2419,7 @@
     },
     {
       "languageTag": "mco0-MX",
-      "displayLabel": "Ayuc\nMixe Bajo\nmco0-MX",
+      "displayLabel": "Ayuc\nMixe Bajo\nmco0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mco0",
@@ -2429,7 +2429,7 @@
     },
     {
       "languageTag": "meh-MX",
-      "displayLabel": "Tu̱ꞌun káꞌánꞌ kájí\nMixteco Del Suroeste\nmeh-MX",
+      "displayLabel": "Tu̱ꞌun káꞌánꞌ kájí\nMixteco Del Suroeste\nmeh",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:meh",
@@ -2439,7 +2439,7 @@
     },
     {
       "languageTag": "mfy-MX",
-      "displayLabel": "Yorem Nokpo\nMayo\nmfy-MX",
+      "displayLabel": "Yorem Nokpo\nMayo\nmfy",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mfy",
@@ -2449,7 +2449,7 @@
     },
     {
       "languageTag": "mhc-MX",
-      "displayLabel": "Mocho'\nMocho’\nmhc-MX",
+      "displayLabel": "Mocho'\nMocho’\nmhc",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mhc",
@@ -2459,7 +2459,7 @@
     },
     {
       "languageTag": "mie-MX",
-      "displayLabel": "Tūhun sāsávī\nMixteco De Sierra Sur Noroeste\nmie-MX",
+      "displayLabel": "Tūhun sāsávī\nMixteco De Sierra Sur Noroeste\nmie",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mie",
@@ -2469,7 +2469,7 @@
     },
     {
       "languageTag": "mim0-MX",
-      "displayLabel": "To̱ꞌon sa̱vi̱\nMixteco Central De Guerrero\nmim0-MX",
+      "displayLabel": "To̱ꞌon sa̱vi̱\nMixteco Central De Guerrero\nmim0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mim0",
@@ -2479,7 +2479,7 @@
     },
     {
       "languageTag": "mio-MX",
-      "displayLabel": "Tuhun Ñuun Ñucaan\nMixteco Del Oeste De La Costa\nmio-MX",
+      "displayLabel": "Tuhun Ñuun Ñucaan\nMixteco Del Oeste De La Costa\nmio",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mio",
@@ -2489,7 +2489,7 @@
     },
     {
       "languageTag": "mir-MX",
-      "displayLabel": "MIR\nmir-MX",
+      "displayLabel": "MIR\nmir",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mir",
@@ -2499,7 +2499,7 @@
     },
     {
       "languageTag": "mix-MX",
-      "displayLabel": "Sa'an Savi Snuviko\nMixteco De Ñumi\nmix-MX",
+      "displayLabel": "Sa'an Savi Snuviko\nMixteco De Ñumi\nmix",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mix",
@@ -2509,7 +2509,7 @@
     },
     {
       "languageTag": "miy-MX",
-      "displayLabel": "Tu̱n savi̱ꞌ Tu̱tyoo̱ꞌ\nMixteco De Ayutla\nmiy-MX",
+      "displayLabel": "Tu̱n savi̱ꞌ Tu̱tyoo̱ꞌ\nMixteco De Ayutla\nmiy",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:miy",
@@ -2519,7 +2519,7 @@
     },
     {
       "languageTag": "mks-MX",
-      "displayLabel": "Tu̱hun ndáhví\nMixteco Del Oeste Alto\nmks-MX",
+      "displayLabel": "Tu̱hun ndáhví\nMixteco Del Oeste Alto\nmks",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mks",
@@ -2529,7 +2529,7 @@
     },
     {
       "languageTag": "mmc-MX",
-      "displayLabel": "Jñatjo\nMazahua De Occidente\nmmc-MX",
+      "displayLabel": "Jñatjo\nMazahua De Occidente\nmmc",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mmc",
@@ -2539,7 +2539,7 @@
     },
     {
       "languageTag": "mto-MX",
-      "displayLabel": "Ayöök\nMixe Alto Del Norte\nmto-MX",
+      "displayLabel": "Ayöök\nMixe Alto Del Norte\nmto",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mto",
@@ -2549,7 +2549,7 @@
     },
     {
       "languageTag": "mxp-MX",
-      "displayLabel": "Ayuujk\nMixe Alto Del Centro\nmxp-MX",
+      "displayLabel": "Ayuujk\nMixe Alto Del Centro\nmxp",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mxp",
@@ -2559,7 +2559,7 @@
     },
     {
       "languageTag": "mxq-MX",
-      "displayLabel": "Ayuk\nMixe Medio Del Este\nmxq-MX",
+      "displayLabel": "Ayuk\nMixe Medio Del Este\nmxq",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mxq",
@@ -2569,7 +2569,7 @@
     },
     {
       "languageTag": "mxt-MX",
-      "displayLabel": "Sa'an Xiñi Savi\nMixteco De Oaxaca De Costa Central Baja\nmxt-MX",
+      "displayLabel": "Sa'an Xiñi Savi\nMixteco De Oaxaca De Costa Central Baja\nmxt",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mxt",
@@ -2579,7 +2579,7 @@
     },
     {
       "languageTag": "mxv-MX",
-      "displayLabel": "Tuꞌun Savi de Metlatónoc y Cochoapa el Grande\nMixteco De Guerrero Del Este Medio\nmxv-MX",
+      "displayLabel": "Tuꞌun Savi de Metlatónoc y Cochoapa el Grande\nMixteco De Guerrero Del Este Medio\nmxv",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mxv",
@@ -2589,7 +2589,7 @@
     },
     {
       "languageTag": "mxv0-MX",
-      "displayLabel": "Tuꞌun Savi de Metlatónoc y Cochoapa el Grande\nMixteco De Guerrero Del Este Medio\nmxv0-MX",
+      "displayLabel": "Tuꞌun Savi de Metlatónoc y Cochoapa el Grande\nMixteco De Guerrero Del Este Medio\nmxv0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mxv0",
@@ -2599,7 +2599,7 @@
     },
     {
       "languageTag": "mza-MX",
-      "displayLabel": "Tu'un va'a\nMixteco De Sierra Sur Oeste\nmza-MX",
+      "displayLabel": "Tu'un va'a\nMixteco De Sierra Sur Oeste\nmza",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mza",
@@ -2609,7 +2609,7 @@
     },
     {
       "languageTag": "mzi-MX",
-      "displayLabel": "En ningotsie\nMazateco De La Presa Bajo\nmzi-MX",
+      "displayLabel": "En ningotsie\nMazateco De La Presa Bajo\nmzi",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:mzi",
@@ -2619,7 +2619,7 @@
     },
     {
       "languageTag": "ncj-MX",
-      "displayLabel": "Mexicatl\nNáhuatl Alto Del Norte De Puebla\nncj-MX",
+      "displayLabel": "Mexicatl\nNáhuatl Alto Del Norte De Puebla\nncj",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ncj",
@@ -2629,7 +2629,7 @@
     },
     {
       "languageTag": "ncx-MX",
-      "displayLabel": "Náhuatl Del Centro De Puebla\nNáhuatl Del Centro De Puebla\nncx-MX",
+      "displayLabel": "Náhuatl Del Centro De Puebla\nNáhuatl Del Centro De Puebla\nncx",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ncx",
@@ -2639,7 +2639,7 @@
     },
     {
       "languageTag": "nhe-MX",
-      "displayLabel": "Mexkatl\nNáhuatl De La Huasteca Veracruzana\nnhe-MX",
+      "displayLabel": "Mexkatl\nNáhuatl De La Huasteca Veracruzana\nnhe",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:nhe",
@@ -2649,7 +2649,7 @@
     },
     {
       "languageTag": "nhm-MX",
-      "displayLabel": "Ika mejikano\nMexicano Central Bajo\nnhm-MX",
+      "displayLabel": "Ika mejikano\nMexicano Central Bajo\nnhm",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:nhm",
@@ -2659,7 +2659,7 @@
     },
     {
       "languageTag": "nhy-MX",
-      "displayLabel": "Nāhuatlahtōlli\nNáhuatl De Oaxaca\nnhy-MX",
+      "displayLabel": "Nāhuatlahtōlli\nNáhuatl De Oaxaca\nnhy",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:nhy",
@@ -2669,7 +2669,7 @@
     },
     {
       "languageTag": "nlv0-MX",
-      "displayLabel": "Nawatl\nNáhuatl Central De Veracruz\nnlv0-MX",
+      "displayLabel": "Nawatl\nNáhuatl Central De Veracruz\nnlv0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:nlv0",
@@ -2679,7 +2679,7 @@
     },
     {
       "languageTag": "ntp-MX",
-      "displayLabel": "Oodamicʌdʌ\nTepehuano Del Norte\nntp-MX",
+      "displayLabel": "Oodamicʌdʌ\nTepehuano Del Norte\nntp",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ntp",
@@ -2689,7 +2689,7 @@
     },
     {
       "languageTag": "ocu-MX",
-      "displayLabel": "pjiekak'joo\nTlahuica\nocu-MX",
+      "displayLabel": "pjiekak'joo\nTlahuica\nocu",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ocu",
@@ -2699,7 +2699,7 @@
     },
     {
       "languageTag": "ood-MX",
-      "displayLabel": "Oʼodham ha-ñeʼokĭ\nPápago\nood-MX",
+      "displayLabel": "Oʼodham ha-ñeʼokĭ\nPápago\nood",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ood",
@@ -2709,7 +2709,7 @@
     },
     {
       "languageTag": "ote-MX",
-      "displayLabel": "Hñähñu\nOtomí Del Valle Del Mezquital\note-MX",
+      "displayLabel": "Hñähñu\nOtomí Del Valle Del Mezquital\note",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ote",
@@ -2719,7 +2719,7 @@
     },
     {
       "languageTag": "otm-MX",
-      "displayLabel": "Nyuhu\nOtomí De La Sierra\notm-MX",
+      "displayLabel": "Nyuhu\nOtomí De La Sierra\notm",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:otm",
@@ -2729,7 +2729,7 @@
     },
     {
       "languageTag": "otq-MX",
-      "displayLabel": "Ñhöñhö\nOtomí Del Noroeste\notq-MX",
+      "displayLabel": "Ñhöñhö\nOtomí Del Noroeste\notq",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:otq",
@@ -2739,7 +2739,7 @@
     },
     {
       "languageTag": "ots-MX",
-      "displayLabel": "OTS\nots-MX",
+      "displayLabel": "OTS\nots",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ots",
@@ -2749,7 +2749,7 @@
     },
     {
       "languageTag": "pbf-MX",
-      "displayLabel": "PBF\npbf-MX",
+      "displayLabel": "PBF\npbf",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:pbf",
@@ -2759,7 +2759,7 @@
     },
     {
       "languageTag": "pbs-MX",
-      "displayLabel": "Xi'oi\nPame Del Centro\npbs-MX",
+      "displayLabel": "Xi'oi\nPame Del Centro\npbs",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:pbs",
@@ -2769,7 +2769,7 @@
     },
     {
       "languageTag": "pei-MX",
-      "displayLabel": "Chichimeco Jonaz\nChichimeco Jonaz\npei-MX",
+      "displayLabel": "Chichimeco Jonaz\nChichimeco Jonaz\npei",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:pei",
@@ -2779,7 +2779,7 @@
     },
     {
       "languageTag": "pia-MX",
-      "displayLabel": "Oob No'ok\nPima Del Sur\npia-MX",
+      "displayLabel": "Oob No'ok\nPima Del Sur\npia",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:pia",
@@ -2789,7 +2789,7 @@
     },
     {
       "languageTag": "plo-MX",
-      "displayLabel": "Oluteco\nOluteco\nplo-MX",
+      "displayLabel": "Oluteco\nOluteco\nplo",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:plo",
@@ -2799,7 +2799,7 @@
     },
     {
       "languageTag": "pls-MX",
-      "displayLabel": "Ngigua\nPopoloca Del Norte\npls-MX",
+      "displayLabel": "Ngigua\nPopoloca Del Norte\npls",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:pls",
@@ -2809,7 +2809,7 @@
     },
     {
       "languageTag": "pmq-MX",
-      "displayLabel": "Xi'iuy\nPame Del Norte\npmq-MX",
+      "displayLabel": "Xi'iuy\nPame Del Norte\npmq",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:pmq",
@@ -2819,7 +2819,7 @@
     },
     {
       "languageTag": "pmz-MX",
-      "displayLabel": "PMZ\npmz-MX",
+      "displayLabel": "PMZ\npmz",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:pmz",
@@ -2829,7 +2829,7 @@
     },
     {
       "languageTag": "poi-MX",
-      "displayLabel": "Nuntajɨ̱yi\nPopoluca De La Sierra\npoi-MX",
+      "displayLabel": "Nuntajɨ̱yi\nPopoluca De La Sierra\npoi",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:poi",
@@ -2839,7 +2839,7 @@
     },
     {
       "languageTag": "poi0-MX",
-      "displayLabel": "Nuntajɨ̱yi\nPopoluca De La Sierra\npoi0-MX",
+      "displayLabel": "Nuntajɨ̱yi\nPopoluca De La Sierra\npoi0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:poi0",
@@ -2849,7 +2849,7 @@
     },
     {
       "languageTag": "ppi-MX",
-      "displayLabel": "Paipai\nPaipai\nppi-MX",
+      "displayLabel": "Paipai\nPaipai\nppi",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ppi",
@@ -2859,7 +2859,7 @@
     },
     {
       "languageTag": "pua-MX",
-      "displayLabel": "PUA\npua-MX",
+      "displayLabel": "PUA\npua",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:pua",
@@ -2869,7 +2869,7 @@
     },
     {
       "languageTag": "pxm-MX",
-      "displayLabel": "PXM\npxm-MX",
+      "displayLabel": "PXM\npxm",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:pxm",
@@ -2879,7 +2879,7 @@
     },
     {
       "languageTag": "quc-MX",
-      "displayLabel": "K'iche'\nK’Iche’ (Oriental)\nquc-MX",
+      "displayLabel": "K'iche'\nK’Iche’ (Oriental)\nquc",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:quc",
@@ -2889,7 +2889,7 @@
     },
     {
       "languageTag": "sei-MX",
-      "displayLabel": "Cmiique Iitom\nSeri\nsei-MX",
+      "displayLabel": "Cmiique Iitom\nSeri\nsei",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:sei",
@@ -2899,7 +2899,7 @@
     },
     {
       "languageTag": "spa-MX",
-      "displayLabel": "SPA\nspa-MX",
+      "displayLabel": "SPA\nspa",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:spa",
@@ -2909,7 +2909,7 @@
     },
     {
       "languageTag": "stp-MX",
-      "displayLabel": "Oꞌdam\nTepehuano Del Sur Bajo\nstp-MX",
+      "displayLabel": "Oꞌdam\nTepehuano Del Sur Bajo\nstp",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:stp",
@@ -2919,7 +2919,7 @@
     },
     {
       "languageTag": "tar-MX",
-      "displayLabel": "Ralámuli raꞌíchala\nTarahumara Del Centro\ntar-MX",
+      "displayLabel": "Ralámuli raꞌíchala\nTarahumara Del Centro\ntar",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tar",
@@ -2929,7 +2929,7 @@
     },
     {
       "languageTag": "tar0-MX",
-      "displayLabel": "Ralámuli raꞌíchala\nTarahumara Del Centro\ntar0-MX",
+      "displayLabel": "Ralámuli raꞌíchala\nTarahumara Del Centro\ntar0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tar0",
@@ -2939,7 +2939,7 @@
     },
     {
       "languageTag": "tcf-MX",
-      "displayLabel": "Mè'phàà Mañuwìín\nTlapaneco Central Bajo\ntcf-MX",
+      "displayLabel": "Mè'phàà Mañuwìín\nTlapaneco Central Bajo\ntcf",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tcf",
@@ -2949,7 +2949,7 @@
     },
     {
       "languageTag": "tcf*-MX",
-      "displayLabel": "Mè'phàà Mañuwìín\nTlapaneco Central Bajo\ntcf*-MX",
+      "displayLabel": "Mè'phàà Mañuwìín\nTlapaneco Central Bajo\ntcf*",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tcf*",
@@ -2959,7 +2959,7 @@
     },
     {
       "languageTag": "tee-MX",
-      "displayLabel": "Lhima'alh'ama'\nTepehua Del Sur\ntee-MX",
+      "displayLabel": "Lhima'alh'ama'\nTepehua Del Sur\ntee",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tee",
@@ -2969,7 +2969,7 @@
     },
     {
       "languageTag": "thh-MX",
-      "displayLabel": "ralámuli raicha\nTarahumara Del Norte\nthh-MX",
+      "displayLabel": "ralámuli raicha\nTarahumara Del Norte\nthh",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:thh",
@@ -2979,7 +2979,7 @@
     },
     {
       "languageTag": "tla-MX",
-      "displayLabel": "Tepehuano Del Sur Alto\nTepehuano Del Sur Alto\ntla-MX",
+      "displayLabel": "Tepehuano Del Sur Alto\nTepehuano Del Sur Alto\ntla",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tla",
@@ -2989,7 +2989,7 @@
     },
     {
       "languageTag": "toj-MX",
-      "displayLabel": "Tojol-ab'al\nTojolabal\ntoj-MX",
+      "displayLabel": "Tojol-ab'al\nTojolabal\ntoj",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:toj",
@@ -2999,7 +2999,7 @@
     },
     {
       "languageTag": "top-MX",
-      "displayLabel": "Lichiwin Tutunaku\nTotonaco De La Costa\ntop-MX",
+      "displayLabel": "Lichiwin Tutunaku\nTotonaco De La Costa\ntop",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:top",
@@ -3009,7 +3009,7 @@
     },
     {
       "languageTag": "tos-MX",
-      "displayLabel": "Totonaco\nTotonaco Central Del Sur\ntos-MX",
+      "displayLabel": "Totonaco\nTotonaco Central Del Sur\ntos",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tos",
@@ -3019,7 +3019,7 @@
     },
     {
       "languageTag": "tpl-MX",
-      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Centro\ntpl-MX",
+      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Centro\ntpl",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tpl",
@@ -3029,7 +3029,7 @@
     },
     {
       "languageTag": "tpp-MX",
-      "displayLabel": "Lhichiwin\nTepehua Del Norte\ntpp-MX",
+      "displayLabel": "Lhichiwin\nTepehua Del Norte\ntpp",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tpp",
@@ -3039,7 +3039,7 @@
     },
     {
       "languageTag": "tpt-MX",
-      "displayLabel": "Lhimasipijni\nTepehua Del Oeste\ntpt-MX",
+      "displayLabel": "Lhimasipijni\nTepehua Del Oeste\ntpt",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tpt",
@@ -3049,7 +3049,7 @@
     },
     {
       "languageTag": "tpx-MX",
-      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Suroeste\ntpx-MX",
+      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Suroeste\ntpx",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tpx",
@@ -3059,7 +3059,7 @@
     },
     {
       "languageTag": "tpx0-MX",
-      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Suroeste\ntpx0-MX",
+      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Suroeste\ntpx0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tpx0",
@@ -3069,7 +3069,7 @@
     },
     {
       "languageTag": "tqt-MX",
-      "displayLabel": "Xinulajgsípij Totonaco\nTotonaco Del Cerro Xinolatépetl\ntqt-MX",
+      "displayLabel": "Xinulajgsípij Totonaco\nTotonaco Del Cerro Xinolatépetl\ntqt",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tqt",
@@ -3079,7 +3079,7 @@
     },
     {
       "languageTag": "trc-MX",
-      "displayLabel": "Xnaꞌánj nu̱ꞌ\nTriqui De San Juan Copala\ntrc-MX",
+      "displayLabel": "Xnaꞌánj nu̱ꞌ\nTriqui De San Juan Copala\ntrc",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:trc",
@@ -3089,7 +3089,7 @@
     },
     {
       "languageTag": "trs-MX",
-      "displayLabel": "Nânj Nï̀nꞌïn\nTriqui De La Alta\ntrs-MX",
+      "displayLabel": "Nânj Nï̀nꞌïn\nTriqui De La Alta\ntrs",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:trs",
@@ -3099,7 +3099,7 @@
     },
     {
       "languageTag": "trs0-MX",
-      "displayLabel": "Nânj Nï̀nꞌïn\nTriqui De La Alta\ntrs0-MX",
+      "displayLabel": "Nânj Nï̀nꞌïn\nTriqui De La Alta\ntrs0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:trs0",
@@ -3109,7 +3109,7 @@
     },
     {
       "languageTag": "tsz-MX",
-      "displayLabel": "P’urhe\nPurépecha\ntsz-MX",
+      "displayLabel": "P’urhe\nPurépecha\ntsz",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tsz",
@@ -3119,7 +3119,7 @@
     },
     {
       "languageTag": "tzh-MX",
-      "displayLabel": "Bats'il k'op\nTseltal Del Occidente\ntzh-MX",
+      "displayLabel": "Bats'il k'op\nTseltal Del Occidente\ntzh",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tzh",
@@ -3129,7 +3129,7 @@
     },
     {
       "languageTag": "tzo-MX",
-      "displayLabel": "Bats'i k'op\nTsotsil Del Centro\ntzo-MX",
+      "displayLabel": "Bats'i k'op\nTsotsil Del Centro\ntzo",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tzo",
@@ -3139,7 +3139,7 @@
     },
     {
       "languageTag": "unk-MX",
-      "displayLabel": "UNK\nunk-MX",
+      "displayLabel": "UNK\nunk",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:unk",
@@ -3149,7 +3149,7 @@
     },
     {
       "languageTag": "var-MX",
-      "displayLabel": "Warijio\nGuarijío Del Norte\nvar-MX",
+      "displayLabel": "Warijio\nGuarijío Del Norte\nvar",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:var",
@@ -3159,7 +3159,7 @@
     },
     {
       "languageTag": "vmp-MX",
-      "displayLabel": "En naxijen\nMazateco Del Noreste\nvmp-MX",
+      "displayLabel": "En naxijen\nMazateco Del Noreste\nvmp",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:vmp",
@@ -3169,7 +3169,7 @@
     },
     {
       "languageTag": "vmy-MX",
-      "displayLabel": "Enre naxinanda nguifi\nMazateco Del Sureste\nvmy-MX",
+      "displayLabel": "Enre naxinanda nguifi\nMazateco Del Sureste\nvmy",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:vmy",
@@ -3179,7 +3179,7 @@
     },
     {
       "languageTag": "vmy0-MX",
-      "displayLabel": "Enre naxinanda nguifi\nMazateco Del Sureste\nvmy0-MX",
+      "displayLabel": "Enre naxinanda nguifi\nMazateco Del Sureste\nvmy0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:vmy0",
@@ -3189,7 +3189,7 @@
     },
     {
       "languageTag": "xta-MX",
-      "displayLabel": "Tu̱'un sâvi\nMixteco De Guerrero Del Noreste Central\nxta-MX",
+      "displayLabel": "Tu̱'un sâvi\nMixteco De Guerrero Del Noreste Central\nxta",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:xta",
@@ -3199,7 +3199,7 @@
     },
     {
       "languageTag": "xtn-MX",
-      "displayLabel": "Saꞌan savi\nMixteco Del Norte Bajo\nxtn-MX",
+      "displayLabel": "Saꞌan savi\nMixteco Del Norte Bajo\nxtn",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:xtn",
@@ -3209,7 +3209,7 @@
     },
     {
       "languageTag": "yaq-MX",
-      "displayLabel": "Yo'em noki\nYaqui\nyaq-MX",
+      "displayLabel": "Yo'em noki\nYaqui\nyaq",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:yaq",
@@ -3219,7 +3219,7 @@
     },
     {
       "languageTag": "yua-MX",
-      "displayLabel": "Maaya t'aan\nMaya\nyua-MX",
+      "displayLabel": "Maaya t'aan\nMaya\nyua",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:yua",
@@ -3229,7 +3229,7 @@
     },
     {
       "languageTag": "zaa-MX",
-      "displayLabel": "Titsaꞌ\nZapoteco Serrano, Bajo\nzaa-MX",
+      "displayLabel": "Titsaꞌ\nZapoteco Serrano, Bajo\nzaa",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zaa",
@@ -3239,7 +3239,7 @@
     },
     {
       "languageTag": "zad-MX",
-      "displayLabel": "ZAD\nzad-MX",
+      "displayLabel": "ZAD\nzad",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zad",
@@ -3249,7 +3249,7 @@
     },
     {
       "languageTag": "zai-MX",
-      "displayLabel": "Diidxazá\nZapoteco De La Planicie Costera\nzai-MX",
+      "displayLabel": "Diidxazá\nZapoteco De La Planicie Costera\nzai",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zai",
@@ -3259,7 +3259,7 @@
     },
     {
       "languageTag": "zaq-MX",
-      "displayLabel": "Tisa\nZapoteco De San Miguel Aloápam\nzaq-MX",
+      "displayLabel": "Tisa\nZapoteco De San Miguel Aloápam\nzaq",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zaq",
@@ -3269,7 +3269,7 @@
     },
     {
       "languageTag": "zaq0-MX",
-      "displayLabel": "Tisa\nZapoteco De San Miguel Aloápam\nzaq0-MX",
+      "displayLabel": "Tisa\nZapoteco De San Miguel Aloápam\nzaq0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zaq0",
@@ -3279,7 +3279,7 @@
     },
     {
       "languageTag": "zoc-MX",
-      "displayLabel": "Tzunitzame\nZoque Del Centro\nzoc-MX",
+      "displayLabel": "Tzunitzame\nZoque Del Centro\nzoc",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zoc",
@@ -3289,7 +3289,7 @@
     },
     {
       "languageTag": "zoh-MX",
-      "displayLabel": "Tzunitzame\nZoque Del Oeste\nzoh-MX",
+      "displayLabel": "Tzunitzame\nZoque Del Oeste\nzoh",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zoh",
@@ -3299,7 +3299,7 @@
     },
     {
       "languageTag": "zoh0-MX",
-      "displayLabel": "Tzunitzame\nZoque Del Oeste\nzoh0-MX",
+      "displayLabel": "Tzunitzame\nZoque Del Oeste\nzoh0",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zoh0",
@@ -3309,7 +3309,7 @@
     },
     {
       "languageTag": "zoq-MX",
-      "displayLabel": "Zoque Del Este\nZoque Del Este\nzoq-MX",
+      "displayLabel": "Zoque Del Este\nZoque Del Este\nzoq",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zoq",
@@ -3319,7 +3319,7 @@
     },
     {
       "languageTag": "zor-MX",
-      "displayLabel": "Otetzame\nZoque Del Norte Bajo\nzor-MX",
+      "displayLabel": "Otetzame\nZoque Del Norte Bajo\nzor",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zor",
@@ -3329,7 +3329,7 @@
     },
     {
       "languageTag": "zos-MX",
-      "displayLabel": "Otetzame\nZoque Del Noroeste\nzos-MX",
+      "displayLabel": "Otetzame\nZoque Del Noroeste\nzos",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zos",
@@ -3339,7 +3339,7 @@
     },
     {
       "languageTag": "zpb-MX",
-      "displayLabel": "Zapoteco De La Sierra Sur, Noreste\nZapoteco De La Sierra Sur, Noreste\nzpb-MX",
+      "displayLabel": "Zapoteco De La Sierra Sur, Noreste\nZapoteco De La Sierra Sur, Noreste\nzpb",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zpb",
@@ -3349,7 +3349,7 @@
     },
     {
       "languageTag": "zpd-MX",
-      "displayLabel": "ZPD\nzpd-MX",
+      "displayLabel": "ZPD\nzpd",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zpd",
@@ -3359,7 +3359,7 @@
     },
     {
       "languageTag": "zpr-MX",
-      "displayLabel": "Diste’\nZapoteco De La Sierra Sur, Del Sureste Bajo\nzpr-MX",
+      "displayLabel": "Diste’\nZapoteco De La Sierra Sur, Del Sureste Bajo\nzpr",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zpr",

@@ -124,8 +124,8 @@
     <string name="settings__localization__title" comment="Title of languages and Layout screen">Languages &amp; Layouts</string>
     <string name="settings__localization__display_language_names_in__label" comment="Label of Display language names in preference">Display language names in</string>
     <string name="settings__localization__display_keyboard_labels_in_subtype_language" comment="Label of Display keyboard labels in subtype language preference">Display keyboard labels in subtype language</string>
-    <string name="settings__localization__group_subtypes__label" comment="Label of subtypes group">Subtypes</string>
-    <string name="settings__localization__subtype_add_title" comment="Title of subtype dialog when adding a new subtype">Add subtype</string>
+    <string name="settings__localization__group_subtypes__label" comment="Label of subtypes group">Keyboards Added</string>
+    <string name="settings__localization__subtype_add_title" comment="Title of subtype dialog when adding a new subtype">Add Keyboard</string>
     <string name="settings__localization__language_pack_title" comment="Title of the language pack manager screen for managing installed and custom language packs">Manage installed language packs</string>
     <string name="settings__localization__language_pack_summary" comment="Summary of preference item for adding a new language pack">Experimental: manage extensions that add support for specific languages (shape-based Chinese input for now)</string>
     <string name="settings__localization__subtype_edit_title" comment="Title of subtype dialog when editing an existing subtype">Edit subtype</string>
@@ -154,8 +154,8 @@
     <string name="settings__localization__subtype_advanced_show" comment="Show advanced settings button">Configuración avanzada</string>
     <string name="settings__localization__subtype_advanced_hide" comment="Hide advanced settings button">Ocultar configuración</string>
     <string name="settings__localization__keyboard_preview_title" comment="Keyboard preview card title">⌨️ Vista previa</string>
-    <string name="settings__localization__subtype_no_subtypes_configured_warning" comment="Warning message that no subtype has been defined">It seems that you haven\'t configured any subtypes. As a fallback the subtype English/QWERTY will be used!</string>
-    <string name="settings__localization__subtype_error_already_exists" comment="Error message shown in subtype dialog when a subtype to add already exists">This subtype already exists!</string>
+    <string name="settings__localization__subtype_no_subtypes_configured_warning" comment="Warning message that no subtype has been defined">It seems that you haven\'t configured any keyboard. As a fallback the keyboard Spanish/QWERTY will be used!</string>
+    <string name="settings__localization__subtype_error_already_exists" comment="Error message shown in subtype dialog when a subtype to add already exists">This keyboard already exists!</string>
     <string name="settings__localization__subtype_error_fields_no_value" comment="Error message shown in subtype editor if at least one field is set to '- select -' (means no value specified)">At least one field does not have a value selected. Please choose a value for the field(s).</string>
     <string name="settings__localization__subtype_error_layout_not_installed" comment="Error message shown in subtype list when a layout is not installed, where %s will be replaced by the layout ID">{layout_id} (not installed)</string>
     <string name="settings__localization__group_layouts__label" comment="Label of layouts group">Layouts</string>

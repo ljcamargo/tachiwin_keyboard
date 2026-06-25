@@ -88,15 +88,14 @@ def char_to_key_data(char: str) -> dict:
 
 
 def build_display_label(code: str, name: dict) -> str:
-    """Build a 3-line display label: autonym / inali name / language code."""
+    """Build a 3-line display label: autonym / inali name / language code (3-letter ISO)."""
     autonym = get_autonym(name.get("autonym", ""))
     inali = titlecase(name.get("inali", ""))
-    language_tag = f"{code}-MX"
     lines = []
     lines.append(autonym if autonym else inali if inali else code.upper())
     if inali:
         lines.append(inali)
-    lines.append(language_tag)
+    lines.append(code)  # Just the 3-letter code, no -MX suffix
     return "\n".join(lines)
 
 def generate_popup_mapping(code: str, popups: dict, output_dir: Path):
