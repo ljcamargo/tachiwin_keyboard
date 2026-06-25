@@ -946,13 +946,8 @@ class KeyboardManager(context: Context) : InputKeyEventReceiver {
                         tag.endsWith("-MX")
                 })
             }
-            localSubtypePresets.sortBy { it.locale.displayName() }
-            for (languageCode in listOf("en-CA", "en-AU", "en-UK", "en-US")) {
-                val index: Int = localSubtypePresets.indexOfFirst { it.locale.languageTag() == languageCode }
-                if (index > 0) {
-                    localSubtypePresets.add(0, localSubtypePresets.removeAt(index))
-                }
-            }
+            // Order: indigenous presets (with displayLabel) first, European ones last
+            localSubtypePresets.sortBy { it.displayLabel == null }
             subtypePresets.postValue(localSubtypePresets)
             composers.postValue(localComposers)
             currencySets.postValue(localCurrencySets)

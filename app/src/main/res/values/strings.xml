@@ -128,7 +128,7 @@
     <string name="settings__localization__subtype_add_title" comment="Title of subtype dialog when adding a new subtype">Add Keyboard</string>
     <string name="settings__localization__language_pack_title" comment="Title of the language pack manager screen for managing installed and custom language packs">Manage installed language packs</string>
     <string name="settings__localization__language_pack_summary" comment="Summary of preference item for adding a new language pack">Experimental: manage extensions that add support for specific languages (shape-based Chinese input for now)</string>
-    <string name="settings__localization__subtype_edit_title" comment="Title of subtype dialog when editing an existing subtype">Edit subtype</string>
+    <string name="settings__localization__subtype_edit_title" comment="Title of subtype dialog when editing an existing subtype">Edit keyboard</string>
     <string name="settings__localization__subtype_locale" comment="Label for locale dropdown in subtype dialog">Primary language</string>
     <string name="settings__localization__subtype_popup_mapping" comment="Label for popup mapping dropdown in subtype screen">Popup mapping</string>
     <string name="settings__localization__subtype_characters_layout" comment="Label for layout dropdown in subtype dialog">Characters layout</string>
@@ -147,10 +147,10 @@
     <string name="settings__localization__subtype_search_locale_not_found" comment="Subtype search language not found">Could not find a language matching \"{search_term}\".</string>
     <string name="settings__localization__subtype_select_placeholder" comment="Subtype dialog select value placeholder (&amp;#8210; is a hyphen character)">&#8210; select &#8210;</string>
     <string name="settings__localization__subtype_summary" comment="Subtype summary">{characters_name} / {symbols_name} / {currency_set_name}</string>
-    <string name="settings__localization__suggested_subtype_presets" comment="Suggested presets title">Suggested subtype presets</string>
+    <string name="settings__localization__suggested_subtype_presets" comment="Suggested presets title">Suggested keyboard</string>
     <string name="settings__localization__suggested_subtype_presets_none_found" comment="Suggested presets none found">No suggested presets available. Use below button to view all subtype presets.</string>
-    <string name="settings__localization__subtype_presets" comment="Subtype presets dialog title">Subtype presets</string>
-    <string name="settings__localization__subtype_presets_view_all" comment="View all presets button">Show all</string>
+    <string name="settings__localization__subtype_presets" comment="Subtype presets dialog title">Select a Keyboard</string>
+    <string name="settings__localization__subtype_presets_view_all" comment="View all presets button">Choose a Keyboard</string>
     <string name="settings__localization__subtype_advanced_show" comment="Show advanced settings button">Configuración avanzada</string>
     <string name="settings__localization__subtype_advanced_hide" comment="Hide advanced settings button">Ocultar configuración</string>
     <string name="settings__localization__keyboard_preview_title" comment="Keyboard preview card title">⌨️ Vista previa</string>
@@ -883,7 +883,7 @@
     <string name="action__no">No</string>
     <string name="action__ok">OK</string>
     <string name="action__restore">Restore</string>
-    <string name="action__save">Save</string>
+    <string name="action__save">Add</string>
     <string name="action__select">Select</string>
     <string name="action__select_dir">Select directory</string>
     <string name="action__select_dirs">Select directories</string>
@@ -1102,6 +1102,7 @@
     <string name="unit__percent__symbol" translatable="false">{v}%</string>
     <string name="unit__display_pixel__symbol" translatable="false">{v} dp</string>
     <string name="unit__display_pixel_per_seconds__symbol" translatable="false">{v} dp/s</string>
+    <string name="settings__localization__change_subtype">Change Keyboard</string>
 
     <!-- Unit strings (written words) -->
     <plurals name="unit__hours__written">

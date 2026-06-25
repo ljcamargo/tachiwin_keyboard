@@ -119,7 +119,7 @@
     <string name="settings__localization__subtype_add_title" comment="Title of subtype dialog when adding a new subtype">Añadir Teclado</string>
     <string name="settings__localization__language_pack_title" comment="Title of the language pack manager screen for managing installed and custom language packs">Administrar paquetes de idioma instalados</string>
     <string name="settings__localization__language_pack_summary" comment="Summary of preference item for adding a new language pack">Experimental: gestión de las extensiones que añaden compatibilidad con determinados idiomas (por ahora, entrada de caracteres chinos)</string>
-    <string name="settings__localization__subtype_edit_title" comment="Title of subtype dialog when editing an existing subtype">Editar subtipo</string>
+    <string name="settings__localization__subtype_edit_title" comment="Title of subtype dialog when editing an existing subtype">Editar teclado</string>
     <string name="settings__localization__subtype_locale" comment="Label for locale dropdown in subtype dialog">Idioma principal</string>
     <string name="settings__localization__subtype_popup_mapping" comment="Label for popup mapping dropdown in subtype screen">Gestionar ventanas emergentes</string>
     <string name="settings__localization__subtype_characters_layout" comment="Label for layout dropdown in subtype dialog">Disposición de caracteres</string>
@@ -138,10 +138,10 @@
     <string name="settings__localization__subtype_search_locale_not_found" comment="Subtype search language not found">No se pudo encontrar un idioma que coincida con \"{search_term}\".</string>
     <string name="settings__localization__subtype_select_placeholder" comment="Subtype dialog select value placeholder (&amp;#8210; is a hyphen character)">&#8210; seleccionar &#8210;</string>
     <string name="settings__localization__subtype_summary" comment="Subtype summary">{characters_name} / {symbols_name} / {currency_set_name}</string>
-    <string name="settings__localization__suggested_subtype_presets" comment="Suggested presets title">Preajustes de subtipo sugeridos</string>
+    <string name="settings__localization__suggested_subtype_presets" comment="Suggested presets title">Teclado sugerido</string>
     <string name="settings__localization__suggested_subtype_presets_none_found" comment="Suggested presets none found">No hay preajustes sugeridos disponibles. Use el botón de abajo para ver todos los preajustes de subtipo.</string>
-    <string name="settings__localization__subtype_presets" comment="Subtype presets dialog title">Preajustes de subtipo</string>
-    <string name="settings__localization__subtype_presets_view_all" comment="View all presets button">Mostrar todos</string>
+    <string name="settings__localization__subtype_presets" comment="Subtype presets dialog title">Selecciona un teclado</string>
+    <string name="settings__localization__subtype_presets_view_all" comment="View all presets button">Seleccionar Teclado</string>
     <string name="settings__localization__subtype_no_subtypes_configured_warning" comment="Warning message that no subtype has been defined">Parece que no has configurado ningún teclado. Mientras tanto usaremos Español/QWERTY</string>
     <string name="settings__localization__subtype_error_already_exists" comment="Error message shown in subtype dialog when a subtype to add already exists">¡Este teclado ya existe!</string>
     <string name="settings__localization__subtype_error_fields_no_value" comment="Error message shown in subtype editor if at least one field is set to '- select -' (means no value specified)">Al menos un campo no posee un valor seleccionado. Por favor escoja un valor para el(los) campo(s).</string>
@@ -811,7 +811,7 @@
     <string name="action__no">No</string>
     <string name="action__ok">OK</string>
     <string name="action__restore">Restaurar</string>
-    <string name="action__save">Guardar</string>
+    <string name="action__save">Agregar</string>
     <string name="action__select">Seleccionar</string>
     <string name="action__select_dir">Seleccionar carpeta</string>
     <string name="action__select_dirs">Seleccionar carpetas</string>
@@ -989,6 +989,7 @@
     <string name="enum__utility_key_action__switch_language" comment="Enum value label">Cambiar idioma</string>
     <string name="enum__utility_key_action__switch_keyboard_app" comment="Enum value label">Cambiar aplicación de teclado</string>
     <string name="enum__utility_key_action__dynamic_switch_language_emojis" comment="Enum value label">Dinámico: cambiar a emojis / cambiar de idioma</string>
+    <string name="settings__localization__change_subtype">Cambiar Teclado</string>
     <!-- Unit strings (symbols) -->
     <!-- Unit strings (written words) -->
     <plurals name="unit__hours__written">

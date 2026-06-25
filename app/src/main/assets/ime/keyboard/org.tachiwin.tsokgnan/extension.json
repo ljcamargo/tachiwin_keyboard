@@ -51,520 +51,8 @@
   "layouts": {
     "characters": [
       {
-        "id": "all",
-        "label": "ALL",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "amu",
-        "label": "Amuzgo Del Norte",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "amu0",
-        "label": "Amuzgo Del Norte",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "azg",
-        "label": "Amuzgo Alto Del Este",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "azn",
-        "label": "Mexicano Del Noroeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "azn0",
-        "label": "Mexicano Del Noroeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "cac",
-        "label": "Chuj",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "cco",
-        "label": "Chinanteco De La Sierra",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "cco0",
-        "label": "Chinanteco De La Sierra",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "chf",
-        "label": "Chontal De Tabasco Central",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "chf0",
-        "label": "Chontal De Tabasco Central",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "chj",
-        "label": "Chinanteco Del Norte",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "chj*",
-        "label": "Chinanteco Del Norte",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "coz",
-        "label": "Chocholteco Del Oeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "crn",
-        "label": "Cora Meseño",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ctp",
-        "label": "Chatino Occidental Alto",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ctp0",
-        "label": "Chatino Occidental Alto",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ctu",
-        "label": "Ch’Ol Del Noroeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "cuc",
-        "label": "Chinanteco Del Oeste Central Alto",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "cux",
-        "label": "Cuicateco Del Centro",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "cya",
-        "label": "Chatino Oriental Bajo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "dih",
-        "label": "Kumiai",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "hch",
-        "label": "Huichol Del Norte",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "hus",
-        "label": "Huasteco Del Occidente",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "huv",
-        "label": "Huave Del Oeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "hve0",
-        "label": "Huave Del Este",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ixc",
-        "label": "Ixcateco",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "jac",
-        "label": "Jakalteko",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "kak",
-        "label": "KAK",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "kek",
-        "label": "Q’Eqchi’",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "kic",
-        "label": "Kickapoo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "kjb",
-        "label": "KJB",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "klb",
-        "label": "Kiliwa",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "knj",
-        "label": "Q’Anjob’Al",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "lac",
-        "label": "Lacandón",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "maa*",
-        "label": "Mazateco De Tecóatl",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "maj",
-        "label": "Mazateco Del Este Bajo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mam",
-        "label": "Mam De La Frontera",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "maq",
-        "label": "Mazateco Del Sur",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mat",
-        "label": "Matlatzinca",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mau",
-        "label": "Mazateco Del Centro",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "maz",
-        "label": "Mazahua De Oriente",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "maz0",
-        "label": "Mazahua De Oriente",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mco0",
-        "label": "Mixe Bajo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "meh",
-        "label": "Mixteco Del Suroeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mfy",
-        "label": "Mayo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mhc",
-        "label": "Mocho’",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mie",
-        "label": "Mixteco De Sierra Sur Noroeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mim0",
-        "label": "Mixteco Central De Guerrero",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mio",
-        "label": "Mixteco Del Oeste De La Costa",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mir",
-        "label": "MIR",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mix",
-        "label": "Mixteco De Ñumi",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "miy",
-        "label": "Mixteco De Ayutla",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mks",
-        "label": "Mixteco Del Oeste Alto",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mmc",
-        "label": "Mazahua De Occidente",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mto",
-        "label": "Mixe Alto Del Norte",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mxp",
-        "label": "Mixe Alto Del Centro",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mxq",
-        "label": "Mixe Medio Del Este",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mxt",
-        "label": "Mixteco De Oaxaca De Costa Central Baja",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mxv",
-        "label": "Mixteco De Guerrero Del Este Medio",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mxv0",
-        "label": "Mixteco De Guerrero Del Este Medio",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mza",
-        "label": "Mixteco De Sierra Sur Oeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "mzi",
-        "label": "Mazateco De La Presa Bajo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ncj",
-        "label": "Náhuatl Alto Del Norte De Puebla",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ncx",
-        "label": "Náhuatl Del Centro De Puebla",
+        "id": "nhm",
+        "label": "Mexicano Central Bajo",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -579,64 +67,8 @@
         "direction": "ltr"
       },
       {
-        "id": "nhm",
-        "label": "Mexicano Central Bajo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "nhy",
-        "label": "Náhuatl De Oaxaca",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "nlv0",
-        "label": "Náhuatl Central De Veracruz",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ntp",
-        "label": "Tepehuano Del Norte",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ocu",
-        "label": "Tlahuica",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ood",
-        "label": "Pápago",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "ote",
-        "label": "Otomí Del Valle Del Mezquital",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "otm",
-        "label": "Otomí De La Sierra",
+        "id": "klb",
+        "label": "Kiliwa",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -651,72 +83,112 @@
         "direction": "ltr"
       },
       {
-        "id": "ots",
-        "label": "OTS",
+        "id": "tzo",
+        "label": "Tsotsil Del Centro",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "pbf",
-        "label": "PBF",
+        "id": "trc",
+        "label": "Triqui De San Juan Copala",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "pbs",
-        "label": "Pame Del Centro",
+        "id": "zaq0",
+        "label": "Zapoteco De San Miguel Aloápam",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "pei",
-        "label": "Chichimeco Jonaz",
+        "id": "mxq",
+        "label": "Mixe Medio Del Este",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "pia",
-        "label": "Pima Del Sur",
+        "id": "huv",
+        "label": "Huave Del Oeste",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "plo",
-        "label": "Oluteco",
+        "id": "zor",
+        "label": "Zoque Del Norte Bajo",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "pls",
-        "label": "Popoloca Del Norte",
+        "id": "ncx",
+        "label": "Náhuatl Del Centro De Puebla",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "pmq",
-        "label": "Pame Del Norte",
+        "id": "ote",
+        "label": "Otomí Del Valle Del Mezquital",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "pmz",
-        "label": "PMZ",
+        "id": "maz",
+        "label": "Mazahua De Oriente",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ctp",
+        "label": "Chatino Occidental Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "hus",
+        "label": "Huasteco Del Occidente",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tee",
+        "label": "Tepehua Del Sur",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "amu",
+        "label": "Amuzgo Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "yua",
+        "label": "Maya",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -731,8 +203,112 @@
         "direction": "ltr"
       },
       {
-        "id": "poi0",
-        "label": "Popoluca De La Sierra",
+        "id": "azn0",
+        "label": "Mexicano Del Noroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tpp",
+        "label": "Tepehua Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tqt",
+        "label": "Totonaco Del Cerro Xinolatépetl",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "xta",
+        "label": "Mixteco De Guerrero Del Noreste Central",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tos",
+        "label": "Totonaco Central Del Sur",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "xtn",
+        "label": "Mixteco Del Norte Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "top",
+        "label": "Totonaco De La Costa",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "chf",
+        "label": "Chontal De Tabasco Central",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tzh",
+        "label": "Tseltal Del Occidente",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "yaq",
+        "label": "Yaqui",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "crn",
+        "label": "Cora Meseño",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mxp",
+        "label": "Mixe Alto Del Centro",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mim0",
+        "label": "Mixteco Central De Guerrero",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mam",
+        "label": "Mam De La Frontera",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -747,16 +323,64 @@
         "direction": "ltr"
       },
       {
-        "id": "pua",
-        "label": "PUA",
+        "id": "trs",
+        "label": "Triqui De La Alta",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "pxm",
-        "label": "PXM",
+        "id": "mfy",
+        "label": "Mayo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cux",
+        "label": "Cuicateco Del Centro",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ctu",
+        "label": "Ch’Ol Del Noroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mxt",
+        "label": "Mixteco De Oaxaca De Costa Central Baja",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "meh",
+        "label": "Mixteco Del Suroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "toj",
+        "label": "Tojolabal",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tsz",
+        "label": "Purépecha",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -771,6 +395,230 @@
         "direction": "ltr"
       },
       {
+        "id": "mix",
+        "label": "Mixteco De Ñumi",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ocu",
+        "label": "Tlahuica",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zaa",
+        "label": "Zapoteco Serrano, Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ncj",
+        "label": "Náhuatl Alto Del Norte De Puebla",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zoh",
+        "label": "Zoque Del Oeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tla",
+        "label": "Tepehuano Del Sur Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mzi",
+        "label": "Mazateco De La Presa Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "nlv0",
+        "label": "Náhuatl Central De Veracruz",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "nhy",
+        "label": "Náhuatl De Oaxaca",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zoq",
+        "label": "Zoque Del Este",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "jac",
+        "label": "Jakalteko",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tpt",
+        "label": "Tepehua Del Oeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zaq",
+        "label": "Zapoteco De San Miguel Aloápam",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "azg",
+        "label": "Amuzgo Alto Del Este",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "pia",
+        "label": "Pima Del Sur",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mau",
+        "label": "Mazateco Del Centro",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ntp",
+        "label": "Tepehuano Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "trs0",
+        "label": "Triqui De La Alta",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mco0",
+        "label": "Mixe Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zos",
+        "label": "Zoque Del Noroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "pei",
+        "label": "Chichimeco Jonaz",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "kic",
+        "label": "Kickapoo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cuc",
+        "label": "Chinanteco Del Oeste Central Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "coz",
+        "label": "Chocholteco Del Oeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mio",
+        "label": "Mixteco Del Oeste De La Costa",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "lac",
+        "label": "Lacandón",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zai",
+        "label": "Zapoteco De La Planicie Costera",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tpl",
+        "label": "Tlapaneco Del Centro",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
         "id": "sei",
         "label": "Seri",
         "authors": [
@@ -779,16 +627,64 @@
         "direction": "ltr"
       },
       {
-        "id": "spa",
-        "label": "SPA",
+        "id": "stp",
+        "label": "Tepehuano Del Sur Bajo",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "stp",
-        "label": "Tepehuano Del Sur Bajo",
+        "id": "chj*",
+        "label": "Chinanteco Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "amu0",
+        "label": "Amuzgo Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "miy",
+        "label": "Mixteco De Ayutla",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mhc",
+        "label": "Mocho’",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zoc",
+        "label": "Zoque Del Centro",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tpx",
+        "label": "Tlapaneco Del Suroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "hch",
+        "label": "Huichol Del Norte",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -811,24 +707,40 @@
         "direction": "ltr"
       },
       {
-        "id": "tcf",
-        "label": "Tlapaneco Central Bajo",
+        "id": "cac",
+        "label": "Chuj",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "tcf*",
-        "label": "Tlapaneco Central Bajo",
+        "id": "pls",
+        "label": "Popoloca Del Norte",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "tee",
-        "label": "Tepehua Del Sur",
+        "id": "pmq",
+        "label": "Pame Del Norte",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cco0",
+        "label": "Chinanteco De La Sierra",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "ood",
+        "label": "Pápago",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -843,144 +755,104 @@
         "direction": "ltr"
       },
       {
-        "id": "tla",
-        "label": "Tepehuano Del Sur Alto",
+        "id": "knj",
+        "label": "Q’Anjob’Al",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "toj",
-        "label": "Tojolabal",
+        "id": "mmc",
+        "label": "Mazahua De Occidente",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "top",
-        "label": "Totonaco De La Costa",
+        "id": "mxv0",
+        "label": "Mixteco De Guerrero Del Este Medio",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "tos",
-        "label": "Totonaco Central Del Sur",
+        "id": "otm",
+        "label": "Otomí De La Sierra",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "tpl",
-        "label": "Tlapaneco Del Centro",
+        "id": "pbs",
+        "label": "Pame Del Centro",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "tpp",
-        "label": "Tepehua Del Norte",
+        "id": "chj",
+        "label": "Chinanteco Del Norte",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "tpt",
-        "label": "Tepehua Del Oeste",
+        "id": "mie",
+        "label": "Mixteco De Sierra Sur Noroeste",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "tpx",
-        "label": "Tlapaneco Del Suroeste",
+        "id": "ctp0",
+        "label": "Chatino Occidental Alto",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "tpx0",
-        "label": "Tlapaneco Del Suroeste",
+        "id": "mto",
+        "label": "Mixe Alto Del Norte",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "tqt",
-        "label": "Totonaco Del Cerro Xinolatépetl",
+        "id": "mat",
+        "label": "Matlatzinca",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "trc",
-        "label": "Triqui De San Juan Copala",
+        "id": "mza",
+        "label": "Mixteco De Sierra Sur Oeste",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "trs",
-        "label": "Triqui De La Alta",
+        "id": "tcf*",
+        "label": "Tlapaneco Central Bajo",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "trs0",
-        "label": "Triqui De La Alta",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "tsz",
-        "label": "Purépecha",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "tzh",
-        "label": "Tseltal Del Occidente",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "tzo",
-        "label": "Tsotsil Del Centro",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "unk",
-        "label": "UNK",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "var",
-        "label": "Guarijío Del Norte",
+        "id": "maa*",
+        "label": "Mazateco De Tecóatl",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -995,136 +867,32 @@
         "direction": "ltr"
       },
       {
-        "id": "vmy",
-        "label": "Mazateco Del Sureste",
+        "id": "var",
+        "label": "Guarijío Del Norte",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "vmy0",
-        "label": "Mazateco Del Sureste",
+        "id": "mxv",
+        "label": "Mixteco De Guerrero Del Este Medio",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "xta",
-        "label": "Mixteco De Guerrero Del Noreste Central",
+        "id": "cya",
+        "label": "Chatino Oriental Bajo",
         "authors": [
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
       },
       {
-        "id": "xtn",
-        "label": "Mixteco Del Norte Bajo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "yaq",
-        "label": "Yaqui",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "yua",
-        "label": "Maya",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zaa",
-        "label": "Zapoteco Serrano, Bajo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zad",
-        "label": "ZAD",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zai",
-        "label": "Zapoteco De La Planicie Costera",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zaq",
-        "label": "Zapoteco De San Miguel Aloápam",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zaq0",
-        "label": "Zapoteco De San Miguel Aloápam",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zoc",
-        "label": "Zoque Del Centro",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zoh",
-        "label": "Zoque Del Oeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zoh0",
-        "label": "Zoque Del Oeste",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zoq",
-        "label": "Zoque Del Este",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zor",
-        "label": "Zoque Del Norte Bajo",
-        "authors": [
-          "Tachiwin Tutunakú"
-        ],
-        "direction": "ltr"
-      },
-      {
-        "id": "zos",
-        "label": "Zoque Del Noroeste",
+        "id": "tcf",
+        "label": "Tlapaneco Central Bajo",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -1139,8 +907,24 @@
         "direction": "ltr"
       },
       {
-        "id": "zpd",
-        "label": "ZPD",
+        "id": "vmy",
+        "label": "Mazateco Del Sureste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "zoh0",
+        "label": "Zoque Del Oeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "dih",
+        "label": "Kumiai",
         "authors": [
           "Tachiwin Tutunakú"
         ],
@@ -1153,396 +937,124 @@
           "Tachiwin Tutunakú"
         ],
         "direction": "ltr"
+      },
+      {
+        "id": "ixc",
+        "label": "Ixcateco",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "mks",
+        "label": "Mixteco Del Oeste Alto",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "poi0",
+        "label": "Popoluca De La Sierra",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "maq",
+        "label": "Mazateco Del Sur",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "maj",
+        "label": "Mazateco Del Este Bajo",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "azn",
+        "label": "Mexicano Del Noroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "tpx0",
+        "label": "Tlapaneco Del Suroeste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "kek",
+        "label": "Q’Eqchi’",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "cco",
+        "label": "Chinanteco De La Sierra",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "plo",
+        "label": "Oluteco",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "hve0",
+        "label": "Huave Del Este",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "maz0",
+        "label": "Mazahua De Oriente",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "vmy0",
+        "label": "Mazateco Del Sureste",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
+      },
+      {
+        "id": "chf0",
+        "label": "Chontal De Tabasco Central",
+        "authors": [
+          "Tachiwin Tutunakú"
+        ],
+        "direction": "ltr"
       }
     ]
   },
   "popupMappings": [
     {
-      "id": "all",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "amu",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "amu0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "azg",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "azn",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "azn0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "cac",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "cco",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "cco0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "chf",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "chf0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "chj",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "chj*",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "coz",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "crn",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ctp",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ctp0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ctu",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "cuc",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "cux",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "cya",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "dih",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "hch",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "hus",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "huv",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "hve0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ixc",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "jac",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "kak",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "kek",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "kic",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "kjb",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "klb",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "knj",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "lac",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "maa*",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "maj",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mam",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "maq",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mat",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mau",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "maz",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "maz0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mco0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "meh",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mfy",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mhc",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mie",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mim0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mio",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mir",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mix",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "miy",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mks",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mmc",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mto",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mxp",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mxq",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mxt",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mxv",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mxv0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mza",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "mzi",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ncj",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ncx",
+      "id": "nhm",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1554,49 +1066,7 @@
       ]
     },
     {
-      "id": "nhm",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "nhy",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "nlv0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ntp",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ocu",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ood",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "ote",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "otm",
+      "id": "klb",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1608,55 +1078,85 @@
       ]
     },
     {
-      "id": "ots",
+      "id": "tzo",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "pbf",
+      "id": "trc",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "pbs",
+      "id": "zaq0",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "pei",
+      "id": "mxq",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "pia",
+      "id": "huv",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "plo",
+      "id": "zor",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "pls",
+      "id": "ncx",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "pmq",
+      "id": "ote",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "pmz",
+      "id": "maz",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "ctp",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "hus",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tee",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "amu",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "yua",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1668,7 +1168,85 @@
       ]
     },
     {
-      "id": "poi0",
+      "id": "azn0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tpp",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tqt",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "xta",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tos",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "xtn",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "top",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "chf",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tzh",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "yaq",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "crn",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mxp",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mim0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mam",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1680,13 +1258,49 @@
       ]
     },
     {
-      "id": "pua",
+      "id": "trs",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "pxm",
+      "id": "mfy",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "cux",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "ctu",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mxt",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "meh",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "toj",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tsz",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1698,19 +1312,223 @@
       ]
     },
     {
+      "id": "mix",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "ocu",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "zaa",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "ncj",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "zoh",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tla",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mzi",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "nlv0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "nhy",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "zoq",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "jac",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tpt",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "zaq",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "azg",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "pia",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mau",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "ntp",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "trs0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mco0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "zos",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "pei",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "kic",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "cuc",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "coz",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mio",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "lac",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "zai",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tpl",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
       "id": "sei",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "spa",
+      "id": "stp",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "stp",
+      "id": "chj*",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "amu0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "miy",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mhc",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "zoc",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tpx",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "hch",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1728,19 +1546,31 @@
       ]
     },
     {
-      "id": "tcf",
+      "id": "cac",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "tcf*",
+      "id": "pls",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "tee",
+      "id": "pmq",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "cco0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "ood",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1752,109 +1582,79 @@
       ]
     },
     {
-      "id": "tla",
+      "id": "knj",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "toj",
+      "id": "mmc",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "top",
+      "id": "mxv0",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "tos",
+      "id": "otm",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "tpl",
+      "id": "pbs",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "tpp",
+      "id": "chj",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "tpt",
+      "id": "mie",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "tpx",
+      "id": "ctp0",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "tpx0",
+      "id": "mto",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "tqt",
+      "id": "mat",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "trc",
+      "id": "mza",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "trs",
+      "id": "tcf*",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "trs0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "tsz",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "tzh",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "tzo",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "unk",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "var",
+      "id": "maa*",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1866,103 +1666,25 @@
       ]
     },
     {
-      "id": "vmy",
+      "id": "var",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "vmy0",
+      "id": "mxv",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "xta",
+      "id": "cya",
       "authors": [
         "Tachiwin Tutunakú"
       ]
     },
     {
-      "id": "xtn",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "yaq",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "yua",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zaa",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zad",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zai",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zaq",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zaq0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zoc",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zoh",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zoh0",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zoq",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zor",
-      "authors": [
-        "Tachiwin Tutunakú"
-      ]
-    },
-    {
-      "id": "zos",
+      "id": "tcf",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1974,7 +1696,19 @@
       ]
     },
     {
-      "id": "zpd",
+      "id": "vmy",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "zoh0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "dih",
       "authors": [
         "Tachiwin Tutunakú"
       ]
@@ -1984,672 +1718,96 @@
       "authors": [
         "Tachiwin Tutunakú"
       ]
+    },
+    {
+      "id": "ixc",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "mks",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "poi0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "maq",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "maj",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "azn",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "tpx0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "kek",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "cco",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "plo",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "hve0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "maz0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "vmy0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
+    },
+    {
+      "id": "chf0",
+      "authors": [
+        "Tachiwin Tutunakú"
+      ]
     }
   ],
   "subtypePresets": [
     {
-      "languageTag": "all-MX",
-      "displayLabel": "ALL\nall",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:all",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:all"
-      }
-    },
-    {
-      "languageTag": "amu-MX",
-      "displayLabel": "Ñomndaa\nAmuzgo Del Norte\namu",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:amu",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:amu"
-      }
-    },
-    {
-      "languageTag": "amu0-MX",
-      "displayLabel": "Ñomndaa\nAmuzgo Del Norte\namu0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:amu0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:amu0"
-      }
-    },
-    {
-      "languageTag": "azg-MX",
-      "displayLabel": "Jnꞌoon\nAmuzgo Alto Del Este\nazg",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:azg",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:azg"
-      }
-    },
-    {
-      "languageTag": "azn-MX",
-      "displayLabel": "Meshikan de San Agustin Buenaventura y de Santa Cruz\nMexicano Del Noroeste\nazn",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:azn",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:azn"
-      }
-    },
-    {
-      "languageTag": "azn0-MX",
-      "displayLabel": "Meshikan de San Agustin Buenaventura y de Santa Cruz\nMexicano Del Noroeste\nazn0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:azn0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:azn0"
-      }
-    },
-    {
-      "languageTag": "cac-MX",
-      "displayLabel": "Koti'\nChuj\ncac",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:cac",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:cac"
-      }
-    },
-    {
-      "languageTag": "cco-MX",
-      "displayLabel": "Jmíiˊ\nChinanteco De La Sierra\ncco",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:cco",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:cco"
-      }
-    },
-    {
-      "languageTag": "cco0-MX",
-      "displayLabel": "Jmíiˊ\nChinanteco De La Sierra\ncco0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:cco0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:cco0"
-      }
-    },
-    {
-      "languageTag": "chf-MX",
-      "displayLabel": "Yocot'an\nChontal De Tabasco Central\nchf",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:chf",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:chf"
-      }
-    },
-    {
-      "languageTag": "chf0-MX",
-      "displayLabel": "Yocot'an\nChontal De Tabasco Central\nchf0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:chf0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:chf0"
-      }
-    },
-    {
-      "languageTag": "chj-MX",
-      "displayLabel": "Jmiih kia’ dzä ‘vï ï\nChinanteco Del Norte\nchj",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:chj",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:chj"
-      }
-    },
-    {
-      "languageTag": "chj*-MX",
-      "displayLabel": "Jmiih kia’ dzä ‘vï ï\nChinanteco Del Norte\nchj*",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:chj*",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:chj*"
-      }
-    },
-    {
-      "languageTag": "coz-MX",
-      "displayLabel": "Chocholteco Del Oeste\nChocholteco Del Oeste\ncoz",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:coz",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:coz"
-      }
-    },
-    {
-      "languageTag": "crn-MX",
-      "displayLabel": "Naáyeri Nyuuca\nCora Meseño\ncrn",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:crn",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:crn"
-      }
-    },
-    {
-      "languageTag": "ctp-MX",
-      "displayLabel": "Chaꞌtñan\nChatino Occidental Alto\nctp",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ctp",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ctp"
-      }
-    },
-    {
-      "languageTag": "ctp0-MX",
-      "displayLabel": "Chaꞌtñan\nChatino Occidental Alto\nctp0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ctp0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ctp0"
-      }
-    },
-    {
-      "languageTag": "ctu-MX",
-      "displayLabel": "Ch'ol\nCh’Ol Del Noroeste\nctu",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ctu",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ctu"
-      }
-    },
-    {
-      "languageTag": "cuc-MX",
-      "displayLabel": "Jau² jm⁴³\nChinanteco Del Oeste Central Alto\ncuc",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:cuc",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:cuc"
-      }
-    },
-    {
-      "languageTag": "cux-MX",
-      "displayLabel": "Cuicateco yeⁿꞌe Tepeuxila\nCuicateco Del Centro\ncux",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:cux",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:cux"
-      }
-    },
-    {
-      "languageTag": "cya-MX",
-      "displayLabel": "Chaꞌtñan\nChatino Oriental Bajo\ncya",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:cya",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:cya"
-      }
-    },
-    {
-      "languageTag": "dih-MX",
-      "displayLabel": "Kumiai\nKumiai\ndih",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:dih",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:dih"
-      }
-    },
-    {
-      "languageTag": "hch-MX",
-      "displayLabel": "Wixárika\nHuichol Del Norte\nhch",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:hch",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:hch"
-      }
-    },
-    {
-      "languageTag": "hus-MX",
-      "displayLabel": "Teenek\nHuasteco Del Occidente\nhus",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:hus",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:hus"
-      }
-    },
-    {
-      "languageTag": "huv-MX",
-      "displayLabel": "Ombeayiüts\nHuave Del Oeste\nhuv",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:huv",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:huv"
-      }
-    },
-    {
-      "languageTag": "hve0-MX",
-      "displayLabel": "Ombeyajts\nHuave Del Este\nhve0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:hve0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:hve0"
-      }
-    },
-    {
-      "languageTag": "ixc-MX",
-      "displayLabel": "Xwja\nIxcateco\nixc",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ixc",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ixc"
-      }
-    },
-    {
-      "languageTag": "jac-MX",
-      "displayLabel": "Abxubal\nJakalteko\njac",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:jac",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:jac"
-      }
-    },
-    {
-      "languageTag": "kak-MX",
-      "displayLabel": "KAK\nkak",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:kak",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:kak"
-      }
-    },
-    {
-      "languageTag": "kek-MX",
-      "displayLabel": "Q'eqchi'\nQ’Eqchi’\nkek",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:kek",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:kek"
-      }
-    },
-    {
-      "languageTag": "kic-MX",
-      "displayLabel": "Kikapú\nKickapoo\nkic",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:kic",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:kic"
-      }
-    },
-    {
-      "languageTag": "kjb-MX",
-      "displayLabel": "KJB\nkjb",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:kjb",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:kjb"
-      }
-    },
-    {
-      "languageTag": "klb-MX",
-      "displayLabel": "Kiliwa\nKiliwa\nklb",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:klb",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:klb"
-      }
-    },
-    {
-      "languageTag": "knj-MX",
-      "displayLabel": "K'anjob'al\nQ’Anjob’Al\nknj",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:knj",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:knj"
-      }
-    },
-    {
-      "languageTag": "lac-MX",
-      "displayLabel": "Jach-t'aan\nLacandón\nlac",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:lac",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:lac"
-      }
-    },
-    {
-      "languageTag": "maa*-MX",
-      "displayLabel": "ꞌÉn-ná\nMazateco De Tecóatl\nmaa*",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:maa*",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:maa*"
-      }
-    },
-    {
-      "languageTag": "maj-MX",
-      "displayLabel": "Kinꞌekꞌatiya\nMazateco Del Este Bajo\nmaj",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:maj",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:maj"
-      }
-    },
-    {
-      "languageTag": "mam-MX",
-      "displayLabel": "Qyol Mam\nMam De La Frontera\nmam",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mam",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mam"
-      }
-    },
-    {
-      "languageTag": "maq-MX",
-      "displayLabel": "Hne naja\nMazateco Del Sur\nmaq",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:maq",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:maq"
-      }
-    },
-    {
-      "languageTag": "mat-MX",
-      "displayLabel": "bot’una\nMatlatzinca\nmat",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mat",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mat"
-      }
-    },
-    {
-      "languageTag": "mau-MX",
-      "displayLabel": "Én‑ná\nMazateco Del Centro\nmau",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mau",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mau"
-      }
-    },
-    {
-      "languageTag": "maz-MX",
-      "displayLabel": "Jñatjo\nMazahua De Oriente\nmaz",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:maz",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:maz"
-      }
-    },
-    {
-      "languageTag": "maz0-MX",
-      "displayLabel": "Jñatjo\nMazahua De Oriente\nmaz0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:maz0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:maz0"
-      }
-    },
-    {
-      "languageTag": "mco0-MX",
-      "displayLabel": "Ayuc\nMixe Bajo\nmco0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mco0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mco0"
-      }
-    },
-    {
-      "languageTag": "meh-MX",
-      "displayLabel": "Tu̱ꞌun káꞌánꞌ kájí\nMixteco Del Suroeste\nmeh",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:meh",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:meh"
-      }
-    },
-    {
-      "languageTag": "mfy-MX",
-      "displayLabel": "Yorem Nokpo\nMayo\nmfy",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mfy",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mfy"
-      }
-    },
-    {
-      "languageTag": "mhc-MX",
-      "displayLabel": "Mocho'\nMocho’\nmhc",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mhc",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mhc"
-      }
-    },
-    {
-      "languageTag": "mie-MX",
-      "displayLabel": "Tūhun sāsávī\nMixteco De Sierra Sur Noroeste\nmie",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mie",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mie"
-      }
-    },
-    {
-      "languageTag": "mim0-MX",
-      "displayLabel": "To̱ꞌon sa̱vi̱\nMixteco Central De Guerrero\nmim0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mim0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mim0"
-      }
-    },
-    {
-      "languageTag": "mio-MX",
-      "displayLabel": "Tuhun Ñuun Ñucaan\nMixteco Del Oeste De La Costa\nmio",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mio",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mio"
-      }
-    },
-    {
-      "languageTag": "mir-MX",
-      "displayLabel": "MIR\nmir",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mir",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mir"
-      }
-    },
-    {
-      "languageTag": "mix-MX",
-      "displayLabel": "Sa'an Savi Snuviko\nMixteco De Ñumi\nmix",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mix",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mix"
-      }
-    },
-    {
-      "languageTag": "miy-MX",
-      "displayLabel": "Tu̱n savi̱ꞌ Tu̱tyoo̱ꞌ\nMixteco De Ayutla\nmiy",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:miy",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:miy"
-      }
-    },
-    {
-      "languageTag": "mks-MX",
-      "displayLabel": "Tu̱hun ndáhví\nMixteco Del Oeste Alto\nmks",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mks",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mks"
-      }
-    },
-    {
-      "languageTag": "mmc-MX",
-      "displayLabel": "Jñatjo\nMazahua De Occidente\nmmc",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mmc",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mmc"
-      }
-    },
-    {
-      "languageTag": "mto-MX",
-      "displayLabel": "Ayöök\nMixe Alto Del Norte\nmto",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mto",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mto"
-      }
-    },
-    {
-      "languageTag": "mxp-MX",
-      "displayLabel": "Ayuujk\nMixe Alto Del Centro\nmxp",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mxp",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mxp"
-      }
-    },
-    {
-      "languageTag": "mxq-MX",
-      "displayLabel": "Ayuk\nMixe Medio Del Este\nmxq",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mxq",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mxq"
-      }
-    },
-    {
-      "languageTag": "mxt-MX",
-      "displayLabel": "Sa'an Xiñi Savi\nMixteco De Oaxaca De Costa Central Baja\nmxt",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mxt",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mxt"
-      }
-    },
-    {
-      "languageTag": "mxv-MX",
-      "displayLabel": "Tuꞌun Savi de Metlatónoc y Cochoapa el Grande\nMixteco De Guerrero Del Este Medio\nmxv",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mxv",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mxv"
-      }
-    },
-    {
-      "languageTag": "mxv0-MX",
-      "displayLabel": "Tuꞌun Savi de Metlatónoc y Cochoapa el Grande\nMixteco De Guerrero Del Este Medio\nmxv0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mxv0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mxv0"
-      }
-    },
-    {
-      "languageTag": "mza-MX",
-      "displayLabel": "Tu'un va'a\nMixteco De Sierra Sur Oeste\nmza",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mza",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mza"
-      }
-    },
-    {
-      "languageTag": "mzi-MX",
-      "displayLabel": "En ningotsie\nMazateco De La Presa Bajo\nmzi",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:mzi",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:mzi"
-      }
-    },
-    {
-      "languageTag": "ncj-MX",
-      "displayLabel": "Mexicatl\nNáhuatl Alto Del Norte De Puebla\nncj",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ncj",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ncj"
-      }
-    },
-    {
-      "languageTag": "ncx-MX",
-      "displayLabel": "Náhuatl Del Centro De Puebla\nNáhuatl Del Centro De Puebla\nncx",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ncx",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ncx"
-      }
-    },
-    {
-      "languageTag": "nhe-MX",
-      "displayLabel": "Mexkatl\nNáhuatl De La Huasteca Veracruzana\nnhe",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:nhe",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:nhe"
-      }
-    },
-    {
       "languageTag": "nhm-MX",
-      "displayLabel": "Ika mejikano\nMexicano Central Bajo\nnhm",
+      "displayLabel": "Ika mejikano\nMexicano Central Bajo\nnhm\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:nhm",
@@ -2658,78 +1816,28 @@
       }
     },
     {
-      "languageTag": "nhy-MX",
-      "displayLabel": "Nāhuatlahtōlli\nNáhuatl De Oaxaca\nnhy",
+      "languageTag": "nhe-MX",
+      "displayLabel": "Mexkatl\nNáhuatl De La Huasteca Veracruzana\nnhe\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:nhy",
+      "popupMapping": "org.tachiwin.tsokgnan:nhe",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:nhy"
+        "characters": "org.tachiwin.tsokgnan:nhe"
       }
     },
     {
-      "languageTag": "nlv0-MX",
-      "displayLabel": "Nawatl\nNáhuatl Central De Veracruz\nnlv0",
+      "languageTag": "klb-MX",
+      "displayLabel": "Kiliwa\nKiliwa\nklb\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:nlv0",
+      "popupMapping": "org.tachiwin.tsokgnan:klb",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:nlv0"
-      }
-    },
-    {
-      "languageTag": "ntp-MX",
-      "displayLabel": "Oodamicʌdʌ\nTepehuano Del Norte\nntp",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ntp",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ntp"
-      }
-    },
-    {
-      "languageTag": "ocu-MX",
-      "displayLabel": "pjiekak'joo\nTlahuica\nocu",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ocu",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ocu"
-      }
-    },
-    {
-      "languageTag": "ood-MX",
-      "displayLabel": "Oʼodham ha-ñeʼokĭ\nPápago\nood",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ood",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ood"
-      }
-    },
-    {
-      "languageTag": "ote-MX",
-      "displayLabel": "Hñähñu\nOtomí Del Valle Del Mezquital\note",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ote",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ote"
-      }
-    },
-    {
-      "languageTag": "otm-MX",
-      "displayLabel": "Nyuhu\nOtomí De La Sierra\notm",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:otm",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:otm"
+        "characters": "org.tachiwin.tsokgnan:klb"
       }
     },
     {
       "languageTag": "otq-MX",
-      "displayLabel": "Ñhöñhö\nOtomí Del Noroeste\notq",
+      "displayLabel": "Ñhöñhö\nOtomí Del Noroeste\notq\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:otq",
@@ -2738,98 +1846,148 @@
       }
     },
     {
-      "languageTag": "ots-MX",
-      "displayLabel": "OTS\nots",
+      "languageTag": "tzo-MX",
+      "displayLabel": "Bats'i k'op\nTsotsil Del Centro\ntzo\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:ots",
+      "popupMapping": "org.tachiwin.tsokgnan:tzo",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:ots"
+        "characters": "org.tachiwin.tsokgnan:tzo"
       }
     },
     {
-      "languageTag": "pbf-MX",
-      "displayLabel": "PBF\npbf",
+      "languageTag": "trc-MX",
+      "displayLabel": "Xnaꞌánj nu̱ꞌ\nTriqui De San Juan Copala\ntrc\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:pbf",
+      "popupMapping": "org.tachiwin.tsokgnan:trc",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:pbf"
+        "characters": "org.tachiwin.tsokgnan:trc"
       }
     },
     {
-      "languageTag": "pbs-MX",
-      "displayLabel": "Xi'oi\nPame Del Centro\npbs",
+      "languageTag": "zaq0-MX",
+      "displayLabel": "Tisa\nZapoteco De San Miguel Aloápam\nzaq0\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:pbs",
+      "popupMapping": "org.tachiwin.tsokgnan:zaq0",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:pbs"
+        "characters": "org.tachiwin.tsokgnan:zaq0"
       }
     },
     {
-      "languageTag": "pei-MX",
-      "displayLabel": "Chichimeco Jonaz\nChichimeco Jonaz\npei",
+      "languageTag": "mxq-MX",
+      "displayLabel": "Ayuk\nMixe Medio Del Este\nmxq\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:pei",
+      "popupMapping": "org.tachiwin.tsokgnan:mxq",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:pei"
+        "characters": "org.tachiwin.tsokgnan:mxq"
       }
     },
     {
-      "languageTag": "pia-MX",
-      "displayLabel": "Oob No'ok\nPima Del Sur\npia",
+      "languageTag": "huv-MX",
+      "displayLabel": "Ombeayiüts\nHuave Del Oeste\nhuv\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:pia",
+      "popupMapping": "org.tachiwin.tsokgnan:huv",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:pia"
+        "characters": "org.tachiwin.tsokgnan:huv"
       }
     },
     {
-      "languageTag": "plo-MX",
-      "displayLabel": "Oluteco\nOluteco\nplo",
+      "languageTag": "zor-MX",
+      "displayLabel": "Otetzame\nZoque Del Norte Bajo\nzor\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:plo",
+      "popupMapping": "org.tachiwin.tsokgnan:zor",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:plo"
+        "characters": "org.tachiwin.tsokgnan:zor"
       }
     },
     {
-      "languageTag": "pls-MX",
-      "displayLabel": "Ngigua\nPopoloca Del Norte\npls",
+      "languageTag": "ncx-MX",
+      "displayLabel": "Náhuatl Del Centro De Puebla\nNáhuatl Del Centro De Puebla\nncx\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:pls",
+      "popupMapping": "org.tachiwin.tsokgnan:ncx",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:pls"
+        "characters": "org.tachiwin.tsokgnan:ncx"
       }
     },
     {
-      "languageTag": "pmq-MX",
-      "displayLabel": "Xi'iuy\nPame Del Norte\npmq",
+      "languageTag": "ote-MX",
+      "displayLabel": "Hñähñu\nOtomí Del Valle Del Mezquital\note\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:pmq",
+      "popupMapping": "org.tachiwin.tsokgnan:ote",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:pmq"
+        "characters": "org.tachiwin.tsokgnan:ote"
       }
     },
     {
-      "languageTag": "pmz-MX",
-      "displayLabel": "PMZ\npmz",
+      "languageTag": "maz-MX",
+      "displayLabel": "Jñatjo\nMazahua De Oriente\nmaz\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:pmz",
+      "popupMapping": "org.tachiwin.tsokgnan:maz",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:pmz"
+        "characters": "org.tachiwin.tsokgnan:maz"
+      }
+    },
+    {
+      "languageTag": "ctp-MX",
+      "displayLabel": "Chaꞌtñan\nChatino Occidental Alto\nctp\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:ctp",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ctp"
+      }
+    },
+    {
+      "languageTag": "hus-MX",
+      "displayLabel": "Teenek\nHuasteco Del Occidente\nhus\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:hus",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:hus"
+      }
+    },
+    {
+      "languageTag": "tee-MX",
+      "displayLabel": "Lhima'alh'ama'\nTepehua Del Sur\ntee\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tee",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tee"
+      }
+    },
+    {
+      "languageTag": "amu-MX",
+      "displayLabel": "Ñomndaa\nAmuzgo Del Norte\namu\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:amu",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:amu"
+      }
+    },
+    {
+      "languageTag": "yua-MX",
+      "displayLabel": "Maaya t'aan\nMaya\nyua\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:yua",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:yua"
       }
     },
     {
       "languageTag": "poi-MX",
-      "displayLabel": "Nuntajɨ̱yi\nPopoluca De La Sierra\npoi",
+      "displayLabel": "Nuntajɨ̱yi\nPopoluca De La Sierra\npoi\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:poi",
@@ -2838,18 +1996,148 @@
       }
     },
     {
-      "languageTag": "poi0-MX",
-      "displayLabel": "Nuntajɨ̱yi\nPopoluca De La Sierra\npoi0",
+      "languageTag": "azn0-MX",
+      "displayLabel": "Meshikan de San Agustin Buenaventura y de Santa Cruz\nMexicano Del Noroeste\nazn0\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:poi0",
+      "popupMapping": "org.tachiwin.tsokgnan:azn0",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:poi0"
+        "characters": "org.tachiwin.tsokgnan:azn0"
+      }
+    },
+    {
+      "languageTag": "tpp-MX",
+      "displayLabel": "Lhichiwin\nTepehua Del Norte\ntpp\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tpp",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tpp"
+      }
+    },
+    {
+      "languageTag": "tqt-MX",
+      "displayLabel": "Xinulajgsípij Totonaco\nTotonaco Del Cerro Xinolatépetl\ntqt\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tqt",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tqt"
+      }
+    },
+    {
+      "languageTag": "xta-MX",
+      "displayLabel": "Tu̱'un sâvi\nMixteco De Guerrero Del Noreste Central\nxta\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:xta",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:xta"
+      }
+    },
+    {
+      "languageTag": "tos-MX",
+      "displayLabel": "Totonaco\nTotonaco Central Del Sur\ntos\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tos",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tos"
+      }
+    },
+    {
+      "languageTag": "xtn-MX",
+      "displayLabel": "Saꞌan savi\nMixteco Del Norte Bajo\nxtn\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:xtn",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:xtn"
+      }
+    },
+    {
+      "languageTag": "top-MX",
+      "displayLabel": "Lichiwin Tutunaku\nTotonaco De La Costa\ntop\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:top",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:top"
+      }
+    },
+    {
+      "languageTag": "chf-MX",
+      "displayLabel": "Yocot'an\nChontal De Tabasco Central\nchf\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:chf",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:chf"
+      }
+    },
+    {
+      "languageTag": "tzh-MX",
+      "displayLabel": "Bats'il k'op\nTseltal Del Occidente\ntzh\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tzh",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tzh"
+      }
+    },
+    {
+      "languageTag": "yaq-MX",
+      "displayLabel": "Yo'em noki\nYaqui\nyaq\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:yaq",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:yaq"
+      }
+    },
+    {
+      "languageTag": "crn-MX",
+      "displayLabel": "Naáyeri Nyuuca\nCora Meseño\ncrn\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:crn",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:crn"
+      }
+    },
+    {
+      "languageTag": "mxp-MX",
+      "displayLabel": "Ayuujk\nMixe Alto Del Centro\nmxp\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mxp",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mxp"
+      }
+    },
+    {
+      "languageTag": "mim0-MX",
+      "displayLabel": "To̱ꞌon sa̱vi̱\nMixteco Central De Guerrero\nmim0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mim0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mim0"
+      }
+    },
+    {
+      "languageTag": "mam-MX",
+      "displayLabel": "Qyol Mam\nMam De La Frontera\nmam\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mam",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mam"
       }
     },
     {
       "languageTag": "ppi-MX",
-      "displayLabel": "Paipai\nPaipai\nppi",
+      "displayLabel": "Paipai\nPaipai\nppi\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:ppi",
@@ -2858,28 +2146,88 @@
       }
     },
     {
-      "languageTag": "pua-MX",
-      "displayLabel": "PUA\npua",
+      "languageTag": "trs-MX",
+      "displayLabel": "Nânj Nï̀nꞌïn\nTriqui De La Alta\ntrs\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:pua",
+      "popupMapping": "org.tachiwin.tsokgnan:trs",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:pua"
+        "characters": "org.tachiwin.tsokgnan:trs"
       }
     },
     {
-      "languageTag": "pxm-MX",
-      "displayLabel": "PXM\npxm",
+      "languageTag": "mfy-MX",
+      "displayLabel": "Yorem Nokpo\nMayo\nmfy\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:pxm",
+      "popupMapping": "org.tachiwin.tsokgnan:mfy",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:pxm"
+        "characters": "org.tachiwin.tsokgnan:mfy"
+      }
+    },
+    {
+      "languageTag": "cux-MX",
+      "displayLabel": "Cuicateco yeⁿꞌe Tepeuxila\nCuicateco Del Centro\ncux\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:cux",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cux"
+      }
+    },
+    {
+      "languageTag": "ctu-MX",
+      "displayLabel": "Ch'ol\nCh’Ol Del Noroeste\nctu\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:ctu",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ctu"
+      }
+    },
+    {
+      "languageTag": "mxt-MX",
+      "displayLabel": "Sa'an Xiñi Savi\nMixteco De Oaxaca De Costa Central Baja\nmxt\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mxt",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mxt"
+      }
+    },
+    {
+      "languageTag": "meh-MX",
+      "displayLabel": "Tu̱ꞌun káꞌánꞌ kájí\nMixteco Del Suroeste\nmeh\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:meh",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:meh"
+      }
+    },
+    {
+      "languageTag": "toj-MX",
+      "displayLabel": "Tojol-ab'al\nTojolabal\ntoj\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:toj",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:toj"
+      }
+    },
+    {
+      "languageTag": "tsz-MX",
+      "displayLabel": "P’urhe\nPurépecha\ntsz\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tsz",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tsz"
       }
     },
     {
       "languageTag": "quc-MX",
-      "displayLabel": "K'iche'\nK’Iche’ (Oriental)\nquc",
+      "displayLabel": "K'iche'\nK’Iche’ (Oriental)\nquc\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:quc",
@@ -2888,8 +2236,288 @@
       }
     },
     {
+      "languageTag": "mix-MX",
+      "displayLabel": "Sa'an Savi Snuviko\nMixteco De Ñumi\nmix\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mix",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mix"
+      }
+    },
+    {
+      "languageTag": "ocu-MX",
+      "displayLabel": "pjiekak'joo\nTlahuica\nocu\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:ocu",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ocu"
+      }
+    },
+    {
+      "languageTag": "zaa-MX",
+      "displayLabel": "Titsaꞌ\nZapoteco Serrano, Bajo\nzaa\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:zaa",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zaa"
+      }
+    },
+    {
+      "languageTag": "ncj-MX",
+      "displayLabel": "Mexicatl\nNáhuatl Alto Del Norte De Puebla\nncj\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:ncj",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ncj"
+      }
+    },
+    {
+      "languageTag": "zoh-MX",
+      "displayLabel": "Tzunitzame\nZoque Del Oeste\nzoh\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:zoh",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zoh"
+      }
+    },
+    {
+      "languageTag": "tla-MX",
+      "displayLabel": "Tepehuano Del Sur Alto\nTepehuano Del Sur Alto\ntla\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tla",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tla"
+      }
+    },
+    {
+      "languageTag": "mzi-MX",
+      "displayLabel": "En ningotsie\nMazateco De La Presa Bajo\nmzi\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mzi",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mzi"
+      }
+    },
+    {
+      "languageTag": "nlv0-MX",
+      "displayLabel": "Nawatl\nNáhuatl Central De Veracruz\nnlv0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:nlv0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:nlv0"
+      }
+    },
+    {
+      "languageTag": "nhy-MX",
+      "displayLabel": "Nāhuatlahtōlli\nNáhuatl De Oaxaca\nnhy\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:nhy",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:nhy"
+      }
+    },
+    {
+      "languageTag": "zoq-MX",
+      "displayLabel": "Zoque Del Este\nZoque Del Este\nzoq\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:zoq",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zoq"
+      }
+    },
+    {
+      "languageTag": "jac-MX",
+      "displayLabel": "Abxubal\nJakalteko\njac\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:jac",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:jac"
+      }
+    },
+    {
+      "languageTag": "tpt-MX",
+      "displayLabel": "Lhimasipijni\nTepehua Del Oeste\ntpt\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tpt",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tpt"
+      }
+    },
+    {
+      "languageTag": "zaq-MX",
+      "displayLabel": "Tisa\nZapoteco De San Miguel Aloápam\nzaq\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:zaq",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zaq"
+      }
+    },
+    {
+      "languageTag": "azg-MX",
+      "displayLabel": "Jnꞌoon\nAmuzgo Alto Del Este\nazg\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:azg",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:azg"
+      }
+    },
+    {
+      "languageTag": "pia-MX",
+      "displayLabel": "Oob No'ok\nPima Del Sur\npia\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:pia",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:pia"
+      }
+    },
+    {
+      "languageTag": "mau-MX",
+      "displayLabel": "Én‑ná\nMazateco Del Centro\nmau\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mau",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mau"
+      }
+    },
+    {
+      "languageTag": "ntp-MX",
+      "displayLabel": "Oodamicʌdʌ\nTepehuano Del Norte\nntp\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:ntp",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ntp"
+      }
+    },
+    {
+      "languageTag": "trs0-MX",
+      "displayLabel": "Nânj Nï̀nꞌïn\nTriqui De La Alta\ntrs0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:trs0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:trs0"
+      }
+    },
+    {
+      "languageTag": "mco0-MX",
+      "displayLabel": "Ayuc\nMixe Bajo\nmco0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mco0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mco0"
+      }
+    },
+    {
+      "languageTag": "zos-MX",
+      "displayLabel": "Otetzame\nZoque Del Noroeste\nzos\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:zos",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zos"
+      }
+    },
+    {
+      "languageTag": "pei-MX",
+      "displayLabel": "Chichimeco Jonaz\nChichimeco Jonaz\npei\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:pei",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:pei"
+      }
+    },
+    {
+      "languageTag": "kic-MX",
+      "displayLabel": "Kikapú\nKickapoo\nkic\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:kic",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:kic"
+      }
+    },
+    {
+      "languageTag": "cuc-MX",
+      "displayLabel": "Jau² jm⁴³\nChinanteco Del Oeste Central Alto\ncuc\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:cuc",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cuc"
+      }
+    },
+    {
+      "languageTag": "coz-MX",
+      "displayLabel": "Chocholteco Del Oeste\nChocholteco Del Oeste\ncoz\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:coz",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:coz"
+      }
+    },
+    {
+      "languageTag": "mio-MX",
+      "displayLabel": "Tuhun Ñuun Ñucaan\nMixteco Del Oeste De La Costa\nmio\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mio",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mio"
+      }
+    },
+    {
+      "languageTag": "lac-MX",
+      "displayLabel": "Jach-t'aan\nLacandón\nlac\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:lac",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:lac"
+      }
+    },
+    {
+      "languageTag": "zai-MX",
+      "displayLabel": "Diidxazá\nZapoteco De La Planicie Costera\nzai\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:zai",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zai"
+      }
+    },
+    {
+      "languageTag": "tpl-MX",
+      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Centro\ntpl\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tpl",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tpl"
+      }
+    },
+    {
       "languageTag": "sei-MX",
-      "displayLabel": "Cmiique Iitom\nSeri\nsei",
+      "displayLabel": "Cmiique Iitom\nSeri\nsei\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:sei",
@@ -2898,18 +2526,8 @@
       }
     },
     {
-      "languageTag": "spa-MX",
-      "displayLabel": "SPA\nspa",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:spa",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:spa"
-      }
-    },
-    {
       "languageTag": "stp-MX",
-      "displayLabel": "Oꞌdam\nTepehuano Del Sur Bajo\nstp",
+      "displayLabel": "Oꞌdam\nTepehuano Del Sur Bajo\nstp\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:stp",
@@ -2918,8 +2536,78 @@
       }
     },
     {
+      "languageTag": "chj*-MX",
+      "displayLabel": "Jmiih kia’ dzä ‘vï ï\nChinanteco Del Norte\nchj*\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:chj*",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:chj*"
+      }
+    },
+    {
+      "languageTag": "amu0-MX",
+      "displayLabel": "Ñomndaa\nAmuzgo Del Norte\namu0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:amu0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:amu0"
+      }
+    },
+    {
+      "languageTag": "miy-MX",
+      "displayLabel": "Tu̱n savi̱ꞌ Tu̱tyoo̱ꞌ\nMixteco De Ayutla\nmiy\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:miy",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:miy"
+      }
+    },
+    {
+      "languageTag": "mhc-MX",
+      "displayLabel": "Mocho'\nMocho’\nmhc\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mhc",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mhc"
+      }
+    },
+    {
+      "languageTag": "zoc-MX",
+      "displayLabel": "Tzunitzame\nZoque Del Centro\nzoc\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:zoc",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zoc"
+      }
+    },
+    {
+      "languageTag": "tpx-MX",
+      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Suroeste\ntpx\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tpx",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tpx"
+      }
+    },
+    {
+      "languageTag": "hch-MX",
+      "displayLabel": "Wixárika\nHuichol Del Norte\nhch\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:hch",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:hch"
+      }
+    },
+    {
       "languageTag": "tar-MX",
-      "displayLabel": "Ralámuli raꞌíchala\nTarahumara Del Centro\ntar",
+      "displayLabel": "Ralámuli raꞌíchala\nTarahumara Del Centro\ntar\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tar",
@@ -2929,7 +2617,7 @@
     },
     {
       "languageTag": "tar0-MX",
-      "displayLabel": "Ralámuli raꞌíchala\nTarahumara Del Centro\ntar0",
+      "displayLabel": "Ralámuli raꞌíchala\nTarahumara Del Centro\ntar0\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:tar0",
@@ -2938,38 +2626,58 @@
       }
     },
     {
-      "languageTag": "tcf-MX",
-      "displayLabel": "Mè'phàà Mañuwìín\nTlapaneco Central Bajo\ntcf",
+      "languageTag": "cac-MX",
+      "displayLabel": "Koti'\nChuj\ncac\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tcf",
+      "popupMapping": "org.tachiwin.tsokgnan:cac",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tcf"
+        "characters": "org.tachiwin.tsokgnan:cac"
       }
     },
     {
-      "languageTag": "tcf*-MX",
-      "displayLabel": "Mè'phàà Mañuwìín\nTlapaneco Central Bajo\ntcf*",
+      "languageTag": "pls-MX",
+      "displayLabel": "Ngigua\nPopoloca Del Norte\npls\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tcf*",
+      "popupMapping": "org.tachiwin.tsokgnan:pls",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tcf*"
+        "characters": "org.tachiwin.tsokgnan:pls"
       }
     },
     {
-      "languageTag": "tee-MX",
-      "displayLabel": "Lhima'alh'ama'\nTepehua Del Sur\ntee",
+      "languageTag": "pmq-MX",
+      "displayLabel": "Xi'iuy\nPame Del Norte\npmq\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tee",
+      "popupMapping": "org.tachiwin.tsokgnan:pmq",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tee"
+        "characters": "org.tachiwin.tsokgnan:pmq"
+      }
+    },
+    {
+      "languageTag": "cco0-MX",
+      "displayLabel": "Jmíiˊ\nChinanteco De La Sierra\ncco0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:cco0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cco0"
+      }
+    },
+    {
+      "languageTag": "ood-MX",
+      "displayLabel": "Oʼodham ha-ñeʼokĭ\nPápago\nood\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:ood",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ood"
       }
     },
     {
       "languageTag": "thh-MX",
-      "displayLabel": "ralámuli raicha\nTarahumara Del Norte\nthh",
+      "displayLabel": "ralámuli raicha\nTarahumara Del Norte\nthh\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:thh",
@@ -2978,188 +2686,138 @@
       }
     },
     {
-      "languageTag": "tla-MX",
-      "displayLabel": "Tepehuano Del Sur Alto\nTepehuano Del Sur Alto\ntla",
+      "languageTag": "knj-MX",
+      "displayLabel": "K'anjob'al\nQ’Anjob’Al\nknj\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tla",
+      "popupMapping": "org.tachiwin.tsokgnan:knj",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tla"
+        "characters": "org.tachiwin.tsokgnan:knj"
       }
     },
     {
-      "languageTag": "toj-MX",
-      "displayLabel": "Tojol-ab'al\nTojolabal\ntoj",
+      "languageTag": "mmc-MX",
+      "displayLabel": "Jñatjo\nMazahua De Occidente\nmmc\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:toj",
+      "popupMapping": "org.tachiwin.tsokgnan:mmc",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:toj"
+        "characters": "org.tachiwin.tsokgnan:mmc"
       }
     },
     {
-      "languageTag": "top-MX",
-      "displayLabel": "Lichiwin Tutunaku\nTotonaco De La Costa\ntop",
+      "languageTag": "mxv0-MX",
+      "displayLabel": "Tuꞌun Savi de Metlatónoc y Cochoapa el Grande\nMixteco De Guerrero Del Este Medio\nmxv0\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:top",
+      "popupMapping": "org.tachiwin.tsokgnan:mxv0",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:top"
+        "characters": "org.tachiwin.tsokgnan:mxv0"
       }
     },
     {
-      "languageTag": "tos-MX",
-      "displayLabel": "Totonaco\nTotonaco Central Del Sur\ntos",
+      "languageTag": "otm-MX",
+      "displayLabel": "Nyuhu\nOtomí De La Sierra\notm\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tos",
+      "popupMapping": "org.tachiwin.tsokgnan:otm",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tos"
+        "characters": "org.tachiwin.tsokgnan:otm"
       }
     },
     {
-      "languageTag": "tpl-MX",
-      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Centro\ntpl",
+      "languageTag": "pbs-MX",
+      "displayLabel": "Xi'oi\nPame Del Centro\npbs\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tpl",
+      "popupMapping": "org.tachiwin.tsokgnan:pbs",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tpl"
+        "characters": "org.tachiwin.tsokgnan:pbs"
       }
     },
     {
-      "languageTag": "tpp-MX",
-      "displayLabel": "Lhichiwin\nTepehua Del Norte\ntpp",
+      "languageTag": "chj-MX",
+      "displayLabel": "Jmiih kia’ dzä ‘vï ï\nChinanteco Del Norte\nchj\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tpp",
+      "popupMapping": "org.tachiwin.tsokgnan:chj",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tpp"
+        "characters": "org.tachiwin.tsokgnan:chj"
       }
     },
     {
-      "languageTag": "tpt-MX",
-      "displayLabel": "Lhimasipijni\nTepehua Del Oeste\ntpt",
+      "languageTag": "mie-MX",
+      "displayLabel": "Tūhun sāsávī\nMixteco De Sierra Sur Noroeste\nmie\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tpt",
+      "popupMapping": "org.tachiwin.tsokgnan:mie",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tpt"
+        "characters": "org.tachiwin.tsokgnan:mie"
       }
     },
     {
-      "languageTag": "tpx-MX",
-      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Suroeste\ntpx",
+      "languageTag": "ctp0-MX",
+      "displayLabel": "Chaꞌtñan\nChatino Occidental Alto\nctp0\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tpx",
+      "popupMapping": "org.tachiwin.tsokgnan:ctp0",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tpx"
+        "characters": "org.tachiwin.tsokgnan:ctp0"
       }
     },
     {
-      "languageTag": "tpx0-MX",
-      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Suroeste\ntpx0",
+      "languageTag": "mto-MX",
+      "displayLabel": "Ayöök\nMixe Alto Del Norte\nmto\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tpx0",
+      "popupMapping": "org.tachiwin.tsokgnan:mto",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tpx0"
+        "characters": "org.tachiwin.tsokgnan:mto"
       }
     },
     {
-      "languageTag": "tqt-MX",
-      "displayLabel": "Xinulajgsípij Totonaco\nTotonaco Del Cerro Xinolatépetl\ntqt",
+      "languageTag": "mat-MX",
+      "displayLabel": "bot’una\nMatlatzinca\nmat\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tqt",
+      "popupMapping": "org.tachiwin.tsokgnan:mat",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tqt"
+        "characters": "org.tachiwin.tsokgnan:mat"
       }
     },
     {
-      "languageTag": "trc-MX",
-      "displayLabel": "Xnaꞌánj nu̱ꞌ\nTriqui De San Juan Copala\ntrc",
+      "languageTag": "mza-MX",
+      "displayLabel": "Tu'un va'a\nMixteco De Sierra Sur Oeste\nmza\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:trc",
+      "popupMapping": "org.tachiwin.tsokgnan:mza",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:trc"
+        "characters": "org.tachiwin.tsokgnan:mza"
       }
     },
     {
-      "languageTag": "trs-MX",
-      "displayLabel": "Nânj Nï̀nꞌïn\nTriqui De La Alta\ntrs",
+      "languageTag": "tcf*-MX",
+      "displayLabel": "Mè'phàà Mañuwìín\nTlapaneco Central Bajo\ntcf*\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:trs",
+      "popupMapping": "org.tachiwin.tsokgnan:tcf*",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:trs"
+        "characters": "org.tachiwin.tsokgnan:tcf*"
       }
     },
     {
-      "languageTag": "trs0-MX",
-      "displayLabel": "Nânj Nï̀nꞌïn\nTriqui De La Alta\ntrs0",
+      "languageTag": "maa*-MX",
+      "displayLabel": "ꞌÉn-ná\nMazateco De Tecóatl\nmaa*\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:trs0",
+      "popupMapping": "org.tachiwin.tsokgnan:maa*",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:trs0"
-      }
-    },
-    {
-      "languageTag": "tsz-MX",
-      "displayLabel": "P’urhe\nPurépecha\ntsz",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tsz",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tsz"
-      }
-    },
-    {
-      "languageTag": "tzh-MX",
-      "displayLabel": "Bats'il k'op\nTseltal Del Occidente\ntzh",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tzh",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tzh"
-      }
-    },
-    {
-      "languageTag": "tzo-MX",
-      "displayLabel": "Bats'i k'op\nTsotsil Del Centro\ntzo",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:tzo",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:tzo"
-      }
-    },
-    {
-      "languageTag": "unk-MX",
-      "displayLabel": "UNK\nunk",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:unk",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:unk"
-      }
-    },
-    {
-      "languageTag": "var-MX",
-      "displayLabel": "Warijio\nGuarijío Del Norte\nvar",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:var",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:var"
+        "characters": "org.tachiwin.tsokgnan:maa*"
       }
     },
     {
       "languageTag": "vmp-MX",
-      "displayLabel": "En naxijen\nMazateco Del Noreste\nvmp",
+      "displayLabel": "En naxijen\nMazateco Del Noreste\nvmp\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:vmp",
@@ -3168,178 +2826,48 @@
       }
     },
     {
-      "languageTag": "vmy-MX",
-      "displayLabel": "Enre naxinanda nguifi\nMazateco Del Sureste\nvmy",
+      "languageTag": "var-MX",
+      "displayLabel": "Warijio\nGuarijío Del Norte\nvar\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:vmy",
+      "popupMapping": "org.tachiwin.tsokgnan:var",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:vmy"
+        "characters": "org.tachiwin.tsokgnan:var"
       }
     },
     {
-      "languageTag": "vmy0-MX",
-      "displayLabel": "Enre naxinanda nguifi\nMazateco Del Sureste\nvmy0",
+      "languageTag": "mxv-MX",
+      "displayLabel": "Tuꞌun Savi de Metlatónoc y Cochoapa el Grande\nMixteco De Guerrero Del Este Medio\nmxv\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:vmy0",
+      "popupMapping": "org.tachiwin.tsokgnan:mxv",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:vmy0"
+        "characters": "org.tachiwin.tsokgnan:mxv"
       }
     },
     {
-      "languageTag": "xta-MX",
-      "displayLabel": "Tu̱'un sâvi\nMixteco De Guerrero Del Noreste Central\nxta",
+      "languageTag": "cya-MX",
+      "displayLabel": "Chaꞌtñan\nChatino Oriental Bajo\ncya\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:xta",
+      "popupMapping": "org.tachiwin.tsokgnan:cya",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:xta"
+        "characters": "org.tachiwin.tsokgnan:cya"
       }
     },
     {
-      "languageTag": "xtn-MX",
-      "displayLabel": "Saꞌan savi\nMixteco Del Norte Bajo\nxtn",
+      "languageTag": "tcf-MX",
+      "displayLabel": "Mè'phàà Mañuwìín\nTlapaneco Central Bajo\ntcf\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:xtn",
+      "popupMapping": "org.tachiwin.tsokgnan:tcf",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:xtn"
-      }
-    },
-    {
-      "languageTag": "yaq-MX",
-      "displayLabel": "Yo'em noki\nYaqui\nyaq",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:yaq",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:yaq"
-      }
-    },
-    {
-      "languageTag": "yua-MX",
-      "displayLabel": "Maaya t'aan\nMaya\nyua",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:yua",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:yua"
-      }
-    },
-    {
-      "languageTag": "zaa-MX",
-      "displayLabel": "Titsaꞌ\nZapoteco Serrano, Bajo\nzaa",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zaa",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zaa"
-      }
-    },
-    {
-      "languageTag": "zad-MX",
-      "displayLabel": "ZAD\nzad",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zad",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zad"
-      }
-    },
-    {
-      "languageTag": "zai-MX",
-      "displayLabel": "Diidxazá\nZapoteco De La Planicie Costera\nzai",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zai",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zai"
-      }
-    },
-    {
-      "languageTag": "zaq-MX",
-      "displayLabel": "Tisa\nZapoteco De San Miguel Aloápam\nzaq",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zaq",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zaq"
-      }
-    },
-    {
-      "languageTag": "zaq0-MX",
-      "displayLabel": "Tisa\nZapoteco De San Miguel Aloápam\nzaq0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zaq0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zaq0"
-      }
-    },
-    {
-      "languageTag": "zoc-MX",
-      "displayLabel": "Tzunitzame\nZoque Del Centro\nzoc",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zoc",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zoc"
-      }
-    },
-    {
-      "languageTag": "zoh-MX",
-      "displayLabel": "Tzunitzame\nZoque Del Oeste\nzoh",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zoh",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zoh"
-      }
-    },
-    {
-      "languageTag": "zoh0-MX",
-      "displayLabel": "Tzunitzame\nZoque Del Oeste\nzoh0",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zoh0",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zoh0"
-      }
-    },
-    {
-      "languageTag": "zoq-MX",
-      "displayLabel": "Zoque Del Este\nZoque Del Este\nzoq",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zoq",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zoq"
-      }
-    },
-    {
-      "languageTag": "zor-MX",
-      "displayLabel": "Otetzame\nZoque Del Norte Bajo\nzor",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zor",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zor"
-      }
-    },
-    {
-      "languageTag": "zos-MX",
-      "displayLabel": "Otetzame\nZoque Del Noroeste\nzos",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zos",
-      "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zos"
+        "characters": "org.tachiwin.tsokgnan:tcf"
       }
     },
     {
       "languageTag": "zpb-MX",
-      "displayLabel": "Zapoteco De La Sierra Sur, Noreste\nZapoteco De La Sierra Sur, Noreste\nzpb",
+      "displayLabel": "Zapoteco De La Sierra Sur, Noreste\nZapoteco De La Sierra Sur, Noreste\nzpb\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zpb",
@@ -3348,23 +2876,183 @@
       }
     },
     {
-      "languageTag": "zpd-MX",
-      "displayLabel": "ZPD\nzpd",
+      "languageTag": "vmy-MX",
+      "displayLabel": "Enre naxinanda nguifi\nMazateco Del Sureste\nvmy\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
-      "popupMapping": "org.tachiwin.tsokgnan:zpd",
+      "popupMapping": "org.tachiwin.tsokgnan:vmy",
       "preferred": {
-        "characters": "org.tachiwin.tsokgnan:zpd"
+        "characters": "org.tachiwin.tsokgnan:vmy"
+      }
+    },
+    {
+      "languageTag": "zoh0-MX",
+      "displayLabel": "Tzunitzame\nZoque Del Oeste\nzoh0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:zoh0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:zoh0"
+      }
+    },
+    {
+      "languageTag": "dih-MX",
+      "displayLabel": "Kumiai\nKumiai\ndih\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:dih",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:dih"
       }
     },
     {
       "languageTag": "zpr-MX",
-      "displayLabel": "Diste’\nZapoteco De La Sierra Sur, Del Sureste Bajo\nzpr",
+      "displayLabel": "Diste’\nZapoteco De La Sierra Sur, Del Sureste Bajo\nzpr\nMayense\nChontal",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
       "popupMapping": "org.tachiwin.tsokgnan:zpr",
       "preferred": {
         "characters": "org.tachiwin.tsokgnan:zpr"
+      }
+    },
+    {
+      "languageTag": "ixc-MX",
+      "displayLabel": "Xwja\nIxcateco\nixc\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:ixc",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:ixc"
+      }
+    },
+    {
+      "languageTag": "mks-MX",
+      "displayLabel": "Tu̱hun ndáhví\nMixteco Del Oeste Alto\nmks\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:mks",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:mks"
+      }
+    },
+    {
+      "languageTag": "poi0-MX",
+      "displayLabel": "Nuntajɨ̱yi\nPopoluca De La Sierra\npoi0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:poi0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:poi0"
+      }
+    },
+    {
+      "languageTag": "maq-MX",
+      "displayLabel": "Hne naja\nMazateco Del Sur\nmaq\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:maq",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:maq"
+      }
+    },
+    {
+      "languageTag": "maj-MX",
+      "displayLabel": "Kinꞌekꞌatiya\nMazateco Del Este Bajo\nmaj\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:maj",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:maj"
+      }
+    },
+    {
+      "languageTag": "azn-MX",
+      "displayLabel": "Meshikan de San Agustin Buenaventura y de Santa Cruz\nMexicano Del Noroeste\nazn\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:azn",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:azn"
+      }
+    },
+    {
+      "languageTag": "tpx0-MX",
+      "displayLabel": "Meꞌpa̱a̱ Wíꞌi̱i̱n\nTlapaneco Del Suroeste\ntpx0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:tpx0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:tpx0"
+      }
+    },
+    {
+      "languageTag": "kek-MX",
+      "displayLabel": "Q'eqchi'\nQ’Eqchi’\nkek\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:kek",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:kek"
+      }
+    },
+    {
+      "languageTag": "cco-MX",
+      "displayLabel": "Jmíiˊ\nChinanteco De La Sierra\ncco\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:cco",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:cco"
+      }
+    },
+    {
+      "languageTag": "plo-MX",
+      "displayLabel": "Oluteco\nOluteco\nplo\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:plo",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:plo"
+      }
+    },
+    {
+      "languageTag": "hve0-MX",
+      "displayLabel": "Ombeyajts\nHuave Del Este\nhve0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:hve0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:hve0"
+      }
+    },
+    {
+      "languageTag": "maz0-MX",
+      "displayLabel": "Jñatjo\nMazahua De Oriente\nmaz0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:maz0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:maz0"
+      }
+    },
+    {
+      "languageTag": "vmy0-MX",
+      "displayLabel": "Enre naxinanda nguifi\nMazateco Del Sureste\nvmy0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:vmy0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:vmy0"
+      }
+    },
+    {
+      "languageTag": "chf0-MX",
+      "displayLabel": "Yocot'an\nChontal De Tabasco Central\nchf0\nMayense\nChontal",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.tachiwin.tsokgnan:mexican_peso",
+      "popupMapping": "org.tachiwin.tsokgnan:chf0",
+      "preferred": {
+        "characters": "org.tachiwin.tsokgnan:chf0"
       }
     }
   ]

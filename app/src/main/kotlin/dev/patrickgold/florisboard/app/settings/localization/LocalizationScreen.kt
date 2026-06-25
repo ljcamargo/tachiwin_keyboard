@@ -123,8 +123,8 @@ fun LocalizationScreen() = FlorisScreen {
                 for (subtype in subtypes) {
                     val preset = subtypePresets.find { it.locale == subtype.primaryLocale }
                     val cMeta = layouts[LayoutType.CHARACTERS]?.get(subtype.layoutMap.characters)
-                    val sMeta = layouts[LayoutType.SYMBOLS]?.get(subtype.layoutMap.symbols)
-                    val currMeta = currencySets[subtype.currencySet]
+                    //val sMeta = layouts[LayoutType.SYMBOLS]?.get(subtype.layoutMap.symbols)
+                    //val currMeta = currencySets[subtype.currencySet]
                     /*val summary = stringRes(
                         id = R.string.settings__localization__subtype_summary,
                         "characters_name" to (cMeta?.label ?: "null"),

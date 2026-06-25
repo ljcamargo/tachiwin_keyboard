@@ -87,15 +87,20 @@ def char_to_key_data(char: str) -> dict:
     return {"$": "auto_text_key", "code": ord(char), "label": char}
 
 
-def build_display_label(code: str, name: dict) -> str:
-    """Build a 3-line display label: autonym / inali name / language code (3-letter ISO)."""
+def build_display_label(code: str, name: dict, family: str = "", superlanguage: str = "") -> str:
+    """Build a searchable display label: autonym / inali name / code \n family \n superlanguage.
+    Lines 0-2 shown to user; lines 3+ used for search only."""
     autonym = get_autonym(name.get("autonym", ""))
     inali = titlecase(name.get("inali", ""))
     lines = []
     lines.append(autonym if autonym else inali if inali else code.upper())
     if inali:
         lines.append(inali)
-    lines.append(code)  # Just the 3-letter code, no -MX suffix
+    lines.append(code)
+    if family:
+        lines.append(titlecase(family))
+    if superlanguage:
+        lines.append(titlecase(superlanguage))
     return "\n".join(lines)
 
 def generate_popup_mapping(code: str, popups: dict, output_dir: Path):
@@ -117,16 +122,6 @@ def generate_popup_mapping(code: str, popups: dict, output_dir: Path):
     out_path = output_dir / f"{code}.json"
     save_json(out_path, mapping)
     return code  # return the popup mapping ID (same as language code)
-    """Build a 3-line display label: autonym / inali name / language code."""
-    autonym = get_autonym(name.get("autonym", ""))
-    inali = titlecase(name.get("inali", ""))
-    language_tag = f"{code}-MX"
-    lines = []
-    lines.append(autonym if autonym else inali if inali else code.upper())
-    if inali:
-        lines.append(inali)
-    lines.append(language_tag)
-    return "\n".join(lines)
 
 
 def main():
@@ -167,8 +162,29 @@ def main():
 
     print(f"  📄 Total languages: {len(entries)}")
 
-    # Sort codes alphabetically
-    layout_codes = sorted(entries.keys())
+    # Filter out incomplete entries (no name + no/empty layout)
+    skipped = []
+    clean_entries = {}
+    for code, entry in entries.items():
+        name = entry.get("name", {})
+        autonym = (name.get("autonym", "") or "").strip()
+        inali = (name.get("inali", "") or "").strip()
+        layout = entry.get("layout", [])
+        total_keys = sum(len(row) for row in layout) if layout else 0
+        has_name = bool(autonym or inali)
+        if not has_name or total_keys < 3:
+            skipped.append(code)
+            print(f"  ⏭️  Skipped '{code}': {'missing name' if not has_name else ''}{' and ' if not has_name and total_keys < 3 else ''}{'only ' + str(total_keys) + ' keys' if total_keys < 3 else ''}")
+        else:
+            clean_entries[code] = entry
+
+    if skipped:
+        print(f"  🗑️  Skipped {len(skipped)} incomplete entries")
+    entries = clean_entries
+    print(f"  📄 After filtering: {len(entries)} valid languages")
+
+    # Use JSON insertion order (do not sort alphabetically)
+    layout_codes = list(entries.keys())
 
     # --------------------------------------------------------
     # 2. Generate individual layout JSON files
@@ -225,7 +241,7 @@ def main():
             popup_ref = "org.florisboard.localization:es"
         subtype_presets.append({
             "languageTag": language_tag,
-            "displayLabel": build_display_label(code, name),
+            "displayLabel": build_display_label(code, name, entry.get("family", ""), entry.get("superlanguage", "")),
             "composer": "org.florisboard.composers:appender",
             "currencySet": f"{NEW_EXT_ID}:mexican_peso",
             "popupMapping": popup_ref,
